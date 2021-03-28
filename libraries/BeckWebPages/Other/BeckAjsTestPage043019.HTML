@@ -1,0 +1,45 @@
+<!-- BeckAjsTestPage043019.HTML, 04/30/19b  -->
+<!DOCTYPE HTML><html>
+<!doctype html>
+<html ng-app="notesApp">
+<head><title>Notes App</title></head>
+<body ng-controller="MainCtrl as ctrl">
+
+  <form ng-submit="ctrl.submit() ">
+    <input type="text" ng-model="ctrl.DegF">
+    You typed {{ctrl.DegF}}
+
+    <input type="submit" value="DoIt">
+  </form>
+
+<script
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js">
+</script>
+<script type="text/javascript">
+  angular.module('notesApp', [])
+    .controller('MainCtrl', ['$http', function($http) {
+      var self= this;
+
+      $http.get('/LastDegF').then(function(response) {
+        console.log('Return from $http.get() #1, response= ', response);
+        self.DegF = response.data;
+      }, function(errResponse) {
+        console.error('Error while fetching DegF');
+      });
+
+      self.submit = function() {
+        console.log('User clicked DoIt with ', self.DegF);
+
+        $http.get('/LastDegF').then(function(response) {
+          console.log('Return from $http.get) #2, response= ', response);
+          self.DegF = response.data;
+        }, function(errResponse) {
+          console.error('Error while fetching notes');
+        });
+
+      };
+
+    }]);
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<!-- Beck 4/30/19b
+From C:\Dev\_Repos\Arduino\Books\AngularJS_UpAndRunning_Book\chapter6\public\http-post-example.html
+-->
+<html ng-app="BeckApp">
+
+<head>
+  <title>Beck $http.get() and post() Example</title>
+  <style>
+    .item {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body ng-controller="MainCtrl as mainCtrl">
+  <h1>BIOTA</h1>
+    <div>Current DegF= <span ng-bind="mainCtrl.Thermo.DegF"></span></div>
+    <div>Setpoint    = <span ng-bind="mainCtrl.Thermo.Setpoint"></span></div>
+
+  <div>
+    <form name="ThermoForm"
+          ng-submit="mainCtrl.add() ">
+  <div>
+      <input type="text"
+             placeholder="Current DegF"
+             ng-model="mainCtrl.Thermo.DegF"
+             required>
+  </div>
+  <div>
+      <input type="text"
+             placeholder="Set Point"
+             ng-model="mainCtrl.Thermo.SetPoint"
+             required>
+  </div>
+  <div>
+     <input type="submit"
+             value="Go For It"
+             ng-disabled="ThermoForm.$invalid">
+  </div>
+    </form>
+  </div>
+
+<script
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js">
+</script>
+<script>
+  angular.module('notesApp', [])
+    .controller('MainCtrl', ['$http', function($http) {
+      var self              = this;
+      self.Thermo           = {};
+      self.Thermo.Setpoint  = 71.37;
+      var fFetchThermo = function() {
+        return $http.get('/LastDegF').then(
+          function(response) {
+            console.log('Received $http.get(/'LastDegF') response');
+            self.Thermo.DegF= response.data;
+        }, function(errResponse) {
+          console.error('Error while fetching LastDegF');
+        });
+      };
+
+      fFetchThermo();
+
+      self.add = function() {
+<!--
+        $http.post('/ajs/post', self.Thermo)
+            .then(fFetchThermo)
+            .then(function(response) {
+              self.Thermo = {};
+            });
+->
+      };
+
+    }]);
+</script>
+</body>
+</html>
+

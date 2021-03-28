@@ -1,0 +1,84 @@
+1 214 sSetupWiFi(): Connecting to Linky24
+.......
+2 4431 sSetupWiFi(): WiFi connected
+3 4431 sSetupWiFi(): Server started, my IP is  192.168.1.127
+4 206484 loop(): Got a Client
+5 214360 ProcessCheckbox(): Turn external LED OFF
+6 215959loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+7 216561 loop(): Got a Client
+8 217122 ProcessCheckbox(): Turn external LED OFF
+9 217122loop(): HTTP Request= |GET /favicon.ico HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+10 217124 loop(): Got a Client
+11 223727 ProcessCheckbox(): Turn external LED OFF
+12 225328loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+13 225330 loop(): Got a Client
+14 231939 ProcessCheckbox(): Turn external LED OFF
+15 233539loop(): HTTP Request= |GET /favicon.ico HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+16 233541 loop(): Got a Client
+17 240137 ProcessCheckbox(): Turn external LED OFF
+18 241738loop(): HTTP Request= |GET /favicon.ico HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+19 241740 loop(): Got a Client
+20 248347 ProcessCheckbox(): Turn external LED OFF
+21 249947loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+22 250970 loop(): Got a Client
+23 256055 ProcessCheckbox(): Turn external LED OFF
+24 256055loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|

@@ -1,0 +1,54 @@
+
+'Create Flash image (ihex format)'
+"C:\_eclipseArduino64V3\arduinoPlugin\tools\esp8266\esptool\0.4.8/esptool.exe" -eo "C:/_eclipseArduino64V3/arduinoPlugin/packages/esp8266/hardware/esp8266/2.2.0/bootloaders/eboot/eboot.elf" -bo "C:/_eclipseArduino64V3/workspace/PowerShift/Release/PowerShift.bin" -bm dio -bf 40 -bz 4M -bs .text -bp 4096 -ec -eo "C:/_eclipseArduino64V3/workspace/PowerShift/Release/PowerShift.elf" -bs .irom0.text -bs .text -bs .data -bs .rodata -bc -ec
+'Finished building: PowerShift.bin'
+' '
+'Building target: PowerShift'
+'Printing size:'
+"C:\_eclipseArduino64V3\arduinoPlugin\tools\esp8266\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-size" -A "C:/_eclipseArduino64V3/workspace/PowerShift/Release/PowerShift.elf"
+C:/_eclipseArduino64V3/workspace/PowerShift/Release/PowerShift.elf  :
+section                                  size         addr
+.data                                     936   1073643520
+.rodata                                  8284   1073644464
+.bss                                    30720   1073652752
+.irom0.text                            205120   1075843088
+.text                                   29931   1074790400
+.debug_frame                            51288            0
+.debug_info                            989641            0
+.debug_abbrev                          133082            0
+.debug_loc                             317147            0
+.debug_aranges                          17264            0
+.debug_ranges                           30448            0
+.debug_line                            289297            0
+.debug_str                             168916            0
+.comment                                 8920            0
+.xtensa.info                               56            0
+.xt.lit._ZN6U8GLIB5writeEh                  0            0
+.xt.lit._ZN6U8GLIB6cbeginEv                 0            0
+.xt.prop._ZN6U8GLIB5writeEh                36            0
+.xt.prop._ZN7TwoWire5writeEi               36            0
+.xt.prop._ZN6U8GLIB6cbeginEv               48            0
+.xt.prop._ZTV6U8GLIB                       12            0
+.xt.prop._ZTV14U8GLIB_DOGS102              12            0
+.xt.prop._ZN6Stream9readBytesEPhj          36            0
+.xt.prop._ZTV7TwoWire                      12            0
+.xt.lit._ZN13ClientContext5flushEv          0            0
+.xt.lit._ZN13ClientContext5unrefEv          0            0
+.xt.prop._ZN13ClientContext5flushEv        60            0
+.xt.prop._ZN13ClientContext5unrefEv        60            0
+.xt.lit._ZN14HardwareSerialD2Ev             8            0
+.xt.lit._ZN14HardwareSerialD0Ev             0            0
+.xt.prop._ZN14HardwareSerialD2Ev           36            0
+.xt.prop._ZN14HardwareSerialD0Ev           36            0
+.xt.prop._ZTV14HardwareSerial              12            0
+.xt.prop._ZTV9IPAddress                    12            0
+.xt.lit._ZN5Print5writeEPKc                 0            0
+.xt.prop._ZN5Print5writeEPKc               48            0
+Total                                 2281514
+
+
+'Finished building target: PowerShift'
+' '
+
+14:30:03 Build Finished (took 11s.345ms)
+

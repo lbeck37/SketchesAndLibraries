@@ -1,0 +1,75 @@
+1 216 initHardware(): Begin
+2 216 setupWiFi(): Call WiFi.mode(WIFI_AP)
+3 216 setupWiFi(): Call WiFi.softAP(Flojet, NULL, 2)
+4 109259 loop(): server.available() returned a Client
+5 109260 loop(): Request = |GET /read HTTP/1.1|
+6 109261 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Analog Pin = 216<br>Digital Pin 12 = 1</html>
+|
+7 109376 loop(): server.available() returned a Client
+8 109378 loop(): Request = |GET /favicon.ico HTTP/1.1|
+9 109378 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Invalid Request.<br> Try /led/1, /led/0, or /read.</html>
+|
+10 112156 loop(): server.available() returned a Client
+11 112156 loop(): Request = |GET /read HTTP/1.1|
+12 112157 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Analog Pin = 222<br>Digital Pin 12 = 1</html>
+|
+13 112268 loop(): server.available() returned a Client
+14 112268 loop(): Request = |GET /favicon.ico HTTP/1.1|
+15 112268 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Invalid Request.<br> Try /led/1, /led/0, or /read.</html>
+|
+16 156261 loop(): server.available() returned a Client
+17 156262 loop(): Request = |GET /led/1 HTTP/1.1|
+18 156262 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+LED is now on</html>
+|
+19 156385 loop(): server.available() returned a Client
+20 156388 loop(): Request = |GET /favicon.ico HTTP/1.1|
+21 156388 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Invalid Request.<br> Try /led/1, /led/0, or /read.</html>
+|
+22 192619 loop(): server.available() returned a Client
+23 192620 loop(): Request = |GET /read HTTP/1.1|
+24 192621 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Analog Pin = 220<br>Digital Pin 12 = 1</html>
+|
+25 192822 loop(): server.available() returned a Client
+26 192823 loop(): Request = |GET /favicon.ico HTTP/1.1|
+27 192823 loop(): Send Response= |HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE HTML>
+<html>
+Invalid Request.<br> Try /led/1, /led/0, or /read.</html>
+|

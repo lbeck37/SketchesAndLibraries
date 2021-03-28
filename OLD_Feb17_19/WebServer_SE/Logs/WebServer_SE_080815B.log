@@ -1,0 +1,117 @@
+1 222 sSetupWiFi(): Connecting to Linky24
+.......
+2 4439 sSetupWiFi(): WiFi connected
+3 4439 sSetupWiFi(): Server started, my IP is  192.168.1.127
+4 32052 loop(): Got a Client
+5 37701 GetSwitchState(): Switch is OFF
+6 39301 ProcessCheckbox(): Turn external LED OFF
+7 40901loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+8 41934 loop(): Got a Client
+9 46941 GetSwitchState(): Switch is OFF
+10 48542 ProcessCheckbox(): Turn external LED OFF
+11 50142loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+12 51168 loop(): Got a Client
+13 56202 GetSwitchState(): Switch is OFF
+14 57802 ProcessCheckbox(): Turn external LED OFF
+15 59402loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+16 60491 loop(): Got a Client
+17 65503 GetSwitchState(): Switch is OFF
+18 67103 ProcessCheckbox(): Turn external LED OFF
+19 68703loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+20 69734 loop(): Got a Client
+21 74753 GetSwitchState(): Switch is OFF
+22 76363 ProcessCheckbox(): Turn external LED OFF
+23 77964loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+24 78986 loop(): Got a Client
+25 83996 GetSwitchState(): Switch is OFF
+26 85598 ProcessCheckbox(): Turn external LED OFF
+27 87226loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+28 88310 loop(): Got a Client
+29 89742 GetSwitchState(): Switch is OFF
+30 89742 ProcessCheckbox(): Turn external LED OFF
+31 89742loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0
+
+|
+32 98415 loop(): Got a Client
+33 103417 GetSwitchState(): Switch is OFF
+34 105017 ProcessCheckbox(): Turn external LED OFF
+35 106617loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+|
+36 107725 loop(): Got a Client
+37 112727 GetSwitchState(): Switch is OFF
+38 113337 ProcessCheckbox(): Turn external LED OFF
+39 113337loop(): HTTP Request= |GET / HTTP/1.1
+Host: 192.168.1.127
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cache-Control: max-age=0

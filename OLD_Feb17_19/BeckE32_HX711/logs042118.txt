@@ -1,0 +1,6323 @@
+
+//******************************************************************
+Apr 22, 2018-e, Example of almost stable zero with amp only powered up for reading
+HX711::read(): shiftIn() bytes read: 254, 15, 134
+
+loop(): Count= -127098, Lbs=  -9.2902
+HX711::read(): shiftIn() bytes read: 254, 15, 101
+
+loop(): Count= -127131, Lbs=  -9.2869
+HX711::read(): shiftIn() bytes read: 254, 15, 98
+
+loop(): Count= -127134, Lbs=  -9.2866
+HX711::read(): shiftIn() bytes read: 254, 15, 247
+
+loop(): Count= -126985, Lbs=  -9.3015
+
+//******************************************************************
+Apr 22, 2018-d, Example of stable zero with amp remaining powered up
+HX711::read(): shiftIn() bytes read: 252, 168, 85
+loop(): Count= -219051, Lbs=  -0.0949
+
+HX711::read(): shiftIn() bytes read: 252, 166, 115
+loop(): Count= -219533, Lbs=  -0.0467
+
+HX711::read(): shiftIn() bytes read: 252, 166, 114
+loop(): Count= -219534, Lbs=  -0.0466
+
+HX711::read(): shiftIn() bytes read: 252, 166, 174
+loop(): Count= -219474, Lbs=  -0.0526
+
+
+//*********************
+˜H•?­Í2_HX711.ino, Apr 22, 2018-c
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 243, 101
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 253, 235, 141
+loop(): Count= -136307, Lbs=  -2.7693
+
+HX711::read(): shiftIn() bytes read: 253, 125, 226
+loop(): Count= -164382, Lbs=   0.0382
+
+HX711::read(): shiftIn() bytes read: 253, 83, 125
+loop(): Count= -175235, Lbs=   1.1235
+
+HX711::read(): shiftIn() bytes read: 253, 52, 82
+loop(): Count= -183214, Lbs=   1.9214
+
+HX711::read(): shiftIn() bytes read: 252, 216, 47
+loop(): Count= -206801, Lbs=   4.2801
+
+HX711::read(): shiftIn() bytes read: 252, 184, 42
+loop(): Count= -214998, Lbs=   5.0998
+
+HX711::read(): shiftIn() bytes read: 253, 10, 102
+loop(): Count= -193946, Lbs=   2.9946
+
+HX711::read(): shiftIn() bytes read: 253, 3, 97
+loop(): Count= -195743, Lbs=   3.1743
+
+HX711::read(): shiftIn() bytes read: 252, 151, 95
+loop(): Count= -223393, Lbs=   5.9393
+
+HX711::read(): shiftIn() bytes read: 252, 87, 124
+loop(): Count= -239748, Lbs=   7.5748
+
+HX711::read(): shiftIn() bytes read: 251, 197, 89
+loop(): Count= -277159, Lbs=  11.3159
+
+HX711::read(): shiftIn() bytes read: 251, 140, 77
+loop(): Count= -291763, Lbs=  12.7763
+
+HX711::read(): shiftIn() bytes read: 252, 237, 179
+loop(): Count= -201293, Lbs=   3.7293
+
+HX711::read(): shiftIn() bytes read: 252, 233, 136
+loop(): Count= -202360, Lbs=   3.8360
+
+HX711::read(): shiftIn() bytes read: 252, 231, 0
+loop(): Count= -203008, Lbs=   3.9008
+
+HX711::read(): shiftIn() bytes read: 252, 229, 6
+loop(): Count= -203514, Lbs=   3.9514
+
+HX711::read(): shiftIn() bytes read: 252, 227, 176
+loop(): Count= -203856, Lbs=   3.9856
+
+HX711::read(): shiftIn() bytes read: 252, 225, 247
+loop(): Count= -204297, Lbs=   4.0297
+
+HX711::read(): shiftIn() bytes read: 252, 224, 211
+loop(): Count= -204589, Lbs=   4.0589
+
+HX711::read(): shiftIn() bytes read: 252, 225, 83
+loop(): Count= -204461, Lbs=   4.0461
+
+HX711::read(): shiftIn() bytes read: 252, 223, 36
+loop(): Count= -205020, Lbs=   4.1020
+
+HX711::read(): shiftIn() bytes read: 252, 221, 56
+loop(): Count= -205512, Lbs=   4.1512
+
+HX711::read(): shiftIn() bytes read: 252, 219, 235
+loop(): Count= -205845, Lbs=   4.1845
+
+HX711::read(): shiftIn() bytes read: 252, 219, 17
+loop(): Count= -206063, Lbs=   4.2063
+
+HX711::read(): shiftIn() bytes read: 252, 218, 99
+loop(): Count= -206237, Lbs=   4.2237
+
+HX711::read(): shiftIn() bytes read: 252, 217, 112
+loop(): Count= -206480, Lbs=   4.2480
+
+HX711::read(): shiftIn() bytes read: 252, 219, 208
+loop(): Count= -205872, Lbs=   4.1872
+
+HX711::read(): shiftIn() bytes read: 252, 219, 4
+loop(): Count= -206076, Lbs=   4.2076
+
+HX711::read(): shiftIn() bytes read: 252, 218, 90
+loop(): Count= -206246, Lbs=   4.2246
+
+HX711::read(): shiftIn() bytes read: 252, 217, 142
+loop(): Count= -206450, Lbs=   4.2450
+
+HX711::read(): shiftIn() bytes read: 252, 216, 23
+loop(): Count= -206825, Lbs=   4.2825
+
+HX711::read(): shiftIn() bytes read: 252, 214, 238
+loop(): Count= -207122, Lbs=   4.3122
+
+HX711::read(): shiftIn() bytes read: 252, 214, 47
+loop(): Count= -207313, Lbs=   4.3313
+
+HX711::read(): shiftIn() bytes read: 252, 214, 20
+loop(): Count= -207340, Lbs=   4.3340
+
+HX711::read(): shiftIn() bytes read: 252, 212, 178
+loop(): Count= -207694, Lbs=   4.3694
+
+HX711::read(): shiftIn() bytes read: 252, 211, 237
+loop(): Count= -207891, Lbs=   4.3891
+
+HX711::read(): shiftIn() bytes read: 252, 218, 60
+loop(): Count= -206276, Lbs=   4.2276
+
+HX711::read(): shiftIn() bytes read: 252, 221, 231
+loop(): Count= -205337, Lbs=   4.1337
+
+HX711::read(): shiftIn() bytes read: 252, 214, 200
+loop(): Count= -207160, Lbs=   4.3160
+
+HX711::read(): shiftIn() bytes read: 252, 214, 60
+loop(): Count= -207300, Lbs=   4.3300
+
+HX711::read(): shiftIn() bytes read: 252, 212, 101
+loop(): Count= -207771, Lbs=   4.3771
+
+HX711::read(): shiftIn() bytes read: 252, 211, 147
+loop(): Count= -207981, Lbs=   4.3981
+
+HX711::read(): shiftIn() bytes read: 252, 212, 19
+loop(): Count= -207853, Lbs=   4.3853
+
+HX711::read(): shiftIn() bytes read: 252, 210, 62
+loop(): Count= -208322, Lbs=   4.4322
+
+HX711::read(): shiftIn() bytes read: 252, 210, 10
+loop(): Count= -208374, Lbs=   4.4374
+
+HX711::read(): shiftIn() bytes read: 252, 212, 125
+loop(): Count= -207747, Lbs=   4.3747
+
+HX711::read(): shiftIn() bytes read: 252, 215, 248
+loop(): Count= -206856, Lbs=   4.2856
+
+HX711::read(): shiftIn() bytes read: 252, 208, 120
+loop(): Count= -208776, Lbs=   4.4776
+
+HX711::read(): shiftIn() bytes read: 252, 55, 42
+loop(): Count= -248022, Lbs=   8.4022
+
+HX711::read(): shiftIn() bytes read: 252, 44, 125
+loop(): Count= -250755, Lbs=   8.6755
+
+HX711::read(): shiftIn() bytes read: 252, 10, 205
+loop(): Count= -259379, Lbs=   9.5379
+
+HX711::read(): shiftIn() bytes read: 252, 211, 157
+loop(): Count= -207971, Lbs=   4.3971
+
+HX711::read(): shiftIn() bytes read: 252, 207, 132
+loop(): Count= -209020, Lbs=   4.5020
+
+HX711::read(): shiftIn() bytes read: 254, 216, 205
+loop(): Count= -75571, Lbs=  -8.8429
+
+HX711::read(): shiftIn() bytes read: 254, 216, 130
+loop(): Count= -75646, Lbs=  -8.8354
+
+HX711::read(): shiftIn() bytes read: 252, 131, 135
+loop(): Count= -228473, Lbs=   6.4473
+
+HX711::read(): shiftIn() bytes read: 251, 163, 125
+loop(): Count= -285827, Lbs=  12.1827
+
+HX711::read(): shiftIn() bytes read: 252, 202, 114
+loop(): Count= -210318, Lbs=   4.6318
+
+HX711::read(): shiftIn() bytes read: 252, 203, 100
+loop(): Count= -210076, Lbs=   4.6076
+
+HX711::read(): shiftIn() bytes read: 252, 203, 71
+loop(): Count= -210105, Lbs=   4.6105
+
+HX711::read(): shiftIn() bytes read: 252, 203, 134
+loop(): Count= -210042, Lbs=   4.6042
+
+HX711::read(): shiftIn() bytes read: 252, 203, 64
+loop(): Count= -210112, Lbs=   4.6112
+
+HX711::read(): shiftIn() bytes read: 252, 203, 14
+loop(): Count= -210162, Lbs=   4.6162
+
+HX711::read(): shiftIn() bytes read: 252, 202, 155
+loop(): Count= -210277, Lbs=   4.6277
+
+HX711::read(): shiftIn() bytes read: 252, 202, 21
+loop(): Count= -210411, Lbs=   4.6411
+
+HX711::read(): shiftIn() bytes read: 252, 201, 133
+loop(): Count= -210555, Lbs=   4.6555
+
+HX711::read(): shiftIn() bytes read: 252, 201, 119
+loop(): Count= -210569, Lbs=   4.6569
+
+HX711::read(): shiftIn() bytes read: 252, 200, 229
+loop(): Count= -210715, Lbs=   4.6715
+
+HX711::read(): shiftIn() bytes read: 252, 200, 72
+loop(): Count= -210872, Lbs=   4.6872
+
+HX711::read(): shiftIn() bytes read: 252, 199, 160
+loop(): Count= -211040, Lbs=   4.7040
+
+HX711::read(): shiftIn() bytes read: 252, 198, 224
+loop(): Count= -211232, Lbs=   4.7232
+
+HX711::read(): shiftIn() bytes read: 252, 198, 141
+loop(): Count= -211315, Lbs=   4.7315
+
+HX711::read(): shiftIn() bytes read: 252, 197, 205
+loop(): Count= -211507, Lbs=   4.7507
+
+HX711::read(): shiftIn() bytes read: 252, 197, 75
+loop(): Count= -211637, Lbs=   4.7637
+
+HX711::read(): shiftIn() bytes read: 252, 197, 137
+loop(): Count= -211575, Lbs=   4.7575
+
+HX711::read(): shiftIn() bytes read: 252, 197, 31
+loop(): Count= -211681, Lbs=   4.7681
+
+HX711::read(): shiftIn() bytes read: 252, 196, 153
+loop(): Count= -211815, Lbs=   4.7815
+
+HX711::read(): shiftIn() bytes read: 252, 196, 190
+loop(): Count= -211778, Lbs=   4.7778
+
+HX711::read(): shiftIn() bytes read: 252, 195, 212
+loop(): Count= -212012, Lbs=   4.8012
+
+HX711::read(): shiftIn() bytes read: 252, 195, 97
+loop(): Count= -212127, Lbs=   4.8127
+
+HX711::read(): shiftIn() bytes read: 252, 194, 172
+loop(): Count= -212308, Lbs=   4.8308
+
+HX711::read(): shiftIn() bytes read: 252, 194, 237
+loop(): Count= -212243, Lbs=   4.8243
+
+HX711::read(): shiftIn() bytes read: 252, 193, 252
+loop(): Count= -212484, Lbs=   4.8484
+
+HX711::read(): shiftIn() bytes read: 252, 193, 200
+loop(): Count= -212536, Lbs=   4.8536
+
+HX711::read(): shiftIn() bytes read: 252, 193, 251
+loop(): Count= -212485, Lbs=   4.8485
+
+HX711::read(): shiftIn() bytes read: 252, 194, 46
+loop(): Count= -212434, Lbs=   4.8434
+
+HX711::read(): shiftIn() bytes read: 252, 193, 229
+loop(): Count= -212507, Lbs=   4.8507
+
+HX711::read(): shiftIn() bytes read: 252, 194, 87
+loop(): Count= -212393, Lbs=   4.8393
+
+HX711::read(): shiftIn() bytes read: 252, 193, 217
+loop(): Count= -212519, Lbs=   4.8519
+
+HX711::read(): shiftIn() bytes read: 252, 193, 195
+loop(): Count= -212541, Lbs=   4.8541
+
+HX711::read(): shiftIn() bytes read: 252, 193, 27
+loop(): Count= -212709, Lbs=   4.8709
+
+HX711::read(): shiftIn() bytes read: 252, 193, 191
+loop(): Count= -212545, Lbs=   4.8545
+
+HX711::read(): shiftIn() bytes read: 252, 192, 126
+loop(): Count= -212866, Lbs=   4.8866
+
+HX711::read(): shiftIn() bytes read: 252, 192, 95
+loop(): Count= -212897, Lbs=   4.8897
+
+HX711::read(): shiftIn() bytes read: 252, 192, 81
+loop(): Count= -212911, Lbs=   4.8911
+
+HX711::read(): shiftIn() bytes read: 252, 191, 236
+loop(): Count= -213012, Lbs=   4.9012
+
+HX711::read(): shiftIn() bytes read: 252, 192, 110
+loop(): Count= -212882, Lbs=   4.8882
+
+HX711::read(): shiftIn() bytes read: 252, 192, 211
+loop(): Count= -212781, Lbs=   4.8781
+
+HX711::read(): shiftIn() bytes read: 252, 192, 93
+loop(): Count= -212899, Lbs=   4.8899
+
+HX711::read(): shiftIn() bytes read: 252, 192, 9
+loop(): Count= -212983, Lbs=   4.8983
+
+HX711::read(): shiftIn() bytes read: 252, 191, 191
+loop(): Count= -213057, Lbs=   4.9057
+
+HX711::read(): shiftIn() bytes read: 252, 191, 153
+loop(): Count= -213095, Lbs=   4.9095
+
+HX711::read(): shiftIn() bytes read: 252, 191, 215
+loop(): Count= -213033, Lbs=   4.9033
+
+HX711::read(): shiftIn() bytes read: 252, 191, 113
+loop(): Count= -213135, Lbs=   4.9135
+
+HX711::read(): shiftIn() bytes read: 252, 190, 129
+loop(): Count= -213375, Lbs=   4.9375
+
+HX711::read(): shiftIn() bytes read: 252, 190, 99
+loop(): Count= -213405, Lbs=   4.9405
+
+HX711::read(): shiftIn() bytes read: 252, 190, 83
+loop(): Count= -213421, Lbs=   4.9421
+
+HX711::read(): shiftIn() bytes read: 252, 190, 11
+loop(): Count= -213493, Lbs=   4.9493
+
+HX711::read(): shiftIn() bytes read: 252, 189, 152
+loop(): Count= -213608, Lbs=   4.9608
+
+HX711::read(): shiftIn() bytes read: 252, 188, 254
+loop(): Count= -213762, Lbs=   4.9762
+
+HX711::read(): shiftIn() bytes read: 252, 188, 224
+loop(): Count= -213792, Lbs=   4.9792
+
+HX711::read(): shiftIn() bytes read: 252, 188, 160
+loop(): Count= -213856, Lbs=   4.9856
+
+HX711::read(): shiftIn() bytes read: 252, 191, 188
+loop(): Count= -213060, Lbs=   4.9060
+
+HX711::read(): shiftIn() bytes read: 252, 189, 155
+loop(): Count= -213605, Lbs=   4.9605
+
+HX711::read(): shiftIn() bytes read: 252, 189, 99
+loop(): Count= -213661, Lbs=   4.9661
+
+HX711::read(): shiftIn() bytes read: 252, 189, 57
+loop(): Count= -213703, Lbs=   4.9703
+
+HX711::read(): shiftIn() bytes read: 252, 188, 221
+loop(): Count= -213795, Lbs=   4.9795
+
+HX711::read(): shiftIn() bytes read: 252, 188, 168
+loop(): Count= -213848, Lbs=   4.9848
+
+HX711::read(): shiftIn() bytes read: 252, 188, 202
+loop(): Count= -213814, Lbs=   4.9814
+
+HX711::read(): shiftIn() bytes read: 252, 187, 173
+loop(): Count= -214099, Lbs=   5.0099
+
+HX711::read(): shiftIn() bytes read: 252, 187, 146
+loop(): Count= -214126, Lbs=   5.0126
+
+HX711::read(): shiftIn() bytes read: 252, 186, 130
+loop(): Count= -214398, Lbs=   5.0398
+
+HX711::read(): shiftIn() bytes read: 252, 186, 130
+loop(): Count= -214398, Lbs=   5.0398
+
+HX711::read(): shiftIn() bytes read: 252, 186, 92
+loop(): Count= -214436, Lbs=   5.0436
+
+HX711::read(): shiftIn() bytes read: 252, 186, 38
+loop(): Count= -214490, Lbs=   5.0490
+
+HX711::read(): shiftIn() bytes read: 252, 186, 81
+loop(): Count= -214447, Lbs=   5.0447
+
+HX711::read(): shiftIn() bytes read: 252, 186, 69
+loop(): Count= -214459, Lbs=   5.0459
+
+HX711::read(): shiftIn() bytes read: 252, 186, 58
+loop(): Count= -214470, Lbs=   5.0470
+
+HX711::read(): shiftIn() bytes read: 252, 186, 59
+loop(): Count= -214469, Lbs=   5.0469
+
+HX711::read(): shiftIn() bytes read: 252, 186, 12
+loop(): Count= -214516, Lbs=   5.0516
+
+HX711::read(): shiftIn() bytes read: 252, 186, 25
+loop(): Count= -214503, Lbs=   5.0503
+
+HX711::read(): shiftIn() bytes read: 252, 185, 169
+loop(): Count= -214615, Lbs=   5.0615
+
+HX711::read(): shiftIn() bytes read: 252, 185, 87
+loop(): Count= -214697, Lbs=   5.0697
+
+HX711::read(): shiftIn() bytes read: 252, 185, 120
+loop(): Count= -214664, Lbs=   5.0664
+
+HX711::read(): shiftIn() bytes read: 252, 185, 29
+loop(): Count= -214755, Lbs=   5.0755
+
+HX711::read(): shiftIn() bytes read: 252, 184, 201
+loop(): Count= -214839, Lbs=   5.0839
+
+HX711::read(): shiftIn() bytes read: 252, 185, 16
+loop(): Count= -214768, Lbs=   5.0768
+
+HX711::read(): shiftIn() bytes read: 252, 184, 255
+loop(): Count= -214785, Lbs=   5.0785
+
+HX711::read(): shiftIn() bytes read: 252, 184, 212
+loop(): Count= -214828, Lbs=   5.0828
+
+HX711::read(): shiftIn() bytes read: 252, 184, 192
+loop(): Count= -214848, Lbs=   5.0848
+
+HX711::read(): shiftIn() bytes read: 252, 184, 190
+loop(): Count= -214850, Lbs=   5.0850
+
+HX711::read(): shiftIn() bytes read: 252, 184, 183
+loop(): Count= -214857, Lbs=   5.0857
+
+HX711::read(): shiftIn() bytes read: 252, 184, 182
+loop(): Count= -214858, Lbs=   5.0858
+
+HX711::read(): shiftIn() bytes read: 252, 183, 248
+loop(): Count= -215048, Lbs=   5.1048
+
+HX711::read(): shiftIn() bytes read: 252, 184, 144
+loop(): Count= -214896, Lbs=   5.0896
+
+HX711::read(): shiftIn() bytes read: 252, 184, 51
+loop(): Count= -214989, Lbs=   5.0989
+
+HX711::read(): shiftIn() bytes read: 252, 184, 123
+loop(): Count= -214917, Lbs=   5.0917
+
+HX711::read(): shiftIn() bytes read: 252, 184, 39
+loop(): Count= -215001, Lbs=   5.1001
+
+HX711::read(): shiftIn() bytes read: 252, 184, 9
+loop(): Count= -215031, Lbs=   5.1031
+
+HX711::read(): shiftIn() bytes read: 252, 183, 190
+loop(): Count= -215106, Lbs=   5.1106
+
+HX711::read(): shiftIn() bytes read: 252, 183, 111
+loop(): Count= -215185, Lbs=   5.1185
+
+HX711::read(): shiftIn() bytes read: 252, 183, 158
+loop(): Count= -215138, Lbs=   5.1138
+
+HX711::read(): shiftIn() bytes read: 252, 182, 253
+loop(): Count= -215299, Lbs=   5.1299
+
+HX711::read(): shiftIn() bytes read: 252, 183, 33
+loop(): Count= -215263, Lbs=   5.1263
+
+HX711::read(): shiftIn() bytes read: 252, 182, 250
+loop(): Count= -215302, Lbs=   5.1302
+
+HX711::read(): shiftIn() bytes read: 252, 183, 74
+loop(): Count= -215222, Lbs=   5.1222
+
+HX711::read(): shiftIn() bytes read: 252, 182, 110
+loop(): Count= -215442, Lbs=   5.1442
+
+HX711::read(): shiftIn() bytes read: 252, 182, 129
+loop(): Count= -215423, Lbs=   5.1423
+
+HX711::read(): shiftIn() bytes read: 252, 182, 55
+loop(): Count= -215497, Lbs=   5.1497
+
+HX711::read(): shiftIn() bytes read: 252, 181, 255
+loop(): Count= -215553, Lbs=   5.1553
+
+HX711::read(): shiftIn() bytes read: 252, 182, 56
+loop(): Count= -215496, Lbs=   5.1496
+
+HX711::read(): shiftIn() bytes read: 252, 182, 175
+loop(): Count= -215377, Lbs=   5.1377
+
+HX711::read(): shiftIn() bytes read: 252, 181, 203
+loop(): Count= -215605, Lbs=   5.1605
+
+HX711::read(): shiftIn() bytes read: 252, 181, 222
+loop(): Count= -215586, Lbs=   5.1586
+
+HX711::read(): shiftIn() bytes read: 252, 181, 167
+loop(): Count= -215641, Lbs=   5.1641
+
+HX711::read(): shiftIn() bytes read: 252, 181, 138
+loop(): Count= -215670, Lbs=   5.1670
+
+HX711::read(): shiftIn() bytes read: 252, 182, 0
+loop(): Count= -215552, Lbs=   5.1552
+
+HX711::read(): shiftIn() bytes read: 252, 181, 215
+loop(): Count= -215593, Lbs=   5.1593
+
+HX711::read(): shiftIn() bytes read: 252, 181, 210
+loop(): Count= -215598, Lbs=   5.1598
+
+HX711::read(): shiftIn() bytes read: 252, 181, 175
+loop(): Count= -215633, Lbs=   5.1633
+
+HX711::read(): shiftIn() bytes read: 252, 181, 142
+loop(): Count= -215666, Lbs=   5.1666
+
+HX711::read(): shiftIn() bytes read: 252, 181, 154
+loop(): Count= -215654, Lbs=   5.1654
+
+HX711::read(): shiftIn() bytes read: 252, 181, 229
+loop(): Count= -215579, Lbs=   5.1579
+
+HX711::read(): shiftIn() bytes read: 252, 181, 193
+loop(): Count= -215615, Lbs=   5.1615
+
+HX711::read(): shiftIn() bytes read: 252, 181, 171
+loop(): Count= -215637, Lbs=   5.1637
+
+HX711::read(): shiftIn() bytes read: 252, 181, 136
+loop(): Count= -215672, Lbs=   5.1672
+
+HX711::read(): shiftIn() bytes read: 252, 180, 250
+loop(): Count= -215814, Lbs=   5.1814
+
+HX711::read(): shiftIn() bytes read: 252, 181, 57
+loop(): Count= -215751, Lbs=   5.1751
+
+HX711::read(): shiftIn() bytes read: 252, 181, 21
+loop(): Count= -215787, Lbs=   5.1787
+
+HX711::read(): shiftIn() bytes read: 252, 181, 20
+loop(): Count= -215788, Lbs=   5.1788
+
+HX711::read(): shiftIn() bytes read: 252, 180, 242
+loop(): Count= -215822, Lbs=   5.1822
+
+HX711::read(): shiftIn() bytes read: 252, 180, 208
+loop(): Count= -215856, Lbs=   5.1856
+
+HX711::read(): shiftIn() bytes read: 252, 180, 129
+loop(): Count= -215935, Lbs=   5.1935
+
+HX711::read(): shiftIn() bytes read: 252, 180, 16
+loop(): Count= -216048, Lbs=   5.2048
+
+HX711::read(): shiftIn() bytes read: 252, 179, 216
+loop(): Count= -216104, Lbs=   5.2104
+
+HX711::read(): shiftIn() bytes read: 252, 179, 229
+loop(): Count= -216091, Lbs=   5.2091
+
+HX711::read(): shiftIn() bytes read: 252, 180, 92
+loop(): Count= -215972, Lbs=   5.1972
+
+HX711::read(): shiftIn() bytes read: 252, 179, 185
+loop(): Count= -216135, Lbs=   5.2135
+
+HX711::read(): shiftIn() bytes read: 252, 179, 94
+loop(): Count= -216226, Lbs=   5.2226
+
+HX711::read(): shiftIn() bytes read: 252, 179, 89
+loop(): Count= -216231, Lbs=   5.2231
+
+HX711::read(): shiftIn() bytes read: 252, 180, 4
+loop(): Count= -216060, Lbs=   5.2060
+
+HX711::read(): shiftIn() bytes read: 252, 179, 39
+loop(): Count= -216281, Lbs=   5.2281
+
+HX711::read(): shiftIn() bytes read: 252, 179, 109
+loop(): Count= -216211, Lbs=   5.2211
+
+HX711::read(): shiftIn() bytes read: 252, 179, 25
+loop(): Count= -216295, Lbs=   5.2295
+
+HX711::read(): shiftIn() bytes read: 252, 179, 67
+loop(): Count= -216253, Lbs=   5.2253
+
+HX711::read(): shiftIn() bytes read: 252, 178, 217
+loop(): Count= -216359, Lbs=   5.2359
+
+HX711::read(): shiftIn() bytes read: 252, 178, 179
+loop(): Count= -216397, Lbs=   5.2397
+
+HX711::read(): shiftIn() bytes read: 252, 178, 180
+loop(): Count= -216396, Lbs=   5.2396
+
+HX711::read(): shiftIn() bytes read: 252, 179, 21
+loop(): Count= -216299, Lbs=   5.2299
+
+HX711::read(): shiftIn() bytes read: 252, 178, 143
+loop(): Count= -216433, Lbs=   5.2433
+
+HX711::read(): shiftIn() bytes read: 252, 177, 254
+loop(): Count= -216578, Lbs=   5.2578
+
+HX711::read(): shiftIn() bytes read: 252, 177, 187
+loop(): Count= -216645, Lbs=   5.2645
+
+HX711::read(): shiftIn() bytes read: 252, 178, 18
+loop(): Count= -216558, Lbs=   5.2558
+
+HX711::read(): shiftIn() bytes read: 252, 177, 222
+loop(): Count= -216610, Lbs=   5.2610
+
+HX711::read(): shiftIn() bytes read: 252, 177, 193
+loop(): Count= -216639, Lbs=   5.2639
+
+HX711::read(): shiftIn() bytes read: 252, 177, 155
+loop(): Count= -216677, Lbs=   5.2677
+
+HX711::read(): shiftIn() bytes read: 252, 177, 41
+loop(): Count= -216791, Lbs=   5.2791
+
+HX711::read(): shiftIn() bytes read: 252, 177, 49
+loop(): Count= -216783, Lbs=   5.2783
+
+HX711::read(): shiftIn() bytes read: 252, 177, 23
+loop(): Count= -216809, Lbs=   5.2809
+
+HX711::read(): shiftIn() bytes read: 252, 176, 189
+loop(): Count= -216899, Lbs=   5.2899
+
+HX711::read(): shiftIn() bytes read: 252, 176, 129
+loop(): Count= -216959, Lbs=   5.2959
+
+HX711::read(): shiftIn() bytes read: 252, 176, 189
+loop(): Count= -216899, Lbs=   5.2899
+
+HX711::read(): shiftIn() bytes read: 252, 176, 249
+loop(): Count= -216839, Lbs=   5.2839
+
+HX711::read(): shiftIn() bytes read: 252, 177, 33
+loop(): Count= -216799, Lbs=   5.2799
+
+HX711::read(): shiftIn() bytes read: 252, 176, 211
+loop(): Count= -216877, Lbs=   5.2877
+
+HX711::read(): shiftIn() bytes read: 252, 176, 137
+loop(): Count= -216951, Lbs=   5.2951
+
+HX711::read(): shiftIn() bytes read: 252, 176, 171
+loop(): Count= -216917, Lbs=   5.2917
+
+HX711::read(): shiftIn() bytes read: 252, 176, 133
+loop(): Count= -216955, Lbs=   5.2955
+
+HX711::read(): shiftIn() bytes read: 252, 176, 88
+loop(): Count= -217000, Lbs=   5.3000
+
+HX711::read(): shiftIn() bytes read: 252, 176, 174
+loop(): Count= -216914, Lbs=   5.2914
+
+HX711::read(): shiftIn() bytes read: 252, 177, 120
+loop(): Count= -216712, Lbs=   5.2712
+
+HX711::read(): shiftIn() bytes read: 252, 176, 141
+loop(): Count= -216947, Lbs=   5.2947
+
+HX711::read(): shiftIn() bytes read: 252, 175, 232
+loop(): Count= -217112, Lbs=   5.3112
+
+HX711::read(): shiftIn() bytes read: 252, 176, 9
+loop(): Count= -217079, Lbs=   5.3079
+
+HX711::read(): shiftIn() bytes read: 252, 175, 224
+loop(): Count= -217120, Lbs=   5.3120
+
+HX711::read(): shiftIn() bytes read: 252, 176, 39
+loop(): Count= -217049, Lbs=   5.3049
+
+HX711::read(): shiftIn() bytes read: 252, 175, 163
+loop(): Count= -217181, Lbs=   5.3181
+
+HX711::read(): shiftIn() bytes read: 252, 175, 123
+loop(): Count= -217221, Lbs=   5.3221
+
+HX711::read(): shiftIn() bytes read: 252, 175, 110
+loop(): Count= -217234, Lbs=   5.3234
+
+HX711::read(): shiftIn() bytes read: 252, 175, 116
+loop(): Count= -217228, Lbs=   5.3228
+
+HX711::read(): shiftIn() bytes read: 252, 175, 115
+loop(): Count= -217229, Lbs=   5.3229
+
+HX711::read(): shiftIn() bytes read: 252, 175, 197
+loop(): Count= -217147, Lbs=   5.3147
+
+HX711::read(): shiftIn() bytes read: 252, 175, 143
+loop(): Count= -217201, Lbs=   5.3201
+
+HX711::read(): shiftIn() bytes read: 252, 175, 37
+loop(): Count= -217307, Lbs=   5.3307
+
+HX711::read(): shiftIn() bytes read: 252, 175, 9
+loop(): Count= -217335, Lbs=   5.3335
+
+HX711::read(): shiftIn() bytes read: 252, 174, 204
+loop(): Count= -217396, Lbs=   5.3396
+
+HX711::read(): shiftIn() bytes read: 252, 175, 15
+loop(): Count= -217329, Lbs=   5.3329
+
+HX711::read(): shiftIn() bytes read: 252, 175, 99
+loop(): Count= -217245, Lbs=   5.3245
+
+HX711::read(): shiftIn() bytes read: 252, 174, 153
+loop(): Count= -217447, Lbs=   5.3447
+
+HX711::read(): shiftIn() bytes read: 252, 174, 191
+loop(): Count= -217409, Lbs=   5.3409
+
+HX711::read(): shiftIn() bytes read: 252, 174, 102
+loop(): Count= -217498, Lbs=   5.3498
+
+HX711::read(): shiftIn() bytes read: 252, 174, 74
+loop(): Count= -217526, Lbs=   5.3526
+
+HX711::read(): shiftIn() bytes read: 252, 174, 94
+loop(): Count= -217506, Lbs=   5.3506
+
+HX711::read(): shiftIn() bytes read: 252, 174, 54
+loop(): Count= -217546, Lbs=   5.3546
+
+HX711::read(): shiftIn() bytes read: 252, 173, 107
+loop(): Count= -217749, Lbs=   5.3749
+
+HX711::read(): shiftIn() bytes read: 252, 173, 89
+loop(): Count= -217767, Lbs=   5.3767
+
+HX711::read(): shiftIn() bytes read: 252, 173, 124
+loop(): Count= -217732, Lbs=   5.3732
+
+HX711::read(): shiftIn() bytes read: 252, 173, 157
+loop(): Count= -217699, Lbs=   5.3699
+
+HX711::read(): shiftIn() bytes read: 252, 173, 87
+loop(): Count= -217769, Lbs=   5.3769
+
+HX711::read(): shiftIn() bytes read: 252, 173, 176
+loop(): Count= -217680, Lbs=   5.3680
+
+HX711::read(): shiftIn() bytes read: 252, 173, 235
+loop(): Count= -217621, Lbs=   5.3621
+
+HX711::read(): shiftIn() bytes read: 252, 172, 252
+loop(): Count= -217860, Lbs=   5.3860
+
+HX711::read(): shiftIn() bytes read: 252, 173, 187
+loop(): Count= -217669, Lbs=   5.3669
+
+HX711::read(): shiftIn() bytes read: 252, 173, 104
+loop(): Count= -217752, Lbs=   5.3752
+
+HX711::read(): shiftIn() bytes read: 252, 172, 136
+loop(): Count= -217976, Lbs=   5.3976
+
+HX711::read(): shiftIn() bytes read: 252, 172, 185
+loop(): Count= -217927, Lbs=   5.3927
+
+HX711::read(): shiftIn() bytes read: 252, 173, 123
+loop(): Count= -217733, Lbs=   5.3733
+
+HX711::read(): shiftIn() bytes read: 252, 173, 79
+loop(): Count= -217777, Lbs=   5.3777
+
+HX711::read(): shiftIn() bytes read: 252, 173, 28
+loop(): Count= -217828, Lbs=   5.3828
+
+HX711::read(): shiftIn() bytes read: 252, 172, 134
+loop(): Count= -217978, Lbs=   5.3978
+
+HX711::read(): shiftIn() bytes read: 252, 172, 158
+loop(): Count= -217954, Lbs=   5.3954
+
+HX711::read(): shiftIn() bytes read: 252, 172, 77
+loop(): Count= -218035, Lbs=   5.4035
+
+HX711::read(): shiftIn() bytes read: 252, 172, 83
+loop(): Count= -218029, Lbs=   5.4029
+
+HX711::read(): shiftIn() bytes read: 252, 171, 192
+loop(): Count= -218176, Lbs=   5.4176
+
+HX711::read(): shiftIn() bytes read: 252, 172, 107
+loop(): Count= -218005, Lbs=   5.4005
+
+HX711::read(): shiftIn() bytes read: 252, 172, 95
+loop(): Count= -218017, Lbs=   5.4017
+
+HX711::read(): shiftIn() bytes read: 252, 172, 12
+loop(): Count= -218100, Lbs=   5.4100
+
+HX711::read(): shiftIn() bytes read: 252, 172, 67
+loop(): Count= -218045, Lbs=   5.4045
+
+HX711::read(): shiftIn() bytes read: 252, 172, 30
+loop(): Count= -218082, Lbs=   5.4082
+
+HX711::read(): shiftIn() bytes read: 252, 171, 196
+loop(): Count= -218172, Lbs=   5.4172
+
+
+//**************************************
+˜H•?­Í2_HX711.ino, Apr 21, 2018-y
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 255, 64, 196
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 255, 61, 224
+loop(): Total Lbs=  -7.7304
+
+HX711::read(): shiftIn() bytes read: 255, 24, 35
+loop(): Total Lbs=  -6.7643
+
+HX711::read(): shiftIn() bytes read: 255, 0, 10
+loop(): Total Lbs=  -6.1474
+
+HX711::read(): shiftIn() bytes read: 254, 145, 60
+loop(): Total Lbs=  -3.3108
+
+HX711::read(): shiftIn() bytes read: 254, 187, 49
+loop(): Total Lbs=  -4.3849
+
+HX711::read(): shiftIn() bytes read: 254, 21, 250
+loop(): Total Lbs=  -0.1554
+
+HX711::read(): shiftIn() bytes read: 253, 249, 203
+loop(): Total Lbs=   0.5661
+
+HX711::read(): shiftIn() bytes read: 254, 170, 112
+loop(): Total Lbs=  -3.9560
+
+HX711::read(): shiftIn() bytes read: 254, 157, 11
+loop(): Total Lbs=  -3.6131
+
+HX711::read(): shiftIn() bytes read: 254, 145, 62
+loop(): Total Lbs=  -3.3110
+
+HX711::read(): shiftIn() bytes read: 254, 133, 17
+loop(): Total Lbs=  -2.9993
+
+HX711::read(): shiftIn() bytes read: 254, 121, 2
+loop(): Total Lbs=  -2.6906
+
+HX711::read(): shiftIn() bytes read: 254, 111, 16
+loop(): Total Lbs=  -2.4360
+
+HX711::read(): shiftIn() bytes read: 254, 101, 2
+loop(): Total Lbs=  -2.1786
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+˜H•?­Í2_HX711.ino, Apr 22, 2018-a
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 254, 228, 71
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 254, 219, 157
+loop(): Total Lbs=  -8.9220
+
+HX711::read(): shiftIn() bytes read: 254, 120, 164
+loop(): Total Lbs=  -6.3883
+
+HX711::read(): shiftIn() bytes read: 254, 94, 43
+loop(): Total Lbs=  -5.7106
+
+HX711::read(): shiftIn() bytes read: 254, 79, 190
+loop(): Total Lbs=  -5.3413
+
+HX711::read(): shiftIn() bytes read: 254, 66, 98
+loop(): Total Lbs=  -4.9993
+
+HX711::read(): shiftIn() bytes read: 254, 100, 134
+loop(): Total Lbs=  -5.8733
+
+HX711::read(): shiftIn() bytes read: 254, 108, 35
+loop(): Total Lbs=  -6.0682
+
+HX711::read(): shiftIn() bytes read: 254, 82, 188
+loop(): Total Lbs=  -5.4179
+
+HX711::read(): shiftIn() bytes read: 254, 79, 120
+loop(): Total Lbs=  -5.3343
+
+HX711::read(): shiftIn() bytes read: 254, 85, 203
+loop(): Total Lbs=  -5.4962
+
+HX711::read(): shiftIn() bytes read: 254, 85, 225
+loop(): Total Lbs=  -5.4984
+
+HX711::read(): shiftIn() bytes read: 254, 58, 5
+loop(): Total Lbs=  -4.7852
+
+HX711::read(): shiftIn() bytes read: 254, 45, 150
+loop(): Total Lbs=  -4.4669
+
+HX711::read(): shiftIn() bytes read: 254, 46, 80
+loop(): Total Lbs=  -4.4855
+
+HX711::read(): shiftIn() bytes read: 254, 45, 57
+loop(): Total Lbs=  -4.4576
+
+HX711::read(): shiftIn() bytes read: 254, 34, 205
+loop(): Total Lbs=  -4.1908
+
+HX711::read(): shiftIn() bytes read: 254, 49, 124
+loop(): Total Lbs=  -4.5667
+
+HX711::read(): shiftIn() bytes read: 254, 67, 38
+loop(): Total Lbs=  -5.0189
+
+HX711::read(): shiftIn() bytes read: 254, 41, 65
+loop(): Total Lbs=  -4.3560
+
+HX711::read(): shiftIn() bytes read: 254, 35, 151
+loop(): Total Lbs=  -4.2110
+
+HX711::read(): shiftIn() bytes read: 254, 154, 207
+loop(): Total Lbs=  -7.2630
+
+HX711::read(): shiftIn() bytes read: 254, 150, 85
+loop(): Total Lbs=  -7.1484
+
+HX711::read(): shiftIn() bytes read: 254, 127, 78
+loop(): Total Lbs=  -6.5589
+
+HX711::read(): shiftIn() bytes read: 254, 152, 73
+loop(): Total Lbs=  -7.1984
+
+HX711::read(): shiftIn() bytes read: 0, 140, 249
+loop(): Total Lbs= -20.0160
+
+HX711::read(): shiftIn() bytes read: 0, 167, 148
+loop(): Total Lbs= -20.6971
+
+HX711::read(): shiftIn() bytes read: 0, 94, 142
+loop(): Total Lbs= -18.8277
+
+HX711::read(): shiftIn() bytes read: 0, 184, 177
+loop(): Total Lbs= -21.1352
+
+HX711::read(): shiftIn() bytes read: 255, 244, 13
+loop(): Total Lbs= -16.1012
+
+HX711::read(): shiftIn() bytes read: 0, 39, 40
+loop(): Total Lbs= -17.4095
+
+HX711::read(): shiftIn() bytes read: 0, 94, 253
+loop(): Total Lbs= -18.8388
+
+HX711::read(): shiftIn() bytes read: 0, 74, 4
+loop(): Total Lbs= -18.3019
+
+HX711::read(): shiftIn() bytes read: 255, 243, 221
+loop(): Total Lbs= -16.0964
+
+HX711::read(): shiftIn() bytes read: 255, 246, 188
+loop(): Total Lbs= -16.1699
+
+HX711::read(): shiftIn() bytes read: 0, 47, 243
+loop(): Total Lbs= -17.6346
+
+HX711::read(): shiftIn() bytes read: 255, 226, 255
+loop(): Total Lbs= -15.6646
+
+HX711::read(): shiftIn() bytes read: 255, 213, 11
+loop(): Total Lbs= -15.3074
+
+HX711::read(): shiftIn() bytes read: 255, 156, 173
+loop(): Total Lbs= -13.8644
+
+HX711::read(): shiftIn() bytes read: 255, 188, 100
+loop(): Total Lbs= -14.6763
+
+HX711::read(): shiftIn() bytes read: 0, 77, 69
+loop(): Total Lbs= -18.3852
+
+HX711::read(): shiftIn() bytes read: 255, 221, 245
+loop(): Total Lbs= -15.5356
+
+HX711::read(): shiftIn() bytes read: 255, 187, 66
+loop(): Total Lbs= -14.6473
+
+HX711::read(): shiftIn() bytes read: 255, 105, 152
+loop(): Total Lbs= -12.5567
+
+HX711::read(): shiftIn() bytes read: 255, 28, 226
+loop(): Total Lbs= -10.5929
+
+HX711::read(): shiftIn() bytes read: 255, 15, 62
+loop(): Total Lbs= -10.2437
+
+HX711::read(): shiftIn() bytes read: 254, 251, 100
+loop(): Total Lbs=  -9.7355
+
+HX711::read(): shiftIn() bytes read: 254, 254, 221
+loop(): Total Lbs=  -9.8244
+
+HX711::read(): shiftIn() bytes read: 255, 15, 200
+loop(): Total Lbs= -10.2575
+
+HX711::read(): shiftIn() bytes read: 255, 76, 192
+loop(): Total Lbs= -11.8183
+
+HX711::read(): shiftIn() bytes read: 255, 6, 96
+loop(): Total Lbs= -10.0167
+
+HX711::read(): shiftIn() bytes read: 255, 28, 190
+loop(): Total Lbs= -10.5893
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 254, 131, 163
+loop(): Total Lbs=  -6.6698
+
+HX711::read(): shiftIn() bytes read: 254, 129, 167
+loop(): Total Lbs=  -6.6190
+
+HX711::read(): shiftIn() bytes read: 254, 119, 75
+loop(): Total Lbs=  -6.3538
+
+HX711::read(): shiftIn() bytes read: 254, 107, 105
+loop(): Total Lbs=  -6.0496
+
+HX711::read(): shiftIn() bytes read: 254, 99, 232
+loop(): Total Lbs=  -5.8575
+
+HX711::read(): shiftIn() bytes read: 254, 145, 10
+loop(): Total Lbs=  -7.0129
+
+HX711::read(): shiftIn() bytes read: 254, 110, 122
+loop(): Total Lbs=  -6.1281
+
+HX711::read(): shiftIn() bytes read: 254, 104, 226
+loop(): Total Lbs=  -5.9849
+
+HX711::read(): shiftIn() bytes read: 254, 85, 53
+loop(): Total Lbs=  -5.4812
+
+HX711::read(): shiftIn() bytes read: 254, 83, 205
+loop(): Total Lbs=  -5.4452
+
+HX711::read(): shiftIn() bytes read: 254, 159, 190
+loop(): Total Lbs=  -7.3893
+
+HX711::read(): shiftIn() bytes read: 254, 145, 227
+loop(): Total Lbs=  -7.0346
+
+HX711::read(): shiftIn() bytes read: 254, 116, 140
+loop(): Total Lbs=  -6.2835
+
+HX711::read(): shiftIn() bytes read: 254, 88, 84
+loop(): Total Lbs=  -5.5611
+
+HX711::read(): shiftIn() bytes read: 254, 84, 180
+loop(): Total Lbs=  -5.4683
+
+HX711::read(): shiftIn() bytes read: 254, 79, 146
+loop(): Total Lbs=  -5.3369
+
+HX711::read(): shiftIn() bytes read: 254, 79, 87
+loop(): Total Lbs=  -5.3310
+
+HX711::read(): shiftIn() bytes read: 254, 70, 157
+loop(): Total Lbs=  -5.1076
+
+HX711::read(): shiftIn() bytes read: 254, 71, 231
+loop(): Total Lbs=  -5.1406
+
+HX711::read(): shiftIn() bytes read: 254, 68, 124
+loop(): Total Lbs=  -5.0531
+
+HX711::read(): shiftIn() bytes read: 254, 61, 97
+loop(): Total Lbs=  -4.8712
+
+HX711::read(): shiftIn() bytes read: 254, 57, 167
+loop(): Total Lbs=  -4.7758
+
+HX711::read(): shiftIn() bytes read: 254, 57, 165
+loop(): Total Lbs=  -4.7756
+
+HX711::read(): shiftIn() bytes read: 254, 54, 225
+loop(): Total Lbs=  -4.7048
+
+HX711::read(): shiftIn() bytes read: 254, 51, 72
+loop(): Total Lbs=  -4.6127
+
+HX711::read(): shiftIn() bytes read: 254, 49, 71
+loop(): Total Lbs=  -4.5614
+
+HX711::read(): shiftIn() bytes read: 254, 43, 201
+loop(): Total Lbs=  -4.4208
+
+HX711::read(): shiftIn() bytes read: 254, 36, 215
+loop(): Total Lbs=  -4.2430
+
+HX711::read(): shiftIn() bytes read: 254, 28, 18
+loop(): Total Lbs=  -4.0185
+
+HX711::read(): shiftIn() bytes read: 254, 22, 105
+loop(): Total Lbs=  -3.8736
+
+HX711::read(): shiftIn() bytes read: 254, 17, 125
+loop(): Total Lbs=  -3.7476
+
+HX711::read(): shiftIn() bytes read: 254, 12, 174
+loop(): Total Lbs=  -3.6245
+
+HX711::read(): shiftIn() bytes read: 254, 7, 100
+loop(): Total Lbs=  -3.4891
+
+HX711::read(): shiftIn() bytes read: 254, 2, 228
+loop(): Total Lbs=  -3.3739
+
+HX711::read(): shiftIn() bytes read: 254, 0, 54
+loop(): Total Lbs=  -3.3053
+
+HX711::read(): shiftIn() bytes read: 253, 251, 90
+loop(): Total Lbs=  -3.1809
+
+HX711::read(): shiftIn() bytes read: 253, 246, 95
+loop(): Total Lbs=  -3.0534
+
+HX711::read(): shiftIn() bytes read: 253, 243, 185
+loop(): Total Lbs=  -2.9856
+
+HX711::read(): shiftIn() bytes read: 253, 240, 50
+loop(): Total Lbs=  -2.8953
+
+HX711::read(): shiftIn() bytes read: 253, 235, 170
+loop(): Total Lbs=  -2.7793
+
+HX711::read(): shiftIn() bytes read: 253, 231, 33
+loop(): Total Lbs=  -2.6632
+
+HX711::read(): shiftIn() bytes read: 253, 228, 72
+loop(): Total Lbs=  -2.5903
+
+HX711::read(): shiftIn() bytes read: 253, 231, 46
+loop(): Total Lbs=  -2.6645
+
+HX711::read(): shiftIn() bytes read: 253, 249, 10
+loop(): Total Lbs=  -3.1217
+
+HX711::read(): shiftIn() bytes read: 253, 219, 130
+loop(): Total Lbs=  -2.3657
+
+HX711::read(): shiftIn() bytes read: 253, 212, 245
+loop(): Total Lbs=  -2.1980
+
+HX711::read(): shiftIn() bytes read: 253, 220, 96
+loop(): Total Lbs=  -2.3879
+
+HX711::read(): shiftIn() bytes read: 253, 219, 75
+loop(): Total Lbs=  -2.3602
+
+HX711::read(): shiftIn() bytes read: 253, 210, 236
+loop(): Total Lbs=  -2.1459
+
+HX711::read(): shiftIn() bytes read: 253, 206, 111
+loop(): Total Lbs=  -2.0310
+
+HX711::read(): shiftIn() bytes read: 253, 205, 70
+loop(): Total Lbs=  -2.0013
+
+HX711::read(): shiftIn() bytes read: 253, 207, 23
+loop(): Total Lbs=  -2.0478
+
+HX711::read(): shiftIn() bytes read: 253, 218, 12
+loop(): Total Lbs=  -2.3283
+
+HX711::read(): shiftIn() bytes read: 253, 209, 182
+loop(): Total Lbs=  -2.1149
+
+HX711::read(): shiftIn() bytes read: 253, 206, 123
+loop(): Total Lbs=  -2.0322
+
+HX711::read(): shiftIn() bytes read: 253, 201, 96
+loop(): Total Lbs=  -1.9015
+
+HX711::read(): shiftIn() bytes read: 253, 200, 124
+loop(): Total Lbs=  -1.8787
+
+HX711::read(): shiftIn() bytes read: 253, 195, 186
+loop(): Total Lbs=  -1.7569
+
+HX711::read(): shiftIn() bytes read: 253, 188, 245
+loop(): Total Lbs=  -1.5836
+
+HX711::read(): shiftIn() bytes read: 253, 196, 85
+loop(): Total Lbs=  -1.7724
+
+HX711::read(): shiftIn() bytes read: 253, 188, 16
+loop(): Total Lbs=  -1.5607
+
+HX711::read(): shiftIn() bytes read: 253, 196, 78
+loop(): Total Lbs=  -1.7717
+
+HX711::read(): shiftIn() bytes read: 253, 194, 73
+loop(): Total Lbs=  -1.7200
+
+HX711::read(): shiftIn() bytes read: 253, 192, 102
+loop(): Total Lbs=  -1.6717
+
+HX711::read(): shiftIn() bytes read: 253, 190, 72
+loop(): Total Lbs=  -1.6175
+
+HX711::read(): shiftIn() bytes read: 253, 196, 109
+loop(): Total Lbs=  -1.7748
+
+HX711::read(): shiftIn() bytes read: 253, 193, 154
+loop(): Total Lbs=  -1.7025
+
+HX711::read(): shiftIn() bytes read: 253, 187, 41
+loop(): Total Lbs=  -1.5376
+
+HX711::read(): shiftIn() bytes read: 253, 184, 152
+loop(): Total Lbs=  -1.4719
+
+HX711::read(): shiftIn() bytes read: 253, 184, 176
+loop(): Total Lbs=  -1.4743
+
+HX711::read(): shiftIn() bytes read: 253, 181, 200
+loop(): Total Lbs=  -1.3999
+
+HX711::read(): shiftIn() bytes read: 253, 180, 22
+loop(): Total Lbs=  -1.3565
+
+HX711::read(): shiftIn() bytes read: 253, 178, 22
+loop(): Total Lbs=  -1.3053
+
+HX711::read(): shiftIn() bytes read: 253, 176, 21
+loop(): Total Lbs=  -1.2540
+
+HX711::read(): shiftIn() bytes read: 253, 174, 179
+loop(): Total Lbs=  -1.2186
+
+HX711::read(): shiftIn() bytes read: 253, 173, 70
+loop(): Total Lbs=  -1.1821
+
+HX711::read(): shiftIn() bytes read: 253, 172, 182
+loop(): Total Lbs=  -1.1677
+
+HX711::read(): shiftIn() bytes read: 253, 175, 245
+loop(): Total Lbs=  -1.2508
+
+HX711::read(): shiftIn() bytes read: 253, 174, 92
+loop(): Total Lbs=  -1.2099
+
+HX711::read(): shiftIn() bytes read: 253, 171, 207
+loop(): Total Lbs=  -1.1446
+
+HX711::read(): shiftIn() bytes read: 253, 168, 234
+loop(): Total Lbs=  -1.0705
+
+HX711::read(): shiftIn() bytes read: 253, 166, 109
+loop(): Total Lbs=  -1.0068
+
+HX711::read(): shiftIn() bytes read: 253, 164, 161
+loop(): Total Lbs=  -0.9608
+
+HX711::read(): shiftIn() bytes read: 253, 163, 179
+loop(): Total Lbs=  -0.9370
+
+HX711::read(): shiftIn() bytes read: 253, 162, 178
+loop(): Total Lbs=  -0.9113
+
+HX711::read(): shiftIn() bytes read: 253, 163, 67
+loop(): Total Lbs=  -0.9258
+
+HX711::read(): shiftIn() bytes read: 253, 162, 136
+loop(): Total Lbs=  -0.9071
+
+HX711::read(): shiftIn() bytes read: 253, 162, 129
+loop(): Total Lbs=  -0.9064
+
+HX711::read(): shiftIn() bytes read: 253, 162, 68
+loop(): Total Lbs=  -0.9003
+
+HX711::read(): shiftIn() bytes read: 253, 160, 103
+loop(): Total Lbs=  -0.8526
+
+HX711::read(): shiftIn() bytes read: 253, 167, 71
+loop(): Total Lbs=  -1.0286
+
+HX711::read(): shiftIn() bytes read: 253, 170, 57
+loop(): Total Lbs=  -1.1040
+
+HX711::read(): shiftIn() bytes read: 253, 162, 111
+loop(): Total Lbs=  -0.9046
+
+HX711::read(): shiftIn() bytes read: 253, 156, 64
+loop(): Total Lbs=  -0.7463
+
+HX711::read(): shiftIn() bytes read: 253, 152, 203
+loop(): Total Lbs=  -0.6578
+
+HX711::read(): shiftIn() bytes read: 253, 152, 237
+loop(): Total Lbs=  -0.6612
+
+HX711::read(): shiftIn() bytes read: 253, 152, 152
+loop(): Total Lbs=  -0.6527
+
+HX711::read(): shiftIn() bytes read: 253, 152, 46
+loop(): Total Lbs=  -0.6421
+
+HX711::read(): shiftIn() bytes read: 253, 149, 130
+loop(): Total Lbs=  -0.5737
+
+HX711::read(): shiftIn() bytes read: 253, 147, 55
+loop(): Total Lbs=  -0.5150
+
+HX711::read(): shiftIn() bytes read: 253, 145, 82
+loop(): Total Lbs=  -0.4665
+
+HX711::read(): shiftIn() bytes read: 253, 145, 222
+loop(): Total Lbs=  -0.4805
+
+HX711::read(): shiftIn() bytes read: 253, 146, 52
+loop(): Total Lbs=  -0.4891
+
+HX711::read(): shiftIn() bytes read: 253, 142, 198
+loop(): Total Lbs=  -0.4013
+
+HX711::read(): shiftIn() bytes read: 253, 142, 89
+loop(): Total Lbs=  -0.3904
+
+HX711::read(): shiftIn() bytes read: 253, 143, 49
+loop(): Total Lbs=  -0.4120
+
+HX711::read(): shiftIn() bytes read: 253, 141, 14
+loop(): Total Lbs=  -0.3573
+
+HX711::read(): shiftIn() bytes read: 253, 141, 5
+loop(): Total Lbs=  -0.3564
+
+HX711::read(): shiftIn() bytes read: 253, 140, 97
+loop(): Total Lbs=  -0.3400
+
+HX711::read(): shiftIn() bytes read: 253, 139, 73
+loop(): Total Lbs=  -0.3120
+
+HX711::read(): shiftIn() bytes read: 253, 140, 12
+loop(): Total Lbs=  -0.3315
+
+HX711::read(): shiftIn() bytes read: 253, 137, 79
+loop(): Total Lbs=  -0.2614
+
+HX711::read(): shiftIn() bytes read: 253, 135, 244
+loop(): Total Lbs=  -0.2267
+
+HX711::read(): shiftIn() bytes read: 253, 136, 120
+loop(): Total Lbs=  -0.2399
+
+HX711::read(): shiftIn() bytes read: 253, 135, 187
+loop(): Total Lbs=  -0.2210
+
+HX711::read(): shiftIn() bytes read: 253, 136, 150
+loop(): Total Lbs=  -0.2429
+
+HX711::read(): shiftIn() bytes read: 253, 136, 231
+loop(): Total Lbs=  -0.2510
+
+HX711::read(): shiftIn() bytes read: 253, 132, 167
+loop(): Total Lbs=  -0.1422
+
+HX711::read(): shiftIn() bytes read: 253, 133, 49
+loop(): Total Lbs=  -0.1560
+
+HX711::read(): shiftIn() bytes read: 253, 135, 248
+loop(): Total Lbs=  -0.2271
+
+HX711::read(): shiftIn() bytes read: 253, 134, 66
+loop(): Total Lbs=  -0.1833
+
+HX711::read(): shiftIn() bytes read: 253, 132, 52
+loop(): Total Lbs=  -0.1307
+
+HX711::read(): shiftIn() bytes read: 253, 132, 187
+loop(): Total Lbs=  -0.1442
+
+HX711::read(): shiftIn() bytes read: 253, 132, 106
+loop(): Total Lbs=  -0.1361
+
+HX711::read(): shiftIn() bytes read: 253, 129, 65
+loop(): Total Lbs=  -0.0552
+
+HX711::read(): shiftIn() bytes read: 253, 128, 71
+loop(): Total Lbs=  -0.0302
+
+HX711::read(): shiftIn() bytes read: 253, 128, 20
+loop(): Total Lbs=  -0.0251
+
+HX711::read(): shiftIn() bytes read: 253, 127, 93
+loop(): Total Lbs=  -0.0068
+
+HX711::read(): shiftIn() bytes read: 253, 126, 18
+loop(): Total Lbs=   0.0263
+
+HX711::read(): shiftIn() bytes read: 253, 124, 249
+loop(): Total Lbs=   0.0544
+
+HX711::read(): shiftIn() bytes read: 253, 124, 166
+loop(): Total Lbs=   0.0627
+
+HX711::read(): shiftIn() bytes read: 253, 103, 103
+loop(): Total Lbs=   0.6066
+
+HX711::read(): shiftIn() bytes read: 253, 110, 63
+loop(): Total Lbs=   0.4314
+
+HX711::read(): shiftIn() bytes read: 253, 105, 184
+loop(): Total Lbs=   0.5473
+
+HX711::read(): shiftIn() bytes read: 253, 119, 112
+loop(): Total Lbs=   0.1961
+
+HX711::read(): shiftIn() bytes read: 253, 111, 75
+loop(): Total Lbs=   0.4046
+
+HX711::read(): shiftIn() bytes read: 253, 106, 239
+loop(): Total Lbs=   0.5162
+
+HX711::read(): shiftIn() bytes read: 253, 102, 123
+loop(): Total Lbs=   0.6302
+
+HX711::read(): shiftIn() bytes read: 253, 101, 51
+loop(): Total Lbs=   0.6630
+
+HX711::read(): shiftIn() bytes read: 253, 106, 6
+loop(): Total Lbs=   0.5395
+
+HX711::read(): shiftIn() bytes read: 253, 111, 47
+loop(): Total Lbs=   0.4074
+
+HX711::read(): shiftIn() bytes read: 253, 106, 133
+loop(): Total Lbs=   0.5268
+
+HX711::read(): shiftIn() bytes read: 253, 109, 66
+loop(): Total Lbs=   0.4567
+
+HX711::read(): shiftIn() bytes read: 253, 110, 86
+loop(): Total Lbs=   0.4291
+
+HX711::read(): shiftIn() bytes read: 253, 106, 180
+loop(): Total Lbs=   0.5221
+
+HX711::read(): shiftIn() bytes read: 253, 111, 79
+loop(): Total Lbs=   0.4042
+
+HX711::read(): shiftIn() bytes read: 253, 105, 166
+loop(): Total Lbs=   0.5491
+
+HX711::read(): shiftIn() bytes read: 253, 106, 44
+loop(): Total Lbs=   0.5357
+
+HX711::read(): shiftIn() bytes read: 253, 105, 116
+loop(): Total Lbs=   0.5541
+
+HX711::read(): shiftIn() bytes read: 253, 106, 80
+loop(): Total Lbs=   0.5321
+
+HX711::read(): shiftIn() bytes read: 253, 103, 164
+loop(): Total Lbs=   0.6005
+
+HX711::read(): shiftIn() bytes read: 253, 102, 233
+loop(): Total Lbs=   0.6192
+
+HX711::read(): shiftIn() bytes read: 253, 104, 163
+loop(): Total Lbs=   0.5750
+
+HX711::read(): shiftIn() bytes read: 253, 105, 112
+loop(): Total Lbs=   0.5545
+
+HX711::read(): shiftIn() bytes read: 253, 131, 97
+loop(): Total Lbs=  -0.1096
+
+HX711::read(): shiftIn() bytes read: 253, 124, 163
+loop(): Total Lbs=   0.0630
+
+HX711::read(): shiftIn() bytes read: 253, 119, 171
+loop(): Total Lbs=   0.1902
+
+HX711::read(): shiftIn() bytes read: 253, 115, 107
+loop(): Total Lbs=   0.2990
+
+HX711::read(): shiftIn() bytes read: 253, 108, 27
+loop(): Total Lbs=   0.4862
+
+HX711::read(): shiftIn() bytes read: 253, 106, 104
+loop(): Total Lbs=   0.5297
+
+HX711::read(): shiftIn() bytes read: 253, 107, 64
+loop(): Total Lbs=   0.5081
+
+HX711::read(): shiftIn() bytes read: 253, 99, 14
+loop(): Total Lbs=   0.7179
+
+HX711::read(): shiftIn() bytes read: 253, 111, 146
+loop(): Total Lbs=   0.3975
+
+HX711::read(): shiftIn() bytes read: 253, 107, 99
+loop(): Total Lbs=   0.5046
+
+HX711::read(): shiftIn() bytes read: 253, 106, 198
+loop(): Total Lbs=   0.5203
+
+HX711::read(): shiftIn() bytes read: 253, 103, 154
+loop(): Total Lbs=   0.6015
+
+HX711::read(): shiftIn() bytes read: 253, 101, 131
+loop(): Total Lbs=   0.6550
+
+HX711::read(): shiftIn() bytes read: 253, 98, 132
+loop(): Total Lbs=   0.7317
+
+HX711::read(): shiftIn() bytes read: 253, 97, 241
+loop(): Total Lbs=   0.7464
+
+HX711::read(): shiftIn() bytes read: 253, 98, 141
+loop(): Total Lbs=   0.7308
+
+HX711::read(): shiftIn() bytes read: 253, 98, 68
+loop(): Total Lbs=   0.7381
+
+HX711::read(): shiftIn() bytes read: 253, 102, 207
+loop(): Total Lbs=   0.6218
+
+HX711::read(): shiftIn() bytes read: 253, 104, 23
+loop(): Total Lbs=   0.5890
+
+HX711::read(): shiftIn() bytes read: 253, 96, 86
+loop(): Total Lbs=   0.7875
+
+HX711::read(): shiftIn() bytes read: 253, 98, 174
+loop(): Total Lbs=   0.7275
+
+HX711::read(): shiftIn() bytes read: 253, 99, 202
+loop(): Total Lbs=   0.6991
+
+HX711::read(): shiftIn() bytes read: 253, 96, 187
+loop(): Total Lbs=   0.7774
+
+HX711::read(): shiftIn() bytes read: 253, 95, 16
+loop(): Total Lbs=   0.8201
+
+HX711::read(): shiftIn() bytes read: 253, 95, 84
+loop(): Total Lbs=   0.8133
+
+HX711::read(): shiftIn() bytes read: 253, 93, 255
+loop(): Total Lbs=   0.8474
+
+HX711::read(): shiftIn() bytes read: 253, 95, 79
+loop(): Total Lbs=   0.8138
+
+HX711::read(): shiftIn() bytes read: 253, 95, 104
+loop(): Total Lbs=   0.8113
+
+HX711::read(): shiftIn() bytes read: 253, 94, 249
+loop(): Total Lbs=   0.8224
+
+HX711::read(): shiftIn() bytes read: 253, 93, 114
+loop(): Total Lbs=   0.8615
+
+HX711::read(): shiftIn() bytes read: 253, 91, 107
+loop(): Total Lbs=   0.9134
+
+HX711::read(): shiftIn() bytes read: 253, 88, 94
+loop(): Total Lbs=   0.9915
+
+HX711::read(): shiftIn() bytes read: 253, 92, 104
+loop(): Total Lbs=   0.8881
+
+HX711::read(): shiftIn() bytes read: 253, 90, 222
+loop(): Total Lbs=   0.9275
+
+HX711::read(): shiftIn() bytes read: 253, 89, 217
+loop(): Total Lbs=   0.9536
+
+HX711::read(): shiftIn() bytes read: 253, 90, 81
+loop(): Total Lbs=   0.9416
+
+HX711::read(): shiftIn() bytes read: 253, 90, 227
+loop(): Total Lbs=   0.9270
+
+HX711::read(): shiftIn() bytes read: 253, 87, 156
+loop(): Total Lbs=   1.0109
+
+HX711::read(): shiftIn() bytes read: 253, 90, 194
+loop(): Total Lbs=   0.9303
+
+HX711::read(): shiftIn() bytes read: 253, 93, 233
+loop(): Total Lbs=   0.8496
+
+HX711::read(): shiftIn() bytes read: 253, 94, 227
+loop(): Total Lbs=   0.8246
+
+HX711::read(): shiftIn() bytes read: 253, 95, 106
+loop(): Total Lbs=   0.8111
+
+HX711::read(): shiftIn() bytes read: 253, 91, 206
+loop(): Total Lbs=   0.9035
+
+HX711::read(): shiftIn() bytes read: 253, 94, 159
+loop(): Total Lbs=   0.8314
+
+HX711::read(): shiftIn() bytes read: 253, 93, 93
+loop(): Total Lbs=   0.8636
+
+HX711::read(): shiftIn() bytes read: 253, 93, 29
+loop(): Total Lbs=   0.8700
+
+HX711::read(): shiftIn() bytes read: 253, 94, 80
+loop(): Total Lbs=   0.8393
+
+HX711::read(): shiftIn() bytes read: 253, 91, 131
+loop(): Total Lbs=   0.9110
+
+HX711::read(): shiftIn() bytes read: 253, 90, 118
+loop(): Total Lbs=   0.9379
+
+HX711::read(): shiftIn() bytes read: 253, 89, 123
+loop(): Total Lbs=   0.9630
+
+HX711::read(): shiftIn() bytes read: 253, 90, 100
+loop(): Total Lbs=   0.9397
+
+HX711::read(): shiftIn() bytes read: 253, 87, 224
+loop(): Total Lbs=   1.0041
+
+HX711::read(): shiftIn() bytes read: 253, 90, 21
+loop(): Total Lbs=   0.9476
+
+HX711::read(): shiftIn() bytes read: 253, 100, 233
+loop(): Total Lbs=   0.6704
+
+HX711::read(): shiftIn() bytes read: 253, 92, 81
+loop(): Total Lbs=   0.8904
+
+HX711::read(): shiftIn() bytes read: 253, 90, 36
+loop(): Total Lbs=   0.9461
+
+HX711::read(): shiftIn() bytes read: 253, 87, 183
+loop(): Total Lbs=   1.0082
+
+HX711::read(): shiftIn() bytes read: 253, 85, 126
+loop(): Total Lbs=   1.0651
+
+HX711::read(): shiftIn() bytes read: 253, 84, 75
+loop(): Total Lbs=   1.0958
+
+HX711::read(): shiftIn() bytes read: 253, 83, 101
+loop(): Total Lbs=   1.1188
+
+HX711::read(): shiftIn() bytes read: 253, 80, 204
+loop(): Total Lbs=   1.1853
+
+HX711::read(): shiftIn() bytes read: 253, 79, 44
+loop(): Total Lbs=   1.2269
+
+HX711::read(): shiftIn() bytes read: 253, 76, 162
+loop(): Total Lbs=   1.2919
+
+HX711::read(): shiftIn() bytes read: 253, 75, 9
+loop(): Total Lbs=   1.3328
+
+HX711::read(): shiftIn() bytes read: 253, 73, 154
+loop(): Total Lbs=   1.3695
+
+HX711::read(): shiftIn() bytes read: 253, 71, 232
+loop(): Total Lbs=   1.4129
+
+HX711::read(): shiftIn() bytes read: 253, 70, 36
+loop(): Total Lbs=   1.4581
+
+HX711::read(): shiftIn() bytes read: 253, 67, 247
+loop(): Total Lbs=   1.5138
+
+HX711::read(): shiftIn() bytes read: 253, 66, 184
+loop(): Total Lbs=   1.5457
+
+HX711::read(): shiftIn() bytes read: 253, 64, 241
+loop(): Total Lbs=   1.5912
+
+HX711::read(): shiftIn() bytes read: 253, 63, 56
+loop(): Total Lbs=   1.6353
+
+HX711::read(): shiftIn() bytes read: 253, 61, 141
+loop(): Total Lbs=   1.6780
+
+HX711::read(): shiftIn() bytes read: 253, 60, 0
+loop(): Total Lbs=   1.7177
+
+HX711::read(): shiftIn() bytes read: 253, 59, 105
+loop(): Total Lbs=   1.7328
+
+HX711::read(): shiftIn() bytes read: 253, 58, 219
+loop(): Total Lbs=   1.7470
+
+HX711::read(): shiftIn() bytes read: 253, 57, 30
+loop(): Total Lbs=   1.7915
+
+HX711::read(): shiftIn() bytes read: 253, 55, 138
+loop(): Total Lbs=   1.8319
+
+HX711::read(): shiftIn() bytes read: 253, 55, 144
+loop(): Total Lbs=   1.8313
+
+HX711::read(): shiftIn() bytes read: 253, 54, 21
+loop(): Total Lbs=   1.8692
+
+HX711::read(): shiftIn() bytes read: 253, 52, 91
+loop(): Total Lbs=   1.9134
+
+HX711::read(): shiftIn() bytes read: 253, 51, 55
+loop(): Total Lbs=   1.9426
+
+HX711::read(): shiftIn() bytes read: 253, 50, 185
+loop(): Total Lbs=   1.9552
+
+HX711::read(): shiftIn() bytes read: 253, 49, 121
+loop(): Total Lbs=   1.9872
+
+HX711::read(): shiftIn() bytes read: 253, 48, 87
+loop(): Total Lbs=   2.0162
+
+HX711::read(): shiftIn() bytes read: 253, 47, 189
+loop(): Total Lbs=   2.0316
+
+HX711::read(): shiftIn() bytes read: 253, 47, 31
+loop(): Total Lbs=   2.0474
+
+HX711::read(): shiftIn() bytes read: 253, 45, 219
+loop(): Total Lbs=   2.0798
+
+HX711::read(): shiftIn() bytes read: 253, 45, 55
+loop(): Total Lbs=   2.0962
+
+HX711::read(): shiftIn() bytes read: 253, 43, 171
+loop(): Total Lbs=   2.1358
+
+HX711::read(): shiftIn() bytes read: 253, 42, 242
+loop(): Total Lbs=   2.1543
+
+HX711::read(): shiftIn() bytes read: 253, 40, 224
+loop(): Total Lbs=   2.2073
+
+HX711::read(): shiftIn() bytes read: 253, 39, 78
+loop(): Total Lbs=   2.2475
+
+HX711::read(): shiftIn() bytes read: 253, 38, 111
+loop(): Total Lbs=   2.2698
+
+HX711::read(): shiftIn() bytes read: 253, 38, 8
+loop(): Total Lbs=   2.2801
+
+HX711::read(): shiftIn() bytes read: 253, 36, 237
+loop(): Total Lbs=   2.3084
+
+HX711::read(): shiftIn() bytes read: 253, 35, 2
+loop(): Total Lbs=   2.3575
+
+HX711::read(): shiftIn() bytes read: 253, 34, 166
+loop(): Total Lbs=   2.3667
+
+HX711::read(): shiftIn() bytes read: 253, 34, 102
+loop(): Total Lbs=   2.3731
+
+HX711::read(): shiftIn() bytes read: 253, 34, 105
+loop(): Total Lbs=   2.3728
+
+HX711::read(): shiftIn() bytes read: 253, 34, 6
+loop(): Total Lbs=   2.3827
+
+HX711::read(): shiftIn() bytes read: 253, 32, 122
+loop(): Total Lbs=   2.4223
+
+HX711::read(): shiftIn() bytes read: 253, 30, 221
+loop(): Total Lbs=   2.4636
+
+HX711::read(): shiftIn() bytes read: 253, 30, 103
+loop(): Total Lbs=   2.4754
+
+HX711::read(): shiftIn() bytes read: 253, 30, 15
+loop(): Total Lbs=   2.4842
+
+HX711::read(): shiftIn() bytes read: 253, 29, 149
+loop(): Total Lbs=   2.4964
+
+HX711::read(): shiftIn() bytes read: 253, 28, 255
+loop(): Total Lbs=   2.5114
+
+HX711::read(): shiftIn() bytes read: 253, 28, 174
+loop(): Total Lbs=   2.5195
+
+HX711::read(): shiftIn() bytes read: 253, 28, 117
+loop(): Total Lbs=   2.5252
+
+HX711::read(): shiftIn() bytes read: 253, 26, 183
+loop(): Total Lbs=   2.5698
+
+HX711::read(): shiftIn() bytes read: 253, 26, 58
+loop(): Total Lbs=   2.5823
+
+HX711::read(): shiftIn() bytes read: 253, 27, 98
+loop(): Total Lbs=   2.5527
+
+HX711::read(): shiftIn() bytes read: 253, 26, 18
+loop(): Total Lbs=   2.5863
+
+HX711::read(): shiftIn() bytes read: 253, 24, 240
+loop(): Total Lbs=   2.6153
+
+HX711::read(): shiftIn() bytes read: 253, 25, 126
+loop(): Total Lbs=   2.6011
+
+HX711::read(): shiftIn() bytes read: 253, 24, 254
+loop(): Total Lbs=   2.6139
+
+HX711::read(): shiftIn() bytes read: 253, 24, 14
+loop(): Total Lbs=   2.6379
+
+HX711::read(): shiftIn() bytes read: 253, 23, 249
+loop(): Total Lbs=   2.6400
+
+HX711::read(): shiftIn() bytes read: 253, 22, 105
+loop(): Total Lbs=   2.6800
+
+HX711::read(): shiftIn() bytes read: 253, 22, 179
+loop(): Total Lbs=   2.6726
+
+HX711::read(): shiftIn() bytes read: 253, 22, 174
+loop(): Total Lbs=   2.6731
+
+HX711::read(): shiftIn() bytes read: 253, 21, 10
+loop(): Total Lbs=   2.7151
+
+HX711::read(): shiftIn() bytes read: 253, 20, 188
+loop(): Total Lbs=   2.7229
+
+HX711::read(): shiftIn() bytes read: 253, 20, 25
+loop(): Total Lbs=   2.7392
+
+HX711::read(): shiftIn() bytes read: 253, 19, 37
+loop(): Total Lbs=   2.7636
+
+HX711::read(): shiftIn() bytes read: 253, 19, 91
+loop(): Total Lbs=   2.7582
+
+HX711::read(): shiftIn() bytes read: 253, 18, 183
+loop(): Total Lbs=   2.7746
+
+HX711::read(): shiftIn() bytes read: 253, 18, 177
+loop(): Total Lbs=   2.7752
+
+HX711::read(): shiftIn() bytes read: 253, 17, 216
+loop(): Total Lbs=   2.7969
+
+HX711::read(): shiftIn() bytes read: 253, 17, 27
+loop(): Total Lbs=   2.8158
+
+HX711::read(): shiftIn() bytes read: 253, 15, 222
+loop(): Total Lbs=   2.8475
+
+HX711::read(): shiftIn() bytes read: 253, 16, 45
+loop(): Total Lbs=   2.8396
+
+HX711::read(): shiftIn() bytes read: 253, 15, 238
+loop(): Total Lbs=   2.8459
+
+HX711::read(): shiftIn() bytes read: 253, 15, 145
+loop(): Total Lbs=   2.8552
+
+HX711::read(): shiftIn() bytes read: 253, 15, 93
+loop(): Total Lbs=   2.8604
+
+HX711::read(): shiftIn() bytes read: 253, 14, 146
+loop(): Total Lbs=   2.8807
+
+HX711::read(): shiftIn() bytes read: 253, 14, 2
+loop(): Total Lbs=   2.8951
+
+HX711::read(): shiftIn() bytes read: 253, 13, 220
+loop(): Total Lbs=   2.8989
+
+HX711::read(): shiftIn() bytes read: 253, 12, 152
+loop(): Total Lbs=   2.9313
+
+HX711::read(): shiftIn() bytes read: 253, 12, 45
+loop(): Total Lbs=   2.9420
+
+HX711::read(): shiftIn() bytes read: 253, 12, 196
+loop(): Total Lbs=   2.9269
+
+HX711::read(): shiftIn() bytes read: 253, 10, 105
+loop(): Total Lbs=   2.9872
+
+HX711::read(): shiftIn() bytes read: 253, 10, 121
+loop(): Total Lbs=   2.9856
+
+HX711::read(): shiftIn() bytes read: 253, 9, 206
+loop(): Total Lbs=   3.0027
+
+HX711::read(): shiftIn() bytes read: 253, 9, 123
+loop(): Total Lbs=   3.0110
+
+HX711::read(): shiftIn() bytes read: 253, 9, 104
+loop(): Total Lbs=   3.0129
+
+HX711::read(): shiftIn() bytes read: 253, 9, 33
+loop(): Total Lbs=   3.0200
+
+HX711::read(): shiftIn() bytes read: 253, 8, 117
+loop(): Total Lbs=   3.0372
+
+HX711::read(): shiftIn() bytes read: 253, 9, 24
+loop(): Total Lbs=   3.0209
+
+HX711::read(): shiftIn() bytes read: 253, 8, 140
+loop(): Total Lbs=   3.0349
+
+HX711::read(): shiftIn() bytes read: 253, 8, 177
+loop(): Total Lbs=   3.0312
+
+HX711::read(): shiftIn() bytes read: 253, 7, 224
+loop(): Total Lbs=   3.0521
+
+HX711::read(): shiftIn() bytes read: 253, 7, 41
+loop(): Total Lbs=   3.0704
+
+HX711::read(): shiftIn() bytes read: 253, 7, 22
+loop(): Total Lbs=   3.0723
+
+HX711::read(): shiftIn() bytes read: 253, 6, 227
+loop(): Total Lbs=   3.0774
+
+HX711::read(): shiftIn() bytes read: 253, 6, 22
+loop(): Total Lbs=   3.0979
+
+HX711::read(): shiftIn() bytes read: 253, 6, 56
+loop(): Total Lbs=   3.0945
+
+HX711::read(): shiftIn() bytes read: 253, 6, 25
+loop(): Total Lbs=   3.0976
+
+HX711::read(): shiftIn() bytes read: 253, 5, 218
+loop(): Total Lbs=   3.1039
+
+HX711::read(): shiftIn() bytes read: 253, 5, 28
+loop(): Total Lbs=   3.1229
+
+HX711::read(): shiftIn() bytes read: 253, 4, 170
+loop(): Total Lbs=   3.1343
+
+HX711::read(): shiftIn() bytes read: 253, 4, 84
+loop(): Total Lbs=   3.1429
+
+HX711::read(): shiftIn() bytes read: 253, 4, 25
+loop(): Total Lbs=   3.1488
+
+HX711::read(): shiftIn() bytes read: 253, 3, 229
+loop(): Total Lbs=   3.1540
+
+HX711::read(): shiftIn() bytes read: 253, 3, 68
+loop(): Total Lbs=   3.1701
+
+HX711::read(): shiftIn() bytes read: 253, 2, 228
+loop(): Total Lbs=   3.1797
+
+HX711::read(): shiftIn() bytes read: 253, 3, 64
+loop(): Total Lbs=   3.1705
+
+HX711::read(): shiftIn() bytes read: 253, 2, 122
+loop(): Total Lbs=   3.1903
+
+HX711::read(): shiftIn() bytes read: 253, 2, 153
+loop(): Total Lbs=   3.1872
+
+HX711::read(): shiftIn() bytes read: 253, 2, 66
+loop(): Total Lbs=   3.1959
+
+HX711::read(): shiftIn() bytes read: 253, 1, 217
+loop(): Total Lbs=   3.2064
+
+HX711::read(): shiftIn() bytes read: 253, 1, 185
+loop(): Total Lbs=   3.2096
+
+HX711::read(): shiftIn() bytes read: 253, 1, 124
+loop(): Total Lbs=   3.2157
+
+HX711::read(): shiftIn() bytes read: 253, 1, 95
+loop(): Total Lbs=   3.2186
+
+HX711::read(): shiftIn() bytes read: 253, 1, 82
+loop(): Total Lbs=   3.2199
+
+HX711::read(): shiftIn() bytes read: 253, 0, 145
+loop(): Total Lbs=   3.2392
+
+HX711::read(): shiftIn() bytes read: 253, 0, 223
+loop(): Total Lbs=   3.2314
+
+HX711::read(): shiftIn() bytes read: 253, 0, 115
+loop(): Total Lbs=   3.2422
+
+HX711::read(): shiftIn() bytes read: 253, 0, 163
+loop(): Total Lbs=   3.2374
+
+HX711::read(): shiftIn() bytes read: 253, 0, 202
+loop(): Total Lbs=   3.2335
+
+HX711::read(): shiftIn() bytes read: 253, 0, 86
+loop(): Total Lbs=   3.2451
+
+HX711::read(): shiftIn() bytes read: 252, 255, 39
+loop(): Total Lbs=   3.2754
+
+HX711::read(): shiftIn() bytes read: 252, 254, 216
+loop(): Total Lbs=   3.2833
+
+HX711::read(): shiftIn() bytes read: 252, 254, 58
+loop(): Total Lbs=   3.2991
+
+HX711::read(): shiftIn() bytes read: 252, 254, 193
+loop(): Total Lbs=   3.2856
+
+HX711::read(): shiftIn() bytes read: 252, 254, 208
+loop(): Total Lbs=   3.2841
+
+HX711::read(): shiftIn() bytes read: 252, 254, 117
+loop(): Total Lbs=   3.2932
+
+HX711::read(): shiftIn() bytes read: 252, 254, 155
+loop(): Total Lbs=   3.2894
+
+HX711::read(): shiftIn() bytes read: 252, 254, 122
+loop(): Total Lbs=   3.2927
+
+HX711::read(): shiftIn() bytes read: 252, 254, 38
+loop(): Total Lbs=   3.3011
+
+HX711::read(): shiftIn() bytes read: 252, 254, 43
+loop(): Total Lbs=   3.3006
+
+HX711::read(): shiftIn() bytes read: 252, 254, 34
+loop(): Total Lbs=   3.3015
+
+HX711::read(): shiftIn() bytes read: 252, 253, 149
+loop(): Total Lbs=   3.3156
+
+HX711::read(): shiftIn() bytes read: 252, 253, 121
+loop(): Total Lbs=   3.3184
+
+HX711::read(): shiftIn() bytes read: 252, 253, 253
+loop(): Total Lbs=   3.3052
+
+HX711::read(): shiftIn() bytes read: 252, 253, 85
+loop(): Total Lbs=   3.3220
+
+HX711::read(): shiftIn() bytes read: 252, 253, 137
+loop(): Total Lbs=   3.3168
+
+HX711::read(): shiftIn() bytes read: 252, 252, 232
+loop(): Total Lbs=   3.3329
+
+HX711::read(): shiftIn() bytes read: 252, 252, 244
+loop(): Total Lbs=   3.3317
+
+HX711::read(): shiftIn() bytes read: 252, 252, 221
+loop(): Total Lbs=   3.3340
+
+HX711::read(): shiftIn() bytes read: 252, 252, 133
+loop(): Total Lbs=   3.3428
+
+HX711::read(): shiftIn() bytes read: 252, 252, 61
+loop(): Total Lbs=   3.3500
+
+HX711::read(): shiftIn() bytes read: 252, 251, 236
+loop(): Total Lbs=   3.3581
+
+HX711::read(): shiftIn() bytes read: 252, 251, 190
+loop(): Total Lbs=   3.3627
+
+HX711::read(): shiftIn() bytes read: 252, 251, 173
+loop(): Total Lbs=   3.3644
+
+HX711::read(): shiftIn() bytes read: 252, 251, 27
+loop(): Total Lbs=   3.3790
+
+HX711::read(): shiftIn() bytes read: 252, 250, 154
+loop(): Total Lbs=   3.3919
+
+HX711::read(): shiftIn() bytes read: 252, 250, 99
+loop(): Total Lbs=   3.3974
+
+HX711::read(): shiftIn() bytes read: 252, 250, 85
+loop(): Total Lbs=   3.3988
+
+HX711::read(): shiftIn() bytes read: 252, 249, 191
+loop(): Total Lbs=   3.4138
+
+HX711::read(): shiftIn() bytes read: 252, 249, 211
+loop(): Total Lbs=   3.4118
+
+HX711::read(): shiftIn() bytes read: 252, 249, 253
+loop(): Total Lbs=   3.4076
+
+HX711::read(): shiftIn() bytes read: 252, 249, 112
+loop(): Total Lbs=   3.4217
+
+HX711::read(): shiftIn() bytes read: 252, 249, 14
+loop(): Total Lbs=   3.4315
+
+HX711::read(): shiftIn() bytes read: 252, 248, 159
+loop(): Total Lbs=   3.4426
+
+HX711::read(): shiftIn() bytes read: 252, 248, 207
+loop(): Total Lbs=   3.4378
+
+HX711::read(): shiftIn() bytes read: 252, 248, 254
+loop(): Total Lbs=   3.4331
+
+HX711::read(): shiftIn() bytes read: 252, 248, 149
+loop(): Total Lbs=   3.4436
+
+HX711::read(): shiftIn() bytes read: 252, 248, 107
+loop(): Total Lbs=   3.4478
+
+HX711::read(): shiftIn() bytes read: 252, 248, 111
+loop(): Total Lbs=   3.4474
+
+HX711::read(): shiftIn() bytes read: 252, 248, 56
+loop(): Total Lbs=   3.4529
+
+HX711::read(): shiftIn() bytes read: 252, 247, 189
+loop(): Total Lbs=   3.4652
+
+HX711::read(): shiftIn() bytes read: 252, 247, 175
+loop(): Total Lbs=   3.4666
+
+HX711::read(): shiftIn() bytes read: 252, 247, 211
+loop(): Total Lbs=   3.4630
+
+HX711::read(): shiftIn() bytes read: 252, 247, 196
+loop(): Total Lbs=   3.4645
+
+HX711::read(): shiftIn() bytes read: 252, 247, 59
+loop(): Total Lbs=   3.4782
+
+HX711::read(): shiftIn() bytes read: 252, 246, 252
+loop(): Total Lbs=   3.4845
+
+HX711::read(): shiftIn() bytes read: 252, 246, 180
+loop(): Total Lbs=   3.4917
+
+HX711::read(): shiftIn() bytes read: 252, 246, 117
+loop(): Total Lbs=   3.4980
+
+HX711::read(): shiftIn() bytes read: 252, 246, 151
+loop(): Total Lbs=   3.4946
+
+HX711::read(): shiftIn() bytes read: 252, 246, 62
+loop(): Total Lbs=   3.5035
+
+HX711::read(): shiftIn() bytes read: 252, 245, 161
+loop(): Total Lbs=   3.5192
+
+HX711::read(): shiftIn() bytes read: 252, 245, 213
+loop(): Total Lbs=   3.5140
+
+HX711::read(): shiftIn() bytes read: 252, 244, 232
+loop(): Total Lbs=   3.5377
+
+HX711::read(): shiftIn() bytes read: 252, 245, 4
+loop(): Total Lbs=   3.5349
+
+HX711::read(): shiftIn() bytes read: 252, 245, 146
+loop(): Total Lbs=   3.5207
+
+HX711::read(): shiftIn() bytes read: 252, 247, 34
+loop(): Total Lbs=   3.4807
+
+HX711::read(): shiftIn() bytes read: 252, 246, 245
+loop(): Total Lbs=   3.4852
+
+HX711::read(): shiftIn() bytes read: 252, 248, 202
+loop(): Total Lbs=   3.4383
+
+HX711::read(): shiftIn() bytes read: 252, 247, 42
+loop(): Total Lbs=   3.4799
+
+HX711::read(): shiftIn() bytes read: 252, 245, 84
+loop(): Total Lbs=   3.5269
+
+HX711::read(): shiftIn() bytes read: 252, 244, 1
+loop(): Total Lbs=   3.5608
+
+HX711::read(): shiftIn() bytes read: 252, 244, 184
+loop(): Total Lbs=   3.5425
+
+HX711::read(): shiftIn() bytes read: 252, 243, 168
+loop(): Total Lbs=   3.5697
+
+HX711::read(): shiftIn() bytes read: 252, 243, 138
+loop(): Total Lbs=   3.5727
+
+HX711::read(): shiftIn() bytes read: 252, 243, 67
+loop(): Total Lbs=   3.5798
+
+HX711::read(): shiftIn() bytes read: 252, 243, 157
+loop(): Total Lbs=   3.5708
+
+HX711::read(): shiftIn() bytes read: 252, 242, 202
+loop(): Total Lbs=   3.5919
+
+HX711::read(): shiftIn() bytes read: 252, 243, 14
+loop(): Total Lbs=   3.5851
+
+HX711::read(): shiftIn() bytes read: 252, 242, 109
+loop(): Total Lbs=   3.6012
+
+HX711::read(): shiftIn() bytes read: 252, 242, 102
+loop(): Total Lbs=   3.6019
+
+HX711::read(): shiftIn() bytes read: 252, 242, 32
+loop(): Total Lbs=   3.6089
+
+HX711::read(): shiftIn() bytes read: 252, 245, 88
+loop(): Total Lbs=   3.5265
+
+HX711::read(): shiftIn() bytes read: 253, 6, 152
+loop(): Total Lbs=   3.0849
+
+HX711::read(): shiftIn() bytes read: 253, 12, 107
+loop(): Total Lbs=   2.9358
+
+HX711::read(): shiftIn() bytes read: 252, 250, 81
+loop(): Total Lbs=   3.3992
+
+HX711::read(): shiftIn() bytes read: 252, 251, 218
+loop(): Total Lbs=   3.3599
+
+HX711::read(): shiftIn() bytes read: 252, 250, 194
+loop(): Total Lbs=   3.3879
+
+HX711::read(): shiftIn() bytes read: 252, 250, 109
+loop(): Total Lbs=   3.3964
+
+HX711::read(): shiftIn() bytes read: 252, 248, 111
+loop(): Total Lbs=   3.4474
+
+HX711::read(): shiftIn() bytes read: 252, 247, 127
+loop(): Total Lbs=   3.4714
+
+HX711::read(): shiftIn() bytes read: 252, 246, 227
+loop(): Total Lbs=   3.4870
+
+HX711::read(): shiftIn() bytes read: 252, 245, 164
+loop(): Total Lbs=   3.5189
+
+HX711::read(): shiftIn() bytes read: 252, 244, 217
+loop(): Total Lbs=   3.5392
+
+HX711::read(): shiftIn() bytes read: 252, 246, 146
+loop(): Total Lbs=   3.4951
+
+HX711::read(): shiftIn() bytes read: 252, 244, 55
+loop(): Total Lbs=   3.5554
+
+HX711::read(): shiftIn() bytes read: 252, 243, 143
+loop(): Total Lbs=   3.5722
+
+HX711::read(): shiftIn() bytes read: 252, 243, 150
+loop(): Total Lbs=   3.5715
+
+HX711::read(): shiftIn() bytes read: 252, 243, 192
+loop(): Total Lbs=   3.5673
+
+HX711::read(): shiftIn() bytes read: 252, 242, 156
+loop(): Total Lbs=   3.5965
+
+HX711::read(): shiftIn() bytes read: 252, 241, 239
+loop(): Total Lbs=   3.6138
+
+HX711::read(): shiftIn() bytes read: 252, 240, 214
+loop(): Total Lbs=   3.6419
+
+HX711::read(): shiftIn() bytes read: 252, 241, 56
+loop(): Total Lbs=   3.6321
+
+HX711::read(): shiftIn() bytes read: 252, 241, 29
+loop(): Total Lbs=   3.6348
+
+HX711::read(): shiftIn() bytes read: 252, 241, 166
+loop(): Total Lbs=   3.6211
+
+HX711::read(): shiftIn() bytes read: 252, 239, 220
+loop(): Total Lbs=   3.6669
+
+HX711::read(): shiftIn() bytes read: 252, 240, 133
+loop(): Total Lbs=   3.6500
+
+HX711::read(): shiftIn() bytes read: 252, 239, 233
+loop(): Total Lbs=   3.6656
+
+HX711::read(): shiftIn() bytes read: 252, 239, 225
+loop(): Total Lbs=   3.6664
+
+HX711::read(): shiftIn() bytes read: 252, 239, 193
+loop(): Total Lbs=   3.6696
+
+HX711::read(): shiftIn() bytes read: 252, 239, 85
+loop(): Total Lbs=   3.6804
+
+HX711::read(): shiftIn() bytes read: 252, 238, 208
+loop(): Total Lbs=   3.6937
+
+HX711::read(): shiftIn() bytes read: 252, 238, 230
+loop(): Total Lbs=   3.6915
+
+HX711::read(): shiftIn() bytes read: 252, 238, 161
+loop(): Total Lbs=   3.6984
+
+HX711::read(): shiftIn() bytes read: 252, 238, 156
+loop(): Total Lbs=   3.6989
+
+HX711::read(): shiftIn() bytes read: 252, 238, 167
+loop(): Total Lbs=   3.6978
+
+HX711::read(): shiftIn() bytes read: 252, 238, 181
+loop(): Total Lbs=   3.6964
+
+HX711::read(): shiftIn() bytes read: 252, 238, 69
+loop(): Total Lbs=   3.7076
+
+HX711::read(): shiftIn() bytes read: 252, 238, 124
+loop(): Total Lbs=   3.7021
+
+HX711::read(): shiftIn() bytes read: 252, 237, 253
+loop(): Total Lbs=   3.7148
+
+HX711::read(): shiftIn() bytes read: 252, 237, 193
+loop(): Total Lbs=   3.7208
+
+HX711::read(): shiftIn() bytes read: 252, 237, 136
+loop(): Total Lbs=   3.7265
+
+HX711::read(): shiftIn() bytes read: 252, 236, 81
+loop(): Total Lbs=   3.7576
+
+HX711::read(): shiftIn() bytes read: 252, 236, 160
+loop(): Total Lbs=   3.7497
+
+HX711::read(): shiftIn() bytes read: 252, 236, 145
+loop(): Total Lbs=   3.7512
+
+HX711::read(): shiftIn() bytes read: 252, 235, 251
+loop(): Total Lbs=   3.7662
+
+HX711::read(): shiftIn() bytes read: 252, 236, 81
+loop(): Total Lbs=   3.7576
+
+HX711::read(): shiftIn() bytes read: 252, 236, 54
+loop(): Total Lbs=   3.7603
+
+HX711::read(): shiftIn() bytes read: 252, 235, 165
+loop(): Total Lbs=   3.7748
+
+HX711::read(): shiftIn() bytes read: 252, 235, 213
+loop(): Total Lbs=   3.7700
+
+HX711::read(): shiftIn() bytes read: 252, 234, 183
+loop(): Total Lbs=   3.7986
+
+HX711::read(): shiftIn() bytes read: 252, 234, 222
+loop(): Total Lbs=   3.7947
+
+HX711::read(): shiftIn() bytes read: 252, 235, 117
+loop(): Total Lbs=   3.7796
+
+HX711::read(): shiftIn() bytes read: 252, 235, 46
+loop(): Total Lbs=   3.7867
+
+HX711::read(): shiftIn() bytes read: 252, 234, 96
+loop(): Total Lbs=   3.8073
+
+HX711::read(): shiftIn() bytes read: 252, 233, 219
+loop(): Total Lbs=   3.8206
+
+HX711::read(): shiftIn() bytes read: 252, 234, 4
+loop(): Total Lbs=   3.8165
+
+HX711::read(): shiftIn() bytes read: 252, 233, 148
+loop(): Total Lbs=   3.8277
+
+HX711::read(): shiftIn() bytes read: 252, 232, 237
+loop(): Total Lbs=   3.8444
+
+HX711::read(): shiftIn() bytes read: 252, 231, 211
+loop(): Total Lbs=   3.8726
+
+HX711::read(): shiftIn() bytes read: 252, 233, 207
+loop(): Total Lbs=   3.8218
+
+HX711::read(): shiftIn() bytes read: 252, 233, 141
+loop(): Total Lbs=   3.8284
+
+HX711::read(): shiftIn() bytes read: 252, 233, 22
+loop(): Total Lbs=   3.8403
+
+HX711::read(): shiftIn() bytes read: 252, 233, 2
+loop(): Total Lbs=   3.8423
+
+HX711::read(): shiftIn() bytes read: 252, 231, 251
+loop(): Total Lbs=   3.8686
+
+HX711::read(): shiftIn() bytes read: 252, 231, 206
+loop(): Total Lbs=   3.8731
+
+HX711::read(): shiftIn() bytes read: 252, 231, 245
+loop(): Total Lbs=   3.8692
+
+HX711::read(): shiftIn() bytes read: 252, 231, 167
+loop(): Total Lbs=   3.8770
+
+HX711::read(): shiftIn() bytes read: 252, 232, 251
+loop(): Total Lbs=   3.8430
+
+HX711::read(): shiftIn() bytes read: 252, 232, 145
+loop(): Total Lbs=   3.8536
+
+HX711::read(): shiftIn() bytes read: 252, 232, 44
+loop(): Total Lbs=   3.8637
+
+HX711::read(): shiftIn() bytes read: 252, 232, 134
+loop(): Total Lbs=   3.8547
+
+HX711::read(): shiftIn() bytes read: 252, 232, 55
+loop(): Total Lbs=   3.8626
+
+HX711::read(): shiftIn() bytes read: 252, 232, 154
+loop(): Total Lbs=   3.8527
+
+HX711::read(): shiftIn() bytes read: 252, 232, 45
+loop(): Total Lbs=   3.8636
+
+HX711::read(): shiftIn() bytes read: 252, 233, 6
+loop(): Total Lbs=   3.8419
+
+HX711::read(): shiftIn() bytes read: 252, 232, 79
+loop(): Total Lbs=   3.8602
+
+HX711::read(): shiftIn() bytes read: 252, 231, 189
+loop(): Total Lbs=   3.8748
+
+HX711::read(): shiftIn() bytes read: 252, 231, 49
+loop(): Total Lbs=   3.8888
+
+HX711::read(): shiftIn() bytes read: 252, 231, 25
+loop(): Total Lbs=   3.8912
+
+HX711::read(): shiftIn() bytes read: 252, 231, 16
+loop(): Total Lbs=   3.8921
+
+HX711::read(): shiftIn() bytes read: 252, 230, 195
+loop(): Total Lbs=   3.8998
+
+HX711::read(): shiftIn() bytes read: 252, 231, 91
+loop(): Total Lbs=   3.8846
+
+HX711::read(): shiftIn() bytes read: 252, 231, 92
+loop(): Total Lbs=   3.8845
+
+HX711::read(): shiftIn() bytes read: 252, 231, 114
+loop(): Total Lbs=   3.8823
+
+HX711::read(): shiftIn() bytes read: 252, 230, 253
+loop(): Total Lbs=   3.8940
+
+HX711::read(): shiftIn() bytes read: 252, 230, 155
+loop(): Total Lbs=   3.9038
+
+HX711::read(): shiftIn() bytes read: 252, 231, 13
+loop(): Total Lbs=   3.8924
+
+HX711::read(): shiftIn() bytes read: 252, 230, 127
+loop(): Total Lbs=   3.9066
+
+HX711::read(): shiftIn() bytes read: 252, 230, 188
+loop(): Total Lbs=   3.9005
+
+HX711::read(): shiftIn() bytes read: 252, 230, 42
+loop(): Total Lbs=   3.9151
+
+HX711::read(): shiftIn() bytes read: 252, 229, 253
+loop(): Total Lbs=   3.9196
+
+HX711::read(): shiftIn() bytes read: 252, 229, 217
+loop(): Total Lbs=   3.9232
+
+HX711::read(): shiftIn() bytes read: 252, 229, 243
+loop(): Total Lbs=   3.9206
+
+HX711::read(): shiftIn() bytes read: 252, 229, 34
+loop(): Total Lbs=   3.9415
+
+HX711::read(): shiftIn() bytes read: 252, 228, 206
+loop(): Total Lbs=   3.9499
+
+HX711::read(): shiftIn() bytes read: 252, 228, 214
+loop(): Total Lbs=   3.9491
+
+HX711::read(): shiftIn() bytes read: 252, 229, 83
+loop(): Total Lbs=   3.9366
+
+HX711::read(): shiftIn() bytes read: 252, 228, 91
+loop(): Total Lbs=   3.9614
+
+HX711::read(): shiftIn() bytes read: 252, 228, 46
+loop(): Total Lbs=   3.9659
+
+HX711::read(): shiftIn() bytes read: 252, 227, 252
+loop(): Total Lbs=   3.9709
+
+HX711::read(): shiftIn() bytes read: 252, 227, 191
+loop(): Total Lbs=   3.9770
+
+HX711::read(): shiftIn() bytes read: 252, 228, 25
+loop(): Total Lbs=   3.9680
+
+HX711::read(): shiftIn() bytes read: 252, 227, 223
+loop(): Total Lbs=   3.9738
+
+HX711::read(): shiftIn() bytes read: 252, 228, 38
+loop(): Total Lbs=   3.9667
+
+HX711::read(): shiftIn() bytes read: 252, 229, 60
+loop(): Total Lbs=   3.9389
+
+HX711::read(): shiftIn() bytes read: 252, 228, 150
+loop(): Total Lbs=   3.9555
+
+HX711::read(): shiftIn() bytes read: 252, 227, 145
+loop(): Total Lbs=   3.9816
+
+HX711::read(): shiftIn() bytes read: 252, 227, 172
+loop(): Total Lbs=   3.9789
+
+HX711::read(): shiftIn() bytes read: 252, 227, 236
+loop(): Total Lbs=   3.9725
+
+HX711::read(): shiftIn() bytes read: 252, 226, 243
+loop(): Total Lbs=   3.9974
+
+HX711::read(): shiftIn() bytes read: 252, 227, 116
+loop(): Total Lbs=   3.9845
+
+HX711::read(): shiftIn() bytes read: 252, 227, 245
+loop(): Total Lbs=   3.9716
+
+HX711::read(): shiftIn() bytes read: 252, 227, 164
+loop(): Total Lbs=   3.9797
+
+HX711::read(): shiftIn() bytes read: 252, 227, 34
+loop(): Total Lbs=   3.9927
+
+HX711::read(): shiftIn() bytes read: 252, 227, 146
+loop(): Total Lbs=   3.9815
+
+HX711::read(): shiftIn() bytes read: 252, 227, 99
+loop(): Total Lbs=   3.9862
+
+HX711::read(): shiftIn() bytes read: 252, 226, 151
+loop(): Total Lbs=   4.0066
+
+HX711::read(): shiftIn() bytes read: 252, 227, 61
+loop(): Total Lbs=   3.9900
+
+HX711::read(): shiftIn() bytes read: 252, 226, 153
+loop(): Total Lbs=   4.0064
+
+HX711::read(): shiftIn() bytes read: 252, 227, 141
+loop(): Total Lbs=   3.9820
+
+HX711::read(): shiftIn() bytes read: 252, 228, 17
+loop(): Total Lbs=   3.9688
+
+HX711::read(): shiftIn() bytes read: 252, 227, 8
+loop(): Total Lbs=   3.9953
+
+HX711::read(): shiftIn() bytes read: 252, 227, 89
+loop(): Total Lbs=   3.9872
+
+HX711::read(): shiftIn() bytes read: 252, 226, 245
+loop(): Total Lbs=   3.9972
+
+HX711::read(): shiftIn() bytes read: 252, 226, 245
+loop(): Total Lbs=   3.9972
+
+HX711::read(): shiftIn() bytes read: 252, 227, 99
+loop(): Total Lbs=   3.9862
+
+HX711::read(): shiftIn() bytes read: 252, 227, 123
+loop(): Total Lbs=   3.9838
+
+HX711::read(): shiftIn() bytes read: 252, 226, 240
+loop(): Total Lbs=   3.9977
+
+HX711::read(): shiftIn() bytes read: 252, 226, 244
+loop(): Total Lbs=   3.9973
+
+HX711::read(): shiftIn() bytes read: 252, 227, 170
+loop(): Total Lbs=   3.9791
+
+HX711::read(): shiftIn() bytes read: 252, 226, 165
+loop(): Total Lbs=   4.0052
+
+HX711::read(): shiftIn() bytes read: 252, 227, 67
+loop(): Total Lbs=   3.9894
+
+HX711::read(): shiftIn() bytes read: 252, 226, 214
+loop(): Total Lbs=   4.0003
+
+HX711::read(): shiftIn() bytes read: 252, 226, 220
+loop(): Total Lbs=   3.9997
+
+HX711::read(): shiftIn() bytes read: 252, 227, 9
+loop(): Total Lbs=   3.9952
+
+HX711::read(): shiftIn() bytes read: 252, 226, 189
+loop(): Total Lbs=   4.0028
+
+HX711::read(): shiftIn() bytes read: 252, 227, 137
+loop(): Total Lbs=   3.9824
+
+HX711::read(): shiftIn() bytes read: 252, 227, 92
+loop(): Total Lbs=   3.9869
+
+HX711::read(): shiftIn() bytes read: 252, 227, 82
+loop(): Total Lbs=   3.9879
+
+HX711::read(): shiftIn() bytes read: 252, 226, 102
+loop(): Total Lbs=   4.0115
+
+HX711::read(): shiftIn() bytes read: 252, 227, 193
+loop(): Total Lbs=   3.9768
+
+HX711::read(): shiftIn() bytes read: 252, 226, 194
+loop(): Total Lbs=   4.0023
+
+HX711::read(): shiftIn() bytes read: 252, 226, 174
+loop(): Total Lbs=   4.0043
+
+HX711::read(): shiftIn() bytes read: 252, 227, 173
+loop(): Total Lbs=   3.9788
+
+HX711::read(): shiftIn() bytes read: 252, 226, 219
+loop(): Total Lbs=   3.9998
+
+HX711::read(): shiftIn() bytes read: 252, 226, 2
+loop(): Total Lbs=   4.0215
+
+HX711::read(): shiftIn() bytes read: 252, 227, 29
+loop(): Total Lbs=   3.9932
+
+HX711::read(): shiftIn() bytes read: 252, 226, 123
+loop(): Total Lbs=   4.0094
+
+HX711::read(): shiftIn() bytes read: 252, 227, 125
+loop(): Total Lbs=   3.9836
+
+HX711::read(): shiftIn() bytes read: 252, 226, 179
+loop(): Total Lbs=   4.0038
+
+HX711::read(): shiftIn() bytes read: 252, 226, 66
+loop(): Total Lbs=   4.0151
+
+HX711::read(): shiftIn() bytes read: 252, 226, 6
+loop(): Total Lbs=   4.0211
+
+HX711::read(): shiftIn() bytes read: 252, 225, 182
+loop(): Total Lbs=   4.0291
+
+HX711::read(): shiftIn() bytes read: 252, 226, 248
+loop(): Total Lbs=   3.9969
+
+HX711::read(): shiftIn() bytes read: 252, 226, 211
+loop(): Total Lbs=   4.0006
+
+HX711::read(): shiftIn() bytes read: 252, 226, 167
+loop(): Total Lbs=   4.0050
+
+HX711::read(): shiftIn() bytes read: 252, 226, 196
+loop(): Total Lbs=   4.0021
+
+HX711::read(): shiftIn() bytes read: 252, 226, 185
+loop(): Total Lbs=   4.0032
+
+HX711::read(): shiftIn() bytes read: 252, 226, 112
+loop(): Total Lbs=   4.0105
+
+HX711::read(): shiftIn() bytes read: 252, 226, 224
+loop(): Total Lbs=   3.9993
+
+HX711::read(): shiftIn() bytes read: 252, 225, 222
+loop(): Total Lbs=   4.0251
+
+HX711::read(): shiftIn() bytes read: 252, 226, 42
+loop(): Total Lbs=   4.0175
+
+HX711::read(): shiftIn() bytes read: 252, 226, 17
+loop(): Total Lbs=   4.0200
+
+HX711::read(): shiftIn() bytes read: 252, 225, 227
+loop(): Total Lbs=   4.0246
+
+HX711::read(): shiftIn() bytes read: 252, 225, 235
+loop(): Total Lbs=   4.0238
+
+HX711::read(): shiftIn() bytes read: 252, 226, 9
+loop(): Total Lbs=   4.0208
+
+HX711::read(): shiftIn() bytes read: 252, 226, 81
+loop(): Total Lbs=   4.0136
+
+HX711::read(): shiftIn() bytes read: 252, 226, 73
+loop(): Total Lbs=   4.0144
+
+HX711::read(): shiftIn() bytes read: 252, 225, 236
+loop(): Total Lbs=   4.0237
+
+HX711::read(): shiftIn() bytes read: 252, 226, 40
+loop(): Total Lbs=   4.0177
+
+HX711::read(): shiftIn() bytes read: 252, 226, 18
+loop(): Total Lbs=   4.0199
+
+HX711::read(): shiftIn() bytes read: 252, 226, 29
+loop(): Total Lbs=   4.0188
+
+HX711::read(): shiftIn() bytes read: 252, 226, 53
+loop(): Total Lbs=   4.0164
+
+HX711::read(): shiftIn() bytes read: 252, 226, 36
+loop(): Total Lbs=   4.0181
+
+HX711::read(): shiftIn() bytes read: 252, 226, 96
+loop(): Total Lbs=   4.0121
+
+HX711::read(): shiftIn() bytes read: 252, 226, 36
+loop(): Total Lbs=   4.0181
+
+HX711::read(): shiftIn() bytes read: 252, 225, 252
+loop(): Total Lbs=   4.0221
+
+HX711::read(): shiftIn() bytes read: 252, 225, 221
+loop(): Total Lbs=   4.0252
+
+HX711::read(): shiftIn() bytes read: 252, 225, 219
+loop(): Total Lbs=   4.0254
+
+HX711::read(): shiftIn() bytes read: 252, 225, 99
+loop(): Total Lbs=   4.0374
+
+HX711::read(): shiftIn() bytes read: 252, 225, 104
+loop(): Total Lbs=   4.0369
+
+HX711::read(): shiftIn() bytes read: 252, 225, 190
+loop(): Total Lbs=   4.0283
+
+HX711::read(): shiftIn() bytes read: 252, 225, 38
+loop(): Total Lbs=   4.0435
+
+HX711::read(): shiftIn() bytes read: 252, 225, 85
+loop(): Total Lbs=   4.0388
+
+HX711::read(): shiftIn() bytes read: 252, 225, 52
+loop(): Total Lbs=   4.0421
+
+HX711::read(): shiftIn() bytes read: 252, 225, 44
+loop(): Total Lbs=   4.0429
+
+HX711::read(): shiftIn() bytes read: 252, 224, 124
+loop(): Total Lbs=   4.0605
+
+HX711::read(): shiftIn() bytes read: 252, 224, 106
+loop(): Total Lbs=   4.0623
+
+HX711::read(): shiftIn() bytes read: 252, 224, 252
+loop(): Total Lbs=   4.0477
+
+HX711::read(): shiftIn() bytes read: 252, 224, 103
+loop(): Total Lbs=   4.0626
+
+HX711::read(): shiftIn() bytes read: 252, 224, 138
+loop(): Total Lbs=   4.0591
+
+HX711::read(): shiftIn() bytes read: 252, 223, 243
+loop(): Total Lbs=   4.0742
+
+HX711::read(): shiftIn() bytes read: 252, 224, 86
+loop(): Total Lbs=   4.0643
+
+HX711::read(): shiftIn() bytes read: 252, 224, 69
+loop(): Total Lbs=   4.0660
+
+HX711::read(): shiftIn() bytes read: 252, 225, 1
+loop(): Total Lbs=   4.0472
+
+HX711::read(): shiftIn() bytes read: 252, 223, 50
+loop(): Total Lbs=   4.0935
+
+HX711::read(): shiftIn() bytes read: 252, 224, 103
+loop(): Total Lbs=   4.0626
+
+HX711::read(): shiftIn() bytes read: 252, 224, 87
+loop(): Total Lbs=   4.0642
+
+HX711::read(): shiftIn() bytes read: 252, 224, 69
+loop(): Total Lbs=   4.0660
+
+HX711::read(): shiftIn() bytes read: 252, 224, 122
+loop(): Total Lbs=   4.0607
+
+HX711::read(): shiftIn() bytes read: 252, 223, 249
+loop(): Total Lbs=   4.0736
+
+HX711::read(): shiftIn() bytes read: 252, 223, 197
+loop(): Total Lbs=   4.0788
+
+HX711::read(): shiftIn() bytes read: 252, 222, 241
+loop(): Total Lbs=   4.1000
+
+HX711::read(): shiftIn() bytes read: 252, 223, 92
+loop(): Total Lbs=   4.0893
+
+HX711::read(): shiftIn() bytes read: 252, 223, 36
+loop(): Total Lbs=   4.0949
+
+HX711::read(): shiftIn() bytes read: 252, 223, 18
+loop(): Total Lbs=   4.0967
+
+HX711::read(): shiftIn() bytes read: 252, 222, 211
+loop(): Total Lbs=   4.1030
+
+HX711::read(): shiftIn() bytes read: 252, 222, 233
+loop(): Total Lbs=   4.1008
+
+HX711::read(): shiftIn() bytes read: 252, 223, 121
+loop(): Total Lbs=   4.0864
+
+HX711::read(): shiftIn() bytes read: 252, 223, 178
+loop(): Total Lbs=   4.0807
+
+HX711::read(): shiftIn() bytes read: 252, 223, 59
+loop(): Total Lbs=   4.0926
+
+HX711::read(): shiftIn() bytes read: 252, 223, 100
+loop(): Total Lbs=   4.0885
+
+HX711::read(): shiftIn() bytes read: 252, 223, 28
+loop(): Total Lbs=   4.0957
+
+HX711::read(): shiftIn() bytes read: 252, 223, 51
+loop(): Total Lbs=   4.0934
+
+HX711::read(): shiftIn() bytes read: 252, 223, 29
+loop(): Total Lbs=   4.0956
+
+HX711::read(): shiftIn() bytes read: 252, 223, 63
+loop(): Total Lbs=   4.0922
+
+HX711::read(): shiftIn() bytes read: 252, 222, 201
+loop(): Total Lbs=   4.1040
+
+HX711::read(): shiftIn() bytes read: 252, 223, 13
+loop(): Total Lbs=   4.0972
+
+HX711::read(): shiftIn() bytes read: 252, 222, 244
+loop(): Total Lbs=   4.0997
+
+HX711::read(): shiftIn() bytes read: 252, 222, 157
+loop(): Total Lbs=   4.1084
+
+HX711::read(): shiftIn() bytes read: 252, 223, 164
+loop(): Total Lbs=   4.0821
+
+HX711::read(): shiftIn() bytes read: 252, 222, 246
+loop(): Total Lbs=   4.0995
+
+HX711::read(): shiftIn() bytes read: 252, 222, 235
+loop(): Total Lbs=   4.1006
+
+HX711::read(): shiftIn() bytes read: 252, 222, 147
+loop(): Total Lbs=   4.1094
+
+HX711::read(): shiftIn() bytes read: 252, 222, 163
+loop(): Total Lbs=   4.1078
+
+HX711::read(): shiftIn() bytes read: 252, 222, 209
+loop(): Total Lbs=   4.1032
+
+HX711::read(): shiftIn() bytes read: 252, 222, 235
+loop(): Total Lbs=   4.1006
+
+HX711::read(): shiftIn() bytes read: 252, 222, 153
+loop(): Total Lbs=   4.1088
+
+HX711::read(): shiftIn() bytes read: 252, 222, 255
+loop(): Total Lbs=   4.0986
+
+HX711::read(): shiftIn() bytes read: 252, 222, 23
+loop(): Total Lbs=   4.1218
+
+HX711::read(): shiftIn() bytes read: 252, 221, 209
+loop(): Total Lbs=   4.1288
+
+HX711::read(): shiftIn() bytes read: 252, 221, 161
+loop(): Total Lbs=   4.1336
+
+HX711::read(): shiftIn() bytes read: 252, 221, 106
+loop(): Total Lbs=   4.1391
+
+HX711::read(): shiftIn() bytes read: 252, 221, 88
+loop(): Total Lbs=   4.1409
+
+HX711::read(): shiftIn() bytes read: 252, 221, 77
+loop(): Total Lbs=   4.1420
+
+HX711::read(): shiftIn() bytes read: 252, 220, 237
+loop(): Total Lbs=   4.1516
+
+HX711::read(): shiftIn() bytes read: 252, 220, 189
+loop(): Total Lbs=   4.1564
+
+HX711::read(): shiftIn() bytes read: 252, 220, 129
+loop(): Total Lbs=   4.1624
+
+HX711::read(): shiftIn() bytes read: 252, 220, 24
+loop(): Total Lbs=   4.1729
+
+HX711::read(): shiftIn() bytes read: 252, 220, 111
+loop(): Total Lbs=   4.1642
+
+HX711::read(): shiftIn() bytes read: 252, 220, 50
+loop(): Total Lbs=   4.1703
+
+HX711::read(): shiftIn() bytes read: 252, 220, 115
+loop(): Total Lbs=   4.1638
+
+HX711::read(): shiftIn() bytes read: 252, 220, 71
+loop(): Total Lbs=   4.1682
+
+HX711::read(): shiftIn() bytes read: 252, 220, 93
+loop(): Total Lbs=   4.1660
+
+HX711::read(): shiftIn() bytes read: 252, 220, 232
+loop(): Total Lbs=   4.1521
+
+HX711::read(): shiftIn() bytes read: 252, 220, 99
+loop(): Total Lbs=   4.1654
+
+HX711::read(): shiftIn() bytes read: 252, 220, 9
+loop(): Total Lbs=   4.1744
+
+HX711::read(): shiftIn() bytes read: 252, 220, 67
+loop(): Total Lbs=   4.1686
+
+HX711::read(): shiftIn() bytes read: 252, 220, 52
+loop(): Total Lbs=   4.1701
+
+HX711::read(): shiftIn() bytes read: 252, 219, 238
+loop(): Total Lbs=   4.1771
+
+HX711::read(): shiftIn() bytes read: 252, 219, 177
+loop(): Total Lbs=   4.1832
+
+HX711::read(): shiftIn() bytes read: 252, 219, 170
+loop(): Total Lbs=   4.1839
+
+HX711::read(): shiftIn() bytes read: 252, 220, 84
+loop(): Total Lbs=   4.1669
+
+HX711::read(): shiftIn() bytes read: 252, 219, 66
+loop(): Total Lbs=   4.1943
+
+HX711::read(): shiftIn() bytes read: 252, 219, 211
+loop(): Total Lbs=   4.1798
+
+HX711::read(): shiftIn() bytes read: 252, 219, 151
+loop(): Total Lbs=   4.1858
+
+HX711::read(): shiftIn() bytes read: 252, 219, 140
+loop(): Total Lbs=   4.1869
+
+HX711::read(): shiftIn() bytes read: 252, 219, 95
+loop(): Total Lbs=   4.1914
+
+HX711::read(): shiftIn() bytes read: 252, 219, 213
+loop(): Total Lbs=   4.1796
+
+HX711::read(): shiftIn() bytes read: 252, 219, 164
+loop(): Total Lbs=   4.1845
+
+HX711::read(): shiftIn() bytes read: 252, 219, 108
+loop(): Total Lbs=   4.1901
+
+HX711::read(): shiftIn() bytes read: 252, 219, 186
+loop(): Total Lbs=   4.1823
+
+HX711::read(): shiftIn() bytes read: 252, 218, 194
+loop(): Total Lbs=   4.2071
+
+HX711::read(): shiftIn() bytes read: 252, 219, 146
+loop(): Total Lbs=   4.1863
+
+HX711::read(): shiftIn() bytes read: 252, 219, 44
+loop(): Total Lbs=   4.1965
+
+HX711::read(): shiftIn() bytes read: 252, 218, 187
+loop(): Total Lbs=   4.2078
+
+HX711::read(): shiftIn() bytes read: 252, 219, 6
+loop(): Total Lbs=   4.2003
+
+HX711::read(): shiftIn() bytes read: 252, 218, 208
+loop(): Total Lbs=   4.2057
+
+HX711::read(): shiftIn() bytes read: 252, 219, 6
+loop(): Total Lbs=   4.2003
+
+HX711::read(): shiftIn() bytes read: 252, 218, 35
+loop(): Total Lbs=   4.2230
+
+HX711::read(): shiftIn() bytes read: 252, 218, 30
+loop(): Total Lbs=   4.2235
+
+HX711::read(): shiftIn() bytes read: 252, 219, 59
+loop(): Total Lbs=   4.1950
+
+HX711::read(): shiftIn() bytes read: 252, 218, 57
+loop(): Total Lbs=   4.2208
+
+HX711::read(): shiftIn() bytes read: 252, 217, 208
+loop(): Total Lbs=   4.2313
+
+HX711::read(): shiftIn() bytes read: 252, 217, 234
+loop(): Total Lbs=   4.2287
+
+HX711::read(): shiftIn() bytes read: 252, 217, 146
+loop(): Total Lbs=   4.2375
+
+HX711::read(): shiftIn() bytes read: 252, 217, 69
+loop(): Total Lbs=   4.2452
+
+HX711::read(): shiftIn() bytes read: 252, 217, 30
+loop(): Total Lbs=   4.2491
+
+HX711::read(): shiftIn() bytes read: 252, 217, 165
+loop(): Total Lbs=   4.2356
+
+HX711::read(): shiftIn() bytes read: 252, 218, 46
+loop(): Total Lbs=   4.2219
+
+HX711::read(): shiftIn() bytes read: 252, 217, 96
+loop(): Total Lbs=   4.2425
+
+HX711::read(): shiftIn() bytes read: 252, 217, 160
+loop(): Total Lbs=   4.2361
+
+HX711::read(): shiftIn() bytes read: 252, 219, 62
+loop(): Total Lbs=   4.1947
+
+HX711::read(): shiftIn() bytes read: 252, 218, 232
+loop(): Total Lbs=   4.2033
+
+HX711::read(): shiftIn() bytes read: 252, 218, 91
+loop(): Total Lbs=   4.2174
+
+HX711::read(): shiftIn() bytes read: 252, 218, 199
+loop(): Total Lbs=   4.2066
+
+HX711::read(): shiftIn() bytes read: 252, 219, 41
+loop(): Total Lbs=   4.1968
+
+HX711::read(): shiftIn() bytes read: 252, 219, 236
+loop(): Total Lbs=   4.1773
+
+HX711::read(): shiftIn() bytes read: 252, 219, 125
+loop(): Total Lbs=   4.1884
+
+HX711::read(): shiftIn() bytes read: 252, 219, 220
+loop(): Total Lbs=   4.1789
+
+HX711::read(): shiftIn() bytes read: 252, 219, 181
+loop(): Total Lbs=   4.1828
+
+HX711::read(): shiftIn() bytes read: 252, 218, 204
+loop(): Total Lbs=   4.2061
+
+HX711::read(): shiftIn() bytes read: 252, 219, 106
+loop(): Total Lbs=   4.1903
+
+HX711::read(): shiftIn() bytes read: 252, 219, 107
+loop(): Total Lbs=   4.1902
+
+HX711::read(): shiftIn() bytes read: 252, 218, 206
+loop(): Total Lbs=   4.2059
+
+HX711::read(): shiftIn() bytes read: 252, 218, 111
+loop(): Total Lbs=   4.2154
+
+HX711::read(): shiftIn() bytes read: 252, 218, 241
+loop(): Total Lbs=   4.2024
+
+HX711::read(): shiftIn() bytes read: 252, 218, 124
+loop(): Total Lbs=   4.2141
+
+HX711::read(): shiftIn() bytes read: 252, 218, 165
+loop(): Total Lbs=   4.2100
+
+HX711::read(): shiftIn() bytes read: 252, 218, 5
+loop(): Total Lbs=   4.2260
+
+HX711::read(): shiftIn() bytes read: 252, 217, 252
+loop(): Total Lbs=   4.2269
+
+HX711::read(): shiftIn() bytes read: 252, 217, 242
+loop(): Total Lbs=   4.2279
+
+HX711::read(): shiftIn() bytes read: 252, 218, 67
+loop(): Total Lbs=   4.2198
+
+HX711::read(): shiftIn() bytes read: 252, 218, 25
+loop(): Total Lbs=   4.2240
+
+HX711::read(): shiftIn() bytes read: 252, 218, 63
+loop(): Total Lbs=   4.2202
+
+HX711::read(): shiftIn() bytes read: 252, 218, 43
+loop(): Total Lbs=   4.2222
+
+HX711::read(): shiftIn() bytes read: 252, 217, 201
+loop(): Total Lbs=   4.2320
+
+HX711::read(): shiftIn() bytes read: 252, 218, 56
+loop(): Total Lbs=   4.2209
+
+HX711::read(): shiftIn() bytes read: 252, 218, 51
+loop(): Total Lbs=   4.2214
+
+HX711::read(): shiftIn() bytes read: 252, 217, 200
+loop(): Total Lbs=   4.2321
+
+HX711::read(): shiftIn() bytes read: 252, 218, 7
+loop(): Total Lbs=   4.2258
+
+HX711::read(): shiftIn() bytes read: 252, 217, 185
+loop(): Total Lbs=   4.2336
+
+HX711::read(): shiftIn() bytes read: 252, 217, 32
+loop(): Total Lbs=   4.2489
+
+HX711::read(): shiftIn() bytes read: 252, 217, 34
+loop(): Total Lbs=   4.2487
+
+HX711::read(): shiftIn() bytes read: 252, 216, 184
+loop(): Total Lbs=   4.2593
+
+HX711::read(): shiftIn() bytes read: 252, 217, 26
+loop(): Total Lbs=   4.2495
+
+HX711::read(): shiftIn() bytes read: 252, 216, 182
+loop(): Total Lbs=   4.2595
+
+HX711::read(): shiftIn() bytes read: 252, 217, 83
+loop(): Total Lbs=   4.2438
+
+HX711::read(): shiftIn() bytes read: 252, 217, 216
+loop(): Total Lbs=   4.2305
+
+HX711::read(): shiftIn() bytes read: 252, 217, 66
+loop(): Total Lbs=   4.2455
+
+HX711::read(): shiftIn() bytes read: 252, 217, 76
+loop(): Total Lbs=   4.2445
+
+HX711::read(): shiftIn() bytes read: 252, 217, 125
+loop(): Total Lbs=   4.2396
+
+HX711::read(): shiftIn() bytes read: 252, 216, 81
+loop(): Total Lbs=   4.2696
+
+HX711::read(): shiftIn() bytes read: 252, 216, 34
+loop(): Total Lbs=   4.2743
+
+HX711::read(): shiftIn() bytes read: 252, 217, 42
+loop(): Total Lbs=   4.2479
+
+HX711::read(): shiftIn() bytes read: 252, 216, 171
+loop(): Total Lbs=   4.2606
+
+HX711::read(): shiftIn() bytes read: 252, 217, 111
+loop(): Total Lbs=   4.2410
+
+HX711::read(): shiftIn() bytes read: 252, 216, 211
+loop(): Total Lbs=   4.2566
+
+HX711::read(): shiftIn() bytes read: 252, 217, 39
+loop(): Total Lbs=   4.2482
+
+HX711::read(): shiftIn() bytes read: 252, 216, 226
+loop(): Total Lbs=   4.2551
+
+HX711::read(): shiftIn() bytes read: 252, 217, 140
+loop(): Total Lbs=   4.2381
+
+HX711::read(): shiftIn() bytes read: 252, 217, 109
+loop(): Total Lbs=   4.2412
+
+HX711::read(): shiftIn() bytes read: 252, 217, 17
+loop(): Total Lbs=   4.2504
+
+HX711::read(): shiftIn() bytes read: 252, 217, 112
+loop(): Total Lbs=   4.2409
+
+HX711::read(): shiftIn() bytes read: 252, 217, 77
+loop(): Total Lbs=   4.2444
+
+HX711::read(): shiftIn() bytes read: 252, 217, 160
+loop(): Total Lbs=   4.2361
+
+HX711::read(): shiftIn() bytes read: 252, 217, 27
+loop(): Total Lbs=   4.2494
+
+HX711::read(): shiftIn() bytes read: 252, 217, 170
+loop(): Total Lbs=   4.2351
+
+HX711::read(): shiftIn() bytes read: 252, 216, 227
+loop(): Total Lbs=   4.2550
+
+HX711::read(): shiftIn() bytes read: 252, 216, 188
+loop(): Total Lbs=   4.2589
+
+HX711::read(): shiftIn() bytes read: 252, 218, 9
+loop(): Total Lbs=   4.2256
+
+HX711::read(): shiftIn() bytes read: 252, 216, 200
+loop(): Total Lbs=   4.2577
+
+HX711::read(): shiftIn() bytes read: 252, 216, 196
+loop(): Total Lbs=   4.2581
+
+HX711::read(): shiftIn() bytes read: 252, 216, 138
+loop(): Total Lbs=   4.2639
+
+HX711::read(): shiftIn() bytes read: 252, 216, 155
+loop(): Total Lbs=   4.2622
+
+HX711::read(): shiftIn() bytes read: 252, 216, 220
+loop(): Total Lbs=   4.2557
+
+HX711::read(): shiftIn() bytes read: 252, 216, 210
+loop(): Total Lbs=   4.2567
+
+HX711::read(): shiftIn() bytes read: 252, 216, 170
+loop(): Total Lbs=   4.2607
+
+HX711::read(): shiftIn() bytes read: 252, 216, 196
+loop(): Total Lbs=   4.2581
+
+HX711::read(): shiftIn() bytes read: 252, 216, 155
+loop(): Total Lbs=   4.2622
+
+HX711::read(): shiftIn() bytes read: 252, 216, 41
+loop(): Total Lbs=   4.2736
+
+HX711::read(): shiftIn() bytes read: 252, 216, 41
+loop(): Total Lbs=   4.2736
+
+HX711::read(): shiftIn() bytes read: 252, 216, 94
+loop(): Total Lbs=   4.2683
+
+HX711::read(): shiftIn() bytes read: 252, 216, 17
+loop(): Total Lbs=   4.2760
+
+HX711::read(): shiftIn() bytes read: 252, 216, 99
+loop(): Total Lbs=   4.2678
+
+HX711::read(): shiftIn() bytes read: 252, 215, 117
+loop(): Total Lbs=   4.2916
+
+HX711::read(): shiftIn() bytes read: 252, 215, 155
+loop(): Total Lbs=   4.2878
+
+HX711::read(): shiftIn() bytes read: 252, 215, 85
+loop(): Total Lbs=   4.2948
+
+HX711::read(): shiftIn() bytes read: 252, 215, 4
+loop(): Total Lbs=   4.3029
+
+HX711::read(): shiftIn() bytes read: 252, 215, 155
+loop(): Total Lbs=   4.2878
+
+HX711::read(): shiftIn() bytes read: 252, 215, 54
+loop(): Total Lbs=   4.2979
+
+HX711::read(): shiftIn() bytes read: 252, 214, 243
+loop(): Total Lbs=   4.3046
+
+HX711::read(): shiftIn() bytes read: 252, 214, 239
+loop(): Total Lbs=   4.3050
+
+HX711::read(): shiftIn() bytes read: 252, 215, 77
+loop(): Total Lbs=   4.2956
+
+HX711::read(): shiftIn() bytes read: 252, 214, 209
+loop(): Total Lbs=   4.3080
+
+HX711::read(): shiftIn() bytes read: 252, 215, 6
+loop(): Total Lbs=   4.3027
+
+HX711::read(): shiftIn() bytes read: 252, 214, 179
+loop(): Total Lbs=   4.3110
+
+HX711::read(): shiftIn() bytes read: 252, 214, 210
+loop(): Total Lbs=   4.3079
+
+HX711::read(): shiftIn() bytes read: 252, 214, 107
+loop(): Total Lbs=   4.3182
+
+HX711::read(): shiftIn() bytes read: 252, 215, 54
+loop(): Total Lbs=   4.2979
+
+HX711::read(): shiftIn() bytes read: 252, 213, 79
+loop(): Total Lbs=   4.3466
+
+HX711::read(): shiftIn() bytes read: 252, 213, 115
+loop(): Total Lbs=   4.3430
+
+HX711::read(): shiftIn() bytes read: 252, 213, 244
+loop(): Total Lbs=   4.3301
+
+HX711::read(): shiftIn() bytes read: 252, 214, 79
+loop(): Total Lbs=   4.3210
+
+HX711::read(): shiftIn() bytes read: 252, 213, 234
+loop(): Total Lbs=   4.3311
+
+HX711::read(): shiftIn() bytes read: 252, 213, 114
+loop(): Total Lbs=   4.3431
+
+HX711::read(): shiftIn() bytes read: 252, 213, 143
+loop(): Total Lbs=   4.3402
+
+HX711::read(): shiftIn() bytes read: 252, 213, 230
+loop(): Total Lbs=   4.3315
+
+HX711::read(): shiftIn() bytes read: 252, 213, 139
+loop(): Total Lbs=   4.3406
+
+HX711::read(): shiftIn() bytes read: 252, 213, 162
+loop(): Total Lbs=   4.3383
+
+HX711::read(): shiftIn() bytes read: 252, 213, 248
+loop(): Total Lbs=   4.3297
+
+HX711::read(): shiftIn() bytes read: 252, 213, 177
+loop(): Total Lbs=   4.3368
+
+HX711::read(): shiftIn() bytes read: 252, 213, 150
+loop(): Total Lbs=   4.3395
+
+HX711::read(): shiftIn() bytes read: 252, 213, 184
+loop(): Total Lbs=   4.3361
+
+HX711::read(): shiftIn() bytes read: 252, 213, 18
+loop(): Total Lbs=   4.3527
+
+HX711::read(): shiftIn() bytes read: 252, 213, 130
+loop(): Total Lbs=   4.3415
+
+HX711::read(): shiftIn() bytes read: 252, 213, 73
+loop(): Total Lbs=   4.3472
+
+HX711::read(): shiftIn() bytes read: 252, 213, 97
+loop(): Total Lbs=   4.3448
+
+HX711::read(): shiftIn() bytes read: 252, 212, 132
+loop(): Total Lbs=   4.3669
+
+HX711::read(): shiftIn() bytes read: 252, 212, 155
+loop(): Total Lbs=   4.3646
+
+HX711::read(): shiftIn() bytes read: 252, 212, 136
+loop(): Total Lbs=   4.3665
+
+HX711::read(): shiftIn() bytes read: 252, 212, 184
+loop(): Total Lbs=   4.3617
+
+HX711::read(): shiftIn() bytes read: 252, 212, 237
+loop(): Total Lbs=   4.3564
+
+HX711::read(): shiftIn() bytes read: 252, 212, 3
+loop(): Total Lbs=   4.3798
+
+HX711::read(): shiftIn() bytes read: 252, 212, 48
+loop(): Total Lbs=   4.3753
+
+HX711::read(): shiftIn() bytes read: 252, 211, 104
+loop(): Total Lbs=   4.3953
+
+HX711::read(): shiftIn() bytes read: 252, 211, 69
+loop(): Total Lbs=   4.3988
+
+HX711::read(): shiftIn() bytes read: 252, 211, 222
+loop(): Total Lbs=   4.3835
+
+HX711::read(): shiftIn() bytes read: 252, 211, 99
+loop(): Total Lbs=   4.3958
+
+HX711::read(): shiftIn() bytes read: 252, 210, 225
+loop(): Total Lbs=   4.4088
+
+HX711::read(): shiftIn() bytes read: 252, 211, 83
+loop(): Total Lbs=   4.3974
+
+HX711::read(): shiftIn() bytes read: 252, 211, 73
+loop(): Total Lbs=   4.3984
+
+HX711::read(): shiftIn() bytes read: 252, 210, 104
+loop(): Total Lbs=   4.4209
+
+HX711::read(): shiftIn() bytes read: 252, 210, 241
+loop(): Total Lbs=   4.4072
+
+HX711::read(): shiftIn() bytes read: 252, 210, 53
+loop(): Total Lbs=   4.4260
+
+HX711::read(): shiftIn() bytes read: 252, 210, 141
+loop(): Total Lbs=   4.4172
+
+HX711::read(): shiftIn() bytes read: 252, 210, 174
+loop(): Total Lbs=   4.4139
+
+HX711::read(): shiftIn() bytes read: 252, 210, 205
+loop(): Total Lbs=   4.4108
+
+HX711::read(): shiftIn() bytes read: 252, 210, 217
+loop(): Total Lbs=   4.4096
+
+HX711::read(): shiftIn() bytes read: 252, 210, 88
+loop(): Total Lbs=   4.4225
+
+HX711::read(): shiftIn() bytes read: 252, 210, 124
+loop(): Total Lbs=   4.4189
+
+HX711::read(): shiftIn() bytes read: 252, 210, 15
+loop(): Total Lbs=   4.4298
+
+HX711::read(): shiftIn() bytes read: 252, 210, 136
+loop(): Total Lbs=   4.4177
+
+HX711::read(): shiftIn() bytes read: 252, 210, 119
+loop(): Total Lbs=   4.4194
+
+HX711::read(): shiftIn() bytes read: 252, 210, 36
+loop(): Total Lbs=   4.4277
+
+HX711::read(): shiftIn() bytes read: 252, 210, 17
+loop(): Total Lbs=   4.4296
+
+HX711::read(): shiftIn() bytes read: 252, 210, 86
+loop(): Total Lbs=   4.4227
+
+HX711::read(): shiftIn() bytes read: 252, 209, 249
+loop(): Total Lbs=   4.4320
+
+HX711::read(): shiftIn() bytes read: 252, 209, 138
+loop(): Total Lbs=   4.4431
+
+HX711::read(): shiftIn() bytes read: 252, 209, 15
+loop(): Total Lbs=   4.4554
+
+HX711::read(): shiftIn() bytes read: 252, 209, 179
+loop(): Total Lbs=   4.4390
+
+HX711::read(): shiftIn() bytes read: 252, 208, 232
+loop(): Total Lbs=   4.4593
+
+HX711::read(): shiftIn() bytes read: 252, 209, 0
+loop(): Total Lbs=   4.4569
+
+HX711::read(): shiftIn() bytes read: 252, 208, 237
+loop(): Total Lbs=   4.4588
+
+HX711::read(): shiftIn() bytes read: 252, 209, 95
+loop(): Total Lbs=   4.4474
+
+HX711::read(): shiftIn() bytes read: 252, 208, 255
+loop(): Total Lbs=   4.4570
+
+HX711::read(): shiftIn() bytes read: 252, 208, 127
+loop(): Total Lbs=   4.4698
+
+HX711::read(): shiftIn() bytes read: 252, 208, 84
+loop(): Total Lbs=   4.4741
+
+HX711::read(): shiftIn() bytes read: 252, 208, 87
+loop(): Total Lbs=   4.4738
+
+HX711::read(): shiftIn() bytes read: 252, 208, 110
+loop(): Total Lbs=   4.4715
+
+HX711::read(): shiftIn() bytes read: 252, 208, 28
+loop(): Total Lbs=   4.4797
+
+HX711::read(): shiftIn() bytes read: 252, 208, 105
+loop(): Total Lbs=   4.4720
+
+HX711::read(): shiftIn() bytes read: 252, 209, 46
+loop(): Total Lbs=   4.4523
+
+HX711::read(): shiftIn() bytes read: 252, 208, 155
+loop(): Total Lbs=   4.4670
+
+HX711::read(): shiftIn() bytes read: 252, 207, 110
+loop(): Total Lbs=   4.4971
+
+HX711::read(): shiftIn() bytes read: 252, 208, 74
+loop(): Total Lbs=   4.4751
+
+HX711::read(): shiftIn() bytes read: 252, 208, 8
+loop(): Total Lbs=   4.4817
+
+HX711::read(): shiftIn() bytes read: 252, 208, 53
+loop(): Total Lbs=   4.4772
+
+HX711::read(): shiftIn() bytes read: 252, 207, 117
+loop(): Total Lbs=   4.4964
+
+HX711::read(): shiftIn() bytes read: 252, 206, 179
+loop(): Total Lbs=   4.5158
+
+HX711::read(): shiftIn() bytes read: 252, 206, 216
+loop(): Total Lbs=   4.5121
+
+HX711::read(): shiftIn() bytes read: 252, 206, 245
+loop(): Total Lbs=   4.5092
+
+HX711::read(): shiftIn() bytes read: 252, 206, 218
+loop(): Total Lbs=   4.5119
+
+HX711::read(): shiftIn() bytes read: 252, 206, 117
+loop(): Total Lbs=   4.5220
+
+HX711::read(): shiftIn() bytes read: 252, 206, 144
+loop(): Total Lbs=   4.5193
+
+HX711::read(): shiftIn() bytes read: 252, 207, 131
+loop(): Total Lbs=   4.4950
+
+HX711::read(): shiftIn() bytes read: 252, 207, 95
+loop(): Total Lbs=   4.4986
+
+HX711::read(): shiftIn() bytes read: 252, 206, 180
+loop(): Total Lbs=   4.5157
+
+HX711::read(): shiftIn() bytes read: 252, 207, 80
+loop(): Total Lbs=   4.5001
+
+HX711::read(): shiftIn() bytes read: 252, 206, 230
+loop(): Total Lbs=   4.5107
+
+HX711::read(): shiftIn() bytes read: 252, 206, 83
+loop(): Total Lbs=   4.5254
+
+HX711::read(): shiftIn() bytes read: 252, 206, 170
+loop(): Total Lbs=   4.5167
+
+HX711::read(): shiftIn() bytes read: 252, 206, 62
+loop(): Total Lbs=   4.5275
+
+HX711::read(): shiftIn() bytes read: 252, 206, 44
+loop(): Total Lbs=   4.5293
+
+HX711::read(): shiftIn() bytes read: 252, 206, 175
+loop(): Total Lbs=   4.5162
+
+HX711::read(): shiftIn() bytes read: 252, 206, 37
+loop(): Total Lbs=   4.5300
+
+HX711::read(): shiftIn() bytes read: 252, 206, 65
+loop(): Total Lbs=   4.5272
+
+HX711::read(): shiftIn() bytes read: 252, 206, 190
+loop(): Total Lbs=   4.5147
+
+HX711::read(): shiftIn() bytes read: 252, 206, 153
+loop(): Total Lbs=   4.5184
+
+HX711::read(): shiftIn() bytes read: 252, 206, 85
+loop(): Total Lbs=   4.5252
+
+HX711::read(): shiftIn() bytes read: 252, 206, 155
+loop(): Total Lbs=   4.5182
+
+HX711::read(): shiftIn() bytes read: 252, 205, 149
+loop(): Total Lbs=   4.5444
+
+HX711::read(): shiftIn() bytes read: 252, 205, 249
+loop(): Total Lbs=   4.5344
+
+HX711::read(): shiftIn() bytes read: 252, 209, 151
+loop(): Total Lbs=   4.4418
+
+HX711::read(): shiftIn() bytes read: 252, 204, 55
+loop(): Total Lbs=   4.5794
+
+HX711::read(): shiftIn() bytes read: 252, 207, 24
+loop(): Total Lbs=   4.5057
+
+HX711::read(): shiftIn() bytes read: 252, 205, 230
+loop(): Total Lbs=   4.5363
+
+HX711::read(): shiftIn() bytes read: 252, 204, 220
+loop(): Total Lbs=   4.5629
+
+HX711::read(): shiftIn() bytes read: 252, 204, 113
+loop(): Total Lbs=   4.5736
+
+HX711::read(): shiftIn() bytes read: 252, 204, 23
+loop(): Total Lbs=   4.5826
+
+HX711::read(): shiftIn() bytes read: 252, 203, 143
+loop(): Total Lbs=   4.5962
+
+HX711::read(): shiftIn() bytes read: 252, 203, 30
+loop(): Total Lbs=   4.6075
+
+HX711::read(): shiftIn() bytes read: 252, 202, 249
+loop(): Total Lbs=   4.6112
+
+HX711::read(): shiftIn() bytes read: 252, 201, 207
+loop(): Total Lbs=   4.6410
+
+HX711::read(): shiftIn() bytes read: 252, 202, 8
+loop(): Total Lbs=   4.6353
+
+HX711::read(): shiftIn() bytes read: 252, 201, 205
+loop(): Total Lbs=   4.6412
+
+HX711::read(): shiftIn() bytes read: 252, 201, 108
+loop(): Total Lbs=   4.6509
+
+HX711::read(): shiftIn() bytes read: 252, 200, 196
+loop(): Total Lbs=   4.6677
+
+HX711::read(): shiftIn() bytes read: 252, 201, 45
+loop(): Total Lbs=   4.6572
+
+HX711::read(): shiftIn() bytes read: 252, 200, 114
+loop(): Total Lbs=   4.6759
+
+HX711::read(): shiftIn() bytes read: 252, 200, 145
+loop(): Total Lbs=   4.6728
+
+HX711::read(): shiftIn() bytes read: 252, 199, 229
+loop(): Total Lbs=   4.6900
+
+HX711::read(): shiftIn() bytes read: 252, 199, 190
+loop(): Total Lbs=   4.6939
+
+HX711::read(): shiftIn() bytes read: 252, 199, 192
+loop(): Total Lbs=   4.6937
+
+HX711::read(): shiftIn() bytes read: 252, 200, 66
+loop(): Total Lbs=   4.6807
+
+HX711::read(): shiftIn() bytes read: 252, 199, 47
+loop(): Total Lbs=   4.7082
+
+HX711::read(): shiftIn() bytes read: 252, 199, 38
+loop(): Total Lbs=   4.7091
+
+HX711::read(): shiftIn() bytes read: 252, 199, 86
+loop(): Total Lbs=   4.7043
+
+HX711::read(): shiftIn() bytes read: 252, 198, 196
+loop(): Total Lbs=   4.7189
+
+HX711::read(): shiftIn() bytes read: 252, 198, 180
+loop(): Total Lbs=   4.7205
+
+HX711::read(): shiftIn() bytes read: 252, 198, 232
+loop(): Total Lbs=   4.7153
+
+HX711::read(): shiftIn() bytes read: 252, 198, 145
+loop(): Total Lbs=   4.7240
+
+HX711::read(): shiftIn() bytes read: 252, 198, 139
+loop(): Total Lbs=   4.7246
+
+HX711::read(): shiftIn() bytes read: 252, 198, 136
+loop(): Total Lbs=   4.7249
+
+HX711::read(): shiftIn() bytes read: 252, 199, 71
+loop(): Total Lbs=   4.7058
+
+HX711::read(): shiftIn() bytes read: 252, 198, 95
+loop(): Total Lbs=   4.7290
+
+HX711::read(): shiftIn() bytes read: 252, 198, 71
+loop(): Total Lbs=   4.7314
+
+HX711::read(): shiftIn() bytes read: 252, 198, 96
+loop(): Total Lbs=   4.7289
+
+HX711::read(): shiftIn() bytes read: 252, 198, 38
+loop(): Total Lbs=   4.7347
+
+HX711::read(): shiftIn() bytes read: 252, 207, 2
+loop(): Total Lbs=   4.5079
+
+HX711::read(): shiftIn() bytes read: 252, 197, 239
+loop(): Total Lbs=   4.7402
+
+HX711::read(): shiftIn() bytes read: 252, 198, 5
+loop(): Total Lbs=   4.7380
+
+HX711::read(): shiftIn() bytes read: 252, 197, 230
+loop(): Total Lbs=   4.7411
+
+HX711::read(): shiftIn() bytes read: 252, 200, 24
+loop(): Total Lbs=   4.6849
+
+HX711::read(): shiftIn() bytes read: 252, 196, 233
+loop(): Total Lbs=   4.7664
+
+HX711::read(): shiftIn() bytes read: 252, 197, 45
+loop(): Total Lbs=   4.7596
+
+HX711::read(): shiftIn() bytes read: 252, 197, 54
+loop(): Total Lbs=   4.7587
+
+HX711::read(): shiftIn() bytes read: 252, 197, 57
+loop(): Total Lbs=   4.7584
+
+HX711::read(): shiftIn() bytes read: 252, 196, 193
+loop(): Total Lbs=   4.7704
+
+HX711::read(): shiftIn() bytes read: 252, 196, 137
+loop(): Total Lbs=   4.7760
+
+HX711::read(): shiftIn() bytes read: 252, 204, 53
+loop(): Total Lbs=   4.5796
+
+HX711::read(): shiftIn() bytes read: 252, 205, 130
+loop(): Total Lbs=   4.5463
+
+HX711::read(): shiftIn() bytes read: 252, 202, 99
+loop(): Total Lbs=   4.6262
+
+HX711::read(): shiftIn() bytes read: 252, 201, 98
+loop(): Total Lbs=   4.6519
+
+HX711::read(): shiftIn() bytes read: 252, 200, 53
+loop(): Total Lbs=   4.6820
+
+HX711::read(): shiftIn() bytes read: 252, 199, 187
+loop(): Total Lbs=   4.6942
+
+HX711::read(): shiftIn() bytes read: 252, 200, 91
+loop(): Total Lbs=   4.6782
+
+HX711::read(): shiftIn() bytes read: 252, 199, 65
+loop(): Total Lbs=   4.7064
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+˜H•?­Í2_HX711.ino, Apr 22, 2018-b
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 122, 204
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 253, 107, 174
+loop(): Count= -169042, Lbs=   4.2042
+
+HX711::read(): shiftIn() bytes read: 252, 230, 8
+loop(): Count= -203256, Lbs=   7.6256
+
+HX711::read(): shiftIn() bytes read: 252, 216, 81
+loop(): Count= -206767, Lbs=   7.9767
+
+HX711::read(): shiftIn() bytes read: 252, 209, 12
+loop(): Count= -208628, Lbs=   8.1628
+
+HX711::read(): shiftIn() bytes read: 252, 23, 79
+loop(): Count= -256177, Lbs=  12.9177
+
+HX711::read(): shiftIn() bytes read: 251, 226, 217
+loop(): Count= -269607, Lbs=  14.2607
+
+HX711::read(): shiftIn() bytes read: 251, 249, 105
+loop(): Count= -263831, Lbs=  13.6831
+
+HX711::read(): shiftIn() bytes read: 252, 205, 112
+loop(): Count= -209552, Lbs=   8.2552
+
+HX711::read(): shiftIn() bytes read: 252, 205, 86
+loop(): Count= -209578, Lbs=   8.2578
+
+HX711::read(): shiftIn() bytes read: 252, 55, 23
+loop(): Count= -248041, Lbs=  12.1041
+
+HX711::read(): shiftIn() bytes read: 252, 32, 193
+loop(): Count= -253759, Lbs=  12.6759
+
+HX711::read(): shiftIn() bytes read: 252, 33, 52
+loop(): Count= -253644, Lbs=  12.6644
+
+HX711::read(): shiftIn() bytes read: 252, 202, 247
+loop(): Count= -210185, Lbs=   8.3185
+
+HX711::read(): shiftIn() bytes read: 252, 202, 114
+loop(): Count= -210318, Lbs=   8.3318
+
+HX711::read(): shiftIn() bytes read: 252, 137, 146
+loop(): Count= -226926, Lbs=   9.9926
+
+HX711::read(): shiftIn() bytes read: 252, 65, 82
+loop(): Count= -245422, Lbs=  11.8422
+
+HX711::read(): shiftIn() bytes read: 252, 26, 96
+loop(): Count= -255392, Lbs=  12.8392
+
+HX711::read(): shiftIn() bytes read: 252, 201, 210
+loop(): Count= -210478, Lbs=   8.3478
+
+HX711::read(): shiftIn() bytes read: 252, 201, 229
+loop(): Count= -210459, Lbs=   8.3459
+
+HX711::read(): shiftIn() bytes read: 252, 201, 82
+loop(): Count= -210606, Lbs=   8.3606
+
+HX711::read(): shiftIn() bytes read: 252, 201, 96
+loop(): Count= -210592, Lbs=   8.3592
+
+HX711::read(): shiftIn() bytes read: 252, 201, 41
+loop(): Count= -210647, Lbs=   8.3647
+
+HX711::read(): shiftIn() bytes read: 252, 200, 220
+loop(): Count= -210724, Lbs=   8.3724
+
+HX711::read(): shiftIn() bytes read: 252, 199, 251
+loop(): Count= -210949, Lbs=   8.3949
+
+Connect to serial portCOM6 at115200
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+˜H•?­Í2_HX711.ino, Apr 22, 2018-b
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 254, 21, 40
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 254, 15, 209
+loop(): Count= -127023, Lbs=   0.0023
+
+HX711::read(): shiftIn() bytes read: 253, 192, 18
+loop(): Count= -147438, Lbs=   2.0438
+
+HX711::read(): shiftIn() bytes read: 253, 143, 37
+loop(): Count= -159963, Lbs=   3.2963
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+flash read err, 1000
+ets_main.c 371
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+˜H•?­Í2_HX711.ino, Apr 22, 2018-c
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 243, 101
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 253, 235, 141
+loop(): Count= -136307, Lbs=  -2.7693
+
+HX711::read(): shiftIn() bytes read: 253, 125, 226
+loop(): Count= -164382, Lbs=   0.0382
+
+HX711::read(): shiftIn() bytes read: 253, 83, 125
+loop(): Count= -175235, Lbs=   1.1235
+
+HX711::read(): shiftIn() bytes read: 253, 52, 82
+loop(): Count= -183214, Lbs=   1.9214
+
+HX711::read(): shiftIn() bytes read: 252, 216, 47
+loop(): Count= -206801, Lbs=   4.2801
+
+HX711::read(): shiftIn() bytes read: 252, 184, 42
+loop(): Count= -214998, Lbs=   5.0998
+
+HX711::read(): shiftIn() bytes read: 253, 10, 102
+loop(): Count= -193946, Lbs=   2.9946
+
+HX711::read(): shiftIn() bytes read: 253, 3, 97
+loop(): Count= -195743, Lbs=   3.1743
+
+HX711::read(): shiftIn() bytes read: 252, 151, 95
+loop(): Count= -223393, Lbs=   5.9393
+
+HX711::read(): shiftIn() bytes read: 252, 87, 124
+loop(): Count= -239748, Lbs=   7.5748
+
+HX711::read(): shiftIn() bytes read: 251, 197, 89
+loop(): Count= -277159, Lbs=  11.3159
+
+HX711::read(): shiftIn() bytes read: 251, 140, 77
+loop(): Count= -291763, Lbs=  12.7763
+
+HX711::read(): shiftIn() bytes read: 252, 237, 179
+loop(): Count= -201293, Lbs=   3.7293
+
+HX711::read(): shiftIn() bytes read: 252, 233, 136
+loop(): Count= -202360, Lbs=   3.8360
+
+HX711::read(): shiftIn() bytes read: 252, 231, 0
+loop(): Count= -203008, Lbs=   3.9008
+
+HX711::read(): shiftIn() bytes read: 252, 229, 6
+loop(): Count= -203514, Lbs=   3.9514
+
+HX711::read(): shiftIn() bytes read: 252, 227, 176
+loop(): Count= -203856, Lbs=   3.9856
+
+HX711::read(): shiftIn() bytes read: 252, 225, 247
+loop(): Count= -204297, Lbs=   4.0297
+
+HX711::read(): shiftIn() bytes read: 252, 224, 211
+loop(): Count= -204589, Lbs=   4.0589
+
+HX711::read(): shiftIn() bytes read: 252, 225, 83
+loop(): Count= -204461, Lbs=   4.0461
+
+HX711::read(): shiftIn() bytes read: 252, 223, 36
+loop(): Count= -205020, Lbs=   4.1020
+
+HX711::read(): shiftIn() bytes read: 252, 221, 56
+loop(): Count= -205512, Lbs=   4.1512
+
+HX711::read(): shiftIn() bytes read: 252, 219, 235
+loop(): Count= -205845, Lbs=   4.1845
+
+HX711::read(): shiftIn() bytes read: 252, 219, 17
+loop(): Count= -206063, Lbs=   4.2063
+
+HX711::read(): shiftIn() bytes read: 252, 218, 99
+loop(): Count= -206237, Lbs=   4.2237
+
+HX711::read(): shiftIn() bytes read: 252, 217, 112
+loop(): Count= -206480, Lbs=   4.2480
+
+HX711::read(): shiftIn() bytes read: 252, 219, 208
+loop(): Count= -205872, Lbs=   4.1872
+
+HX711::read(): shiftIn() bytes read: 252, 219, 4
+loop(): Count= -206076, Lbs=   4.2076
+
+HX711::read(): shiftIn() bytes read: 252, 218, 90
+loop(): Count= -206246, Lbs=   4.2246
+
+HX711::read(): shiftIn() bytes read: 252, 217, 142
+loop(): Count= -206450, Lbs=   4.2450
+
+HX711::read(): shiftIn() bytes read: 252, 216, 23
+loop(): Count= -206825, Lbs=   4.2825
+
+HX711::read(): shiftIn() bytes read: 252, 214, 238
+loop(): Count= -207122, Lbs=   4.3122
+
+HX711::read(): shiftIn() bytes read: 252, 214, 47
+loop(): Count= -207313, Lbs=   4.3313
+
+HX711::read(): shiftIn() bytes read: 252, 214, 20
+loop(): Count= -207340, Lbs=   4.3340
+
+HX711::read(): shiftIn() bytes read: 252, 212, 178
+loop(): Count= -207694, Lbs=   4.3694
+
+HX711::read(): shiftIn() bytes read: 252, 211, 237
+loop(): Count= -207891, Lbs=   4.3891
+
+HX711::read(): shiftIn() bytes read: 252, 218, 60
+loop(): Count= -206276, Lbs=   4.2276
+
+HX711::read(): shiftIn() bytes read: 252, 221, 231
+loop(): Count= -205337, Lbs=   4.1337
+
+HX711::read(): shiftIn() bytes read: 252, 214, 200
+loop(): Count= -207160, Lbs=   4.3160
+
+HX711::read(): shiftIn() bytes read: 252, 214, 60
+loop(): Count= -207300, Lbs=   4.3300
+
+HX711::read(): shiftIn() bytes read: 252, 212, 101
+loop(): Count= -207771, Lbs=   4.3771
+
+HX711::read(): shiftIn() bytes read: 252, 211, 147
+loop(): Count= -207981, Lbs=   4.3981
+
+HX711::read(): shiftIn() bytes read: 252, 212, 19
+loop(): Count= -207853, Lbs=   4.3853
+
+HX711::read(): shiftIn() bytes read: 252, 210, 62
+loop(): Count= -208322, Lbs=   4.4322
+
+HX711::read(): shiftIn() bytes read: 252, 210, 10
+loop(): Count= -208374, Lbs=   4.4374
+
+HX711::read(): shiftIn() bytes read: 252, 212, 125
+loop(): Count= -207747, Lbs=   4.3747
+
+HX711::read(): shiftIn() bytes read: 252, 215, 248
+loop(): Count= -206856, Lbs=   4.2856
+
+HX711::read(): shiftIn() bytes read: 252, 208, 120
+loop(): Count= -208776, Lbs=   4.4776
+
+HX711::read(): shiftIn() bytes read: 252, 55, 42
+loop(): Count= -248022, Lbs=   8.4022
+
+HX711::read(): shiftIn() bytes read: 252, 44, 125
+loop(): Count= -250755, Lbs=   8.6755
+
+HX711::read(): shiftIn() bytes read: 252, 10, 205
+loop(): Count= -259379, Lbs=   9.5379
+
+HX711::read(): shiftIn() bytes read: 252, 211, 157
+loop(): Count= -207971, Lbs=   4.3971
+
+HX711::read(): shiftIn() bytes read: 252, 207, 132
+loop(): Count= -209020, Lbs=   4.5020
+
+HX711::read(): shiftIn() bytes read: 254, 216, 205
+loop(): Count= -75571, Lbs=  -8.8429
+
+HX711::read(): shiftIn() bytes read: 254, 216, 130
+loop(): Count= -75646, Lbs=  -8.8354
+
+HX711::read(): shiftIn() bytes read: 252, 131, 135
+loop(): Count= -228473, Lbs=   6.4473
+
+HX711::read(): shiftIn() bytes read: 251, 163, 125
+loop(): Count= -285827, Lbs=  12.1827
+
+HX711::read(): shiftIn() bytes read: 252, 202, 114
+loop(): Count= -210318, Lbs=   4.6318
+
+HX711::read(): shiftIn() bytes read: 252, 203, 100
+loop(): Count= -210076, Lbs=   4.6076
+
+HX711::read(): shiftIn() bytes read: 252, 203, 71
+loop(): Count= -210105, Lbs=   4.6105
+
+HX711::read(): shiftIn() bytes read: 252, 203, 134
+loop(): Count= -210042, Lbs=   4.6042
+
+HX711::read(): shiftIn() bytes read: 252, 203, 64
+loop(): Count= -210112, Lbs=   4.6112
+
+HX711::read(): shiftIn() bytes read: 252, 203, 14
+loop(): Count= -210162, Lbs=   4.6162
+
+HX711::read(): shiftIn() bytes read: 252, 202, 155
+loop(): Count= -210277, Lbs=   4.6277
+
+HX711::read(): shiftIn() bytes read: 252, 202, 21
+loop(): Count= -210411, Lbs=   4.6411
+
+HX711::read(): shiftIn() bytes read: 252, 201, 133
+loop(): Count= -210555, Lbs=   4.6555
+
+HX711::read(): shiftIn() bytes read: 252, 201, 119
+loop(): Count= -210569, Lbs=   4.6569
+
+HX711::read(): shiftIn() bytes read: 252, 200, 229
+loop(): Count= -210715, Lbs=   4.6715
+
+HX711::read(): shiftIn() bytes read: 252, 200, 72
+loop(): Count= -210872, Lbs=   4.6872
+
+HX711::read(): shiftIn() bytes read: 252, 199, 160
+loop(): Count= -211040, Lbs=   4.7040
+
+HX711::read(): shiftIn() bytes read: 252, 198, 224
+loop(): Count= -211232, Lbs=   4.7232
+
+HX711::read(): shiftIn() bytes read: 252, 198, 141
+loop(): Count= -211315, Lbs=   4.7315
+
+HX711::read(): shiftIn() bytes read: 252, 197, 205
+loop(): Count= -211507, Lbs=   4.7507
+
+HX711::read(): shiftIn() bytes read: 252, 197, 75
+loop(): Count= -211637, Lbs=   4.7637
+
+HX711::read(): shiftIn() bytes read: 252, 197, 137
+loop(): Count= -211575, Lbs=   4.7575
+
+HX711::read(): shiftIn() bytes read: 252, 197, 31
+loop(): Count= -211681, Lbs=   4.7681
+
+HX711::read(): shiftIn() bytes read: 252, 196, 153
+loop(): Count= -211815, Lbs=   4.7815
+
+HX711::read(): shiftIn() bytes read: 252, 196, 190
+loop(): Count= -211778, Lbs=   4.7778
+
+HX711::read(): shiftIn() bytes read: 252, 195, 212
+loop(): Count= -212012, Lbs=   4.8012
+
+HX711::read(): shiftIn() bytes read: 252, 195, 97
+loop(): Count= -212127, Lbs=   4.8127
+
+HX711::read(): shiftIn() bytes read: 252, 194, 172
+loop(): Count= -212308, Lbs=   4.8308
+
+HX711::read(): shiftIn() bytes read: 252, 194, 237
+loop(): Count= -212243, Lbs=   4.8243
+
+HX711::read(): shiftIn() bytes read: 252, 193, 252
+loop(): Count= -212484, Lbs=   4.8484
+
+HX711::read(): shiftIn() bytes read: 252, 193, 200
+loop(): Count= -212536, Lbs=   4.8536
+
+HX711::read(): shiftIn() bytes read: 252, 193, 251
+loop(): Count= -212485, Lbs=   4.8485
+
+HX711::read(): shiftIn() bytes read: 252, 194, 46
+loop(): Count= -212434, Lbs=   4.8434
+
+HX711::read(): shiftIn() bytes read: 252, 193, 229
+loop(): Count= -212507, Lbs=   4.8507
+
+HX711::read(): shiftIn() bytes read: 252, 194, 87
+loop(): Count= -212393, Lbs=   4.8393
+
+HX711::read(): shiftIn() bytes read: 252, 193, 217
+loop(): Count= -212519, Lbs=   4.8519
+
+HX711::read(): shiftIn() bytes read: 252, 193, 195
+loop(): Count= -212541, Lbs=   4.8541
+
+HX711::read(): shiftIn() bytes read: 252, 193, 27
+loop(): Count= -212709, Lbs=   4.8709
+
+HX711::read(): shiftIn() bytes read: 252, 193, 191
+loop(): Count= -212545, Lbs=   4.8545
+
+HX711::read(): shiftIn() bytes read: 252, 192, 126
+loop(): Count= -212866, Lbs=   4.8866
+
+HX711::read(): shiftIn() bytes read: 252, 192, 95
+loop(): Count= -212897, Lbs=   4.8897
+
+HX711::read(): shiftIn() bytes read: 252, 192, 81
+loop(): Count= -212911, Lbs=   4.8911
+
+HX711::read(): shiftIn() bytes read: 252, 191, 236
+loop(): Count= -213012, Lbs=   4.9012
+
+HX711::read(): shiftIn() bytes read: 252, 192, 110
+loop(): Count= -212882, Lbs=   4.8882
+
+HX711::read(): shiftIn() bytes read: 252, 192, 211
+loop(): Count= -212781, Lbs=   4.8781
+
+HX711::read(): shiftIn() bytes read: 252, 192, 93
+loop(): Count= -212899, Lbs=   4.8899
+
+HX711::read(): shiftIn() bytes read: 252, 192, 9
+loop(): Count= -212983, Lbs=   4.8983
+
+HX711::read(): shiftIn() bytes read: 252, 191, 191
+loop(): Count= -213057, Lbs=   4.9057
+
+HX711::read(): shiftIn() bytes read: 252, 191, 153
+loop(): Count= -213095, Lbs=   4.9095
+
+HX711::read(): shiftIn() bytes read: 252, 191, 215
+loop(): Count= -213033, Lbs=   4.9033
+
+HX711::read(): shiftIn() bytes read: 252, 191, 113
+loop(): Count= -213135, Lbs=   4.9135
+
+HX711::read(): shiftIn() bytes read: 252, 190, 129
+loop(): Count= -213375, Lbs=   4.9375
+
+HX711::read(): shiftIn() bytes read: 252, 190, 99
+loop(): Count= -213405, Lbs=   4.9405
+
+HX711::read(): shiftIn() bytes read: 252, 190, 83
+loop(): Count= -213421, Lbs=   4.9421
+
+HX711::read(): shiftIn() bytes read: 252, 190, 11
+loop(): Count= -213493, Lbs=   4.9493
+
+HX711::read(): shiftIn() bytes read: 252, 189, 152
+loop(): Count= -213608, Lbs=   4.9608
+
+HX711::read(): shiftIn() bytes read: 252, 188, 254
+loop(): Count= -213762, Lbs=   4.9762
+
+HX711::read(): shiftIn() bytes read: 252, 188, 224
+loop(): Count= -213792, Lbs=   4.9792
+
+HX711::read(): shiftIn() bytes read: 252, 188, 160
+loop(): Count= -213856, Lbs=   4.9856
+
+HX711::read(): shiftIn() bytes read: 252, 191, 188
+loop(): Count= -213060, Lbs=   4.9060
+
+HX711::read(): shiftIn() bytes read: 252, 189, 155
+loop(): Count= -213605, Lbs=   4.9605
+
+HX711::read(): shiftIn() bytes read: 252, 189, 99
+loop(): Count= -213661, Lbs=   4.9661
+
+HX711::read(): shiftIn() bytes read: 252, 189, 57
+loop(): Count= -213703, Lbs=   4.9703
+
+HX711::read(): shiftIn() bytes read: 252, 188, 221
+loop(): Count= -213795, Lbs=   4.9795
+
+HX711::read(): shiftIn() bytes read: 252, 188, 168
+loop(): Count= -213848, Lbs=   4.9848
+
+HX711::read(): shiftIn() bytes read: 252, 188, 202
+loop(): Count= -213814, Lbs=   4.9814
+
+HX711::read(): shiftIn() bytes read: 252, 187, 173
+loop(): Count= -214099, Lbs=   5.0099
+
+HX711::read(): shiftIn() bytes read: 252, 187, 146
+loop(): Count= -214126, Lbs=   5.0126
+
+HX711::read(): shiftIn() bytes read: 252, 186, 130
+loop(): Count= -214398, Lbs=   5.0398
+
+HX711::read(): shiftIn() bytes read: 252, 186, 130
+loop(): Count= -214398, Lbs=   5.0398
+
+HX711::read(): shiftIn() bytes read: 252, 186, 92
+loop(): Count= -214436, Lbs=   5.0436
+
+HX711::read(): shiftIn() bytes read: 252, 186, 38
+loop(): Count= -214490, Lbs=   5.0490
+
+HX711::read(): shiftIn() bytes read: 252, 186, 81
+loop(): Count= -214447, Lbs=   5.0447
+
+HX711::read(): shiftIn() bytes read: 252, 186, 69
+loop(): Count= -214459, Lbs=   5.0459
+
+HX711::read(): shiftIn() bytes read: 252, 186, 58
+loop(): Count= -214470, Lbs=   5.0470
+
+HX711::read(): shiftIn() bytes read: 252, 186, 59
+loop(): Count= -214469, Lbs=   5.0469
+
+HX711::read(): shiftIn() bytes read: 252, 186, 12
+loop(): Count= -214516, Lbs=   5.0516
+
+HX711::read(): shiftIn() bytes read: 252, 186, 25
+loop(): Count= -214503, Lbs=   5.0503
+
+HX711::read(): shiftIn() bytes read: 252, 185, 169
+loop(): Count= -214615, Lbs=   5.0615
+
+HX711::read(): shiftIn() bytes read: 252, 185, 87
+loop(): Count= -214697, Lbs=   5.0697
+
+HX711::read(): shiftIn() bytes read: 252, 185, 120
+loop(): Count= -214664, Lbs=   5.0664
+
+HX711::read(): shiftIn() bytes read: 252, 185, 29
+loop(): Count= -214755, Lbs=   5.0755
+
+HX711::read(): shiftIn() bytes read: 252, 184, 201
+loop(): Count= -214839, Lbs=   5.0839
+
+HX711::read(): shiftIn() bytes read: 252, 185, 16
+loop(): Count= -214768, Lbs=   5.0768
+
+HX711::read(): shiftIn() bytes read: 252, 184, 255
+loop(): Count= -214785, Lbs=   5.0785
+
+HX711::read(): shiftIn() bytes read: 252, 184, 212
+loop(): Count= -214828, Lbs=   5.0828
+
+HX711::read(): shiftIn() bytes read: 252, 184, 192
+loop(): Count= -214848, Lbs=   5.0848
+
+HX711::read(): shiftIn() bytes read: 252, 184, 190
+loop(): Count= -214850, Lbs=   5.0850
+
+HX711::read(): shiftIn() bytes read: 252, 184, 183
+loop(): Count= -214857, Lbs=   5.0857
+
+HX711::read(): shiftIn() bytes read: 252, 184, 182
+loop(): Count= -214858, Lbs=   5.0858
+
+HX711::read(): shiftIn() bytes read: 252, 183, 248
+loop(): Count= -215048, Lbs=   5.1048
+
+HX711::read(): shiftIn() bytes read: 252, 184, 144
+loop(): Count= -214896, Lbs=   5.0896
+
+HX711::read(): shiftIn() bytes read: 252, 184, 51
+loop(): Count= -214989, Lbs=   5.0989
+
+HX711::read(): shiftIn() bytes read: 252, 184, 123
+loop(): Count= -214917, Lbs=   5.0917
+
+HX711::read(): shiftIn() bytes read: 252, 184, 39
+loop(): Count= -215001, Lbs=   5.1001
+
+HX711::read(): shiftIn() bytes read: 252, 184, 9
+loop(): Count= -215031, Lbs=   5.1031
+
+HX711::read(): shiftIn() bytes read: 252, 183, 190
+loop(): Count= -215106, Lbs=   5.1106
+
+HX711::read(): shiftIn() bytes read: 252, 183, 111
+loop(): Count= -215185, Lbs=   5.1185
+
+HX711::read(): shiftIn() bytes read: 252, 183, 158
+loop(): Count= -215138, Lbs=   5.1138
+
+HX711::read(): shiftIn() bytes read: 252, 182, 253
+loop(): Count= -215299, Lbs=   5.1299
+
+HX711::read(): shiftIn() bytes read: 252, 183, 33
+loop(): Count= -215263, Lbs=   5.1263
+
+HX711::read(): shiftIn() bytes read: 252, 182, 250
+loop(): Count= -215302, Lbs=   5.1302
+
+HX711::read(): shiftIn() bytes read: 252, 183, 74
+loop(): Count= -215222, Lbs=   5.1222
+
+HX711::read(): shiftIn() bytes read: 252, 182, 110
+loop(): Count= -215442, Lbs=   5.1442
+
+HX711::read(): shiftIn() bytes read: 252, 182, 129
+loop(): Count= -215423, Lbs=   5.1423
+
+HX711::read(): shiftIn() bytes read: 252, 182, 55
+loop(): Count= -215497, Lbs=   5.1497
+
+HX711::read(): shiftIn() bytes read: 252, 181, 255
+loop(): Count= -215553, Lbs=   5.1553
+
+HX711::read(): shiftIn() bytes read: 252, 182, 56
+loop(): Count= -215496, Lbs=   5.1496
+
+HX711::read(): shiftIn() bytes read: 252, 182, 175
+loop(): Count= -215377, Lbs=   5.1377
+
+HX711::read(): shiftIn() bytes read: 252, 181, 203
+loop(): Count= -215605, Lbs=   5.1605
+
+HX711::read(): shiftIn() bytes read: 252, 181, 222
+loop(): Count= -215586, Lbs=   5.1586
+
+HX711::read(): shiftIn() bytes read: 252, 181, 167
+loop(): Count= -215641, Lbs=   5.1641
+
+HX711::read(): shiftIn() bytes read: 252, 181, 138
+loop(): Count= -215670, Lbs=   5.1670
+
+HX711::read(): shiftIn() bytes read: 252, 182, 0
+loop(): Count= -215552, Lbs=   5.1552
+
+HX711::read(): shiftIn() bytes read: 252, 181, 215
+loop(): Count= -215593, Lbs=   5.1593
+
+HX711::read(): shiftIn() bytes read: 252, 181, 210
+loop(): Count= -215598, Lbs=   5.1598
+
+HX711::read(): shiftIn() bytes read: 252, 181, 175
+loop(): Count= -215633, Lbs=   5.1633
+
+HX711::read(): shiftIn() bytes read: 252, 181, 142
+loop(): Count= -215666, Lbs=   5.1666
+
+HX711::read(): shiftIn() bytes read: 252, 181, 154
+loop(): Count= -215654, Lbs=   5.1654
+
+HX711::read(): shiftIn() bytes read: 252, 181, 229
+loop(): Count= -215579, Lbs=   5.1579
+
+HX711::read(): shiftIn() bytes read: 252, 181, 193
+loop(): Count= -215615, Lbs=   5.1615
+
+HX711::read(): shiftIn() bytes read: 252, 181, 171
+loop(): Count= -215637, Lbs=   5.1637
+
+HX711::read(): shiftIn() bytes read: 252, 181, 136
+loop(): Count= -215672, Lbs=   5.1672
+
+HX711::read(): shiftIn() bytes read: 252, 180, 250
+loop(): Count= -215814, Lbs=   5.1814
+
+HX711::read(): shiftIn() bytes read: 252, 181, 57
+loop(): Count= -215751, Lbs=   5.1751
+
+HX711::read(): shiftIn() bytes read: 252, 181, 21
+loop(): Count= -215787, Lbs=   5.1787
+
+HX711::read(): shiftIn() bytes read: 252, 181, 20
+loop(): Count= -215788, Lbs=   5.1788
+
+HX711::read(): shiftIn() bytes read: 252, 180, 242
+loop(): Count= -215822, Lbs=   5.1822
+
+HX711::read(): shiftIn() bytes read: 252, 180, 208
+loop(): Count= -215856, Lbs=   5.1856
+
+HX711::read(): shiftIn() bytes read: 252, 180, 129
+loop(): Count= -215935, Lbs=   5.1935
+
+HX711::read(): shiftIn() bytes read: 252, 180, 16
+loop(): Count= -216048, Lbs=   5.2048
+
+HX711::read(): shiftIn() bytes read: 252, 179, 216
+loop(): Count= -216104, Lbs=   5.2104
+
+HX711::read(): shiftIn() bytes read: 252, 179, 229
+loop(): Count= -216091, Lbs=   5.2091
+
+HX711::read(): shiftIn() bytes read: 252, 180, 92
+loop(): Count= -215972, Lbs=   5.1972
+
+HX711::read(): shiftIn() bytes read: 252, 179, 185
+loop(): Count= -216135, Lbs=   5.2135
+
+HX711::read(): shiftIn() bytes read: 252, 179, 94
+loop(): Count= -216226, Lbs=   5.2226
+
+HX711::read(): shiftIn() bytes read: 252, 179, 89
+loop(): Count= -216231, Lbs=   5.2231
+
+HX711::read(): shiftIn() bytes read: 252, 180, 4
+loop(): Count= -216060, Lbs=   5.2060
+
+HX711::read(): shiftIn() bytes read: 252, 179, 39
+loop(): Count= -216281, Lbs=   5.2281
+
+HX711::read(): shiftIn() bytes read: 252, 179, 109
+loop(): Count= -216211, Lbs=   5.2211
+
+HX711::read(): shiftIn() bytes read: 252, 179, 25
+loop(): Count= -216295, Lbs=   5.2295
+
+HX711::read(): shiftIn() bytes read: 252, 179, 67
+loop(): Count= -216253, Lbs=   5.2253
+
+HX711::read(): shiftIn() bytes read: 252, 178, 217
+loop(): Count= -216359, Lbs=   5.2359
+
+HX711::read(): shiftIn() bytes read: 252, 178, 179
+loop(): Count= -216397, Lbs=   5.2397
+
+HX711::read(): shiftIn() bytes read: 252, 178, 180
+loop(): Count= -216396, Lbs=   5.2396
+
+HX711::read(): shiftIn() bytes read: 252, 179, 21
+loop(): Count= -216299, Lbs=   5.2299
+
+HX711::read(): shiftIn() bytes read: 252, 178, 143
+loop(): Count= -216433, Lbs=   5.2433
+
+HX711::read(): shiftIn() bytes read: 252, 177, 254
+loop(): Count= -216578, Lbs=   5.2578
+
+HX711::read(): shiftIn() bytes read: 252, 177, 187
+loop(): Count= -216645, Lbs=   5.2645
+
+HX711::read(): shiftIn() bytes read: 252, 178, 18
+loop(): Count= -216558, Lbs=   5.2558
+
+HX711::read(): shiftIn() bytes read: 252, 177, 222
+loop(): Count= -216610, Lbs=   5.2610
+
+HX711::read(): shiftIn() bytes read: 252, 177, 193
+loop(): Count= -216639, Lbs=   5.2639
+
+HX711::read(): shiftIn() bytes read: 252, 177, 155
+loop(): Count= -216677, Lbs=   5.2677
+
+HX711::read(): shiftIn() bytes read: 252, 177, 41
+loop(): Count= -216791, Lbs=   5.2791
+
+HX711::read(): shiftIn() bytes read: 252, 177, 49
+loop(): Count= -216783, Lbs=   5.2783
+
+HX711::read(): shiftIn() bytes read: 252, 177, 23
+loop(): Count= -216809, Lbs=   5.2809
+
+HX711::read(): shiftIn() bytes read: 252, 176, 189
+loop(): Count= -216899, Lbs=   5.2899
+
+HX711::read(): shiftIn() bytes read: 252, 176, 129
+loop(): Count= -216959, Lbs=   5.2959
+
+HX711::read(): shiftIn() bytes read: 252, 176, 189
+loop(): Count= -216899, Lbs=   5.2899
+
+HX711::read(): shiftIn() bytes read: 252, 176, 249
+loop(): Count= -216839, Lbs=   5.2839
+
+HX711::read(): shiftIn() bytes read: 252, 177, 33
+loop(): Count= -216799, Lbs=   5.2799
+
+HX711::read(): shiftIn() bytes read: 252, 176, 211
+loop(): Count= -216877, Lbs=   5.2877
+
+HX711::read(): shiftIn() bytes read: 252, 176, 137
+loop(): Count= -216951, Lbs=   5.2951
+
+HX711::read(): shiftIn() bytes read: 252, 176, 171
+loop(): Count= -216917, Lbs=   5.2917
+
+HX711::read(): shiftIn() bytes read: 252, 176, 133
+loop(): Count= -216955, Lbs=   5.2955
+
+HX711::read(): shiftIn() bytes read: 252, 176, 88
+loop(): Count= -217000, Lbs=   5.3000
+
+HX711::read(): shiftIn() bytes read: 252, 176, 174
+loop(): Count= -216914, Lbs=   5.2914
+
+HX711::read(): shiftIn() bytes read: 252, 177, 120
+loop(): Count= -216712, Lbs=   5.2712
+
+HX711::read(): shiftIn() bytes read: 252, 176, 141
+loop(): Count= -216947, Lbs=   5.2947
+
+HX711::read(): shiftIn() bytes read: 252, 175, 232
+loop(): Count= -217112, Lbs=   5.3112
+
+HX711::read(): shiftIn() bytes read: 252, 176, 9
+loop(): Count= -217079, Lbs=   5.3079
+
+HX711::read(): shiftIn() bytes read: 252, 175, 224
+loop(): Count= -217120, Lbs=   5.3120
+
+HX711::read(): shiftIn() bytes read: 252, 176, 39
+loop(): Count= -217049, Lbs=   5.3049
+
+HX711::read(): shiftIn() bytes read: 252, 175, 163
+loop(): Count= -217181, Lbs=   5.3181
+
+HX711::read(): shiftIn() bytes read: 252, 175, 123
+loop(): Count= -217221, Lbs=   5.3221
+
+HX711::read(): shiftIn() bytes read: 252, 175, 110
+loop(): Count= -217234, Lbs=   5.3234
+
+HX711::read(): shiftIn() bytes read: 252, 175, 116
+loop(): Count= -217228, Lbs=   5.3228
+
+HX711::read(): shiftIn() bytes read: 252, 175, 115
+loop(): Count= -217229, Lbs=   5.3229
+
+HX711::read(): shiftIn() bytes read: 252, 175, 197
+loop(): Count= -217147, Lbs=   5.3147
+
+HX711::read(): shiftIn() bytes read: 252, 175, 143
+loop(): Count= -217201, Lbs=   5.3201
+
+HX711::read(): shiftIn() bytes read: 252, 175, 37
+loop(): Count= -217307, Lbs=   5.3307
+
+HX711::read(): shiftIn() bytes read: 252, 175, 9
+loop(): Count= -217335, Lbs=   5.3335
+
+HX711::read(): shiftIn() bytes read: 252, 174, 204
+loop(): Count= -217396, Lbs=   5.3396
+
+HX711::read(): shiftIn() bytes read: 252, 175, 15
+loop(): Count= -217329, Lbs=   5.3329
+
+HX711::read(): shiftIn() bytes read: 252, 175, 99
+loop(): Count= -217245, Lbs=   5.3245
+
+HX711::read(): shiftIn() bytes read: 252, 174, 153
+loop(): Count= -217447, Lbs=   5.3447
+
+HX711::read(): shiftIn() bytes read: 252, 174, 191
+loop(): Count= -217409, Lbs=   5.3409
+
+HX711::read(): shiftIn() bytes read: 252, 174, 102
+loop(): Count= -217498, Lbs=   5.3498
+
+HX711::read(): shiftIn() bytes read: 252, 174, 74
+loop(): Count= -217526, Lbs=   5.3526
+
+HX711::read(): shiftIn() bytes read: 252, 174, 94
+loop(): Count= -217506, Lbs=   5.3506
+
+HX711::read(): shiftIn() bytes read: 252, 174, 54
+loop(): Count= -217546, Lbs=   5.3546
+
+HX711::read(): shiftIn() bytes read: 252, 173, 107
+loop(): Count= -217749, Lbs=   5.3749
+
+HX711::read(): shiftIn() bytes read: 252, 173, 89
+loop(): Count= -217767, Lbs=   5.3767
+
+HX711::read(): shiftIn() bytes read: 252, 173, 124
+loop(): Count= -217732, Lbs=   5.3732
+
+HX711::read(): shiftIn() bytes read: 252, 173, 157
+loop(): Count= -217699, Lbs=   5.3699
+
+HX711::read(): shiftIn() bytes read: 252, 173, 87
+loop(): Count= -217769, Lbs=   5.3769
+
+HX711::read(): shiftIn() bytes read: 252, 173, 176
+loop(): Count= -217680, Lbs=   5.3680
+
+HX711::read(): shiftIn() bytes read: 252, 173, 235
+loop(): Count= -217621, Lbs=   5.3621
+
+HX711::read(): shiftIn() bytes read: 252, 172, 252
+loop(): Count= -217860, Lbs=   5.3860
+
+HX711::read(): shiftIn() bytes read: 252, 173, 187
+loop(): Count= -217669, Lbs=   5.3669
+
+HX711::read(): shiftIn() bytes read: 252, 173, 104
+loop(): Count= -217752, Lbs=   5.3752
+
+HX711::read(): shiftIn() bytes read: 252, 172, 136
+loop(): Count= -217976, Lbs=   5.3976
+
+HX711::read(): shiftIn() bytes read: 252, 172, 185
+loop(): Count= -217927, Lbs=   5.3927
+
+HX711::read(): shiftIn() bytes read: 252, 173, 123
+loop(): Count= -217733, Lbs=   5.3733
+
+HX711::read(): shiftIn() bytes read: 252, 173, 79
+loop(): Count= -217777, Lbs=   5.3777
+
+HX711::read(): shiftIn() bytes read: 252, 173, 28
+loop(): Count= -217828, Lbs=   5.3828
+
+HX711::read(): shiftIn() bytes read: 252, 172, 134
+loop(): Count= -217978, Lbs=   5.3978
+
+HX711::read(): shiftIn() bytes read: 252, 172, 158
+loop(): Count= -217954, Lbs=   5.3954
+
+HX711::read(): shiftIn() bytes read: 252, 172, 77
+loop(): Count= -218035, Lbs=   5.4035
+
+HX711::read(): shiftIn() bytes read: 252, 172, 83
+loop(): Count= -218029, Lbs=   5.4029
+
+HX711::read(): shiftIn() bytes read: 252, 171, 192
+loop(): Count= -218176, Lbs=   5.4176
+
+HX711::read(): shiftIn() bytes read: 252, 172, 107
+loop(): Count= -218005, Lbs=   5.4005
+
+HX711::read(): shiftIn() bytes read: 252, 172, 95
+loop(): Count= -218017, Lbs=   5.4017
+
+HX711::read(): shiftIn() bytes read: 252, 172, 12
+loop(): Count= -218100, Lbs=   5.4100
+
+HX711::read(): shiftIn() bytes read: 252, 172, 67
+loop(): Count= -218045, Lbs=   5.4045
+
+HX711::read(): shiftIn() bytes read: 252, 172, 30
+loop(): Count= -218082, Lbs=   5.4082
+
+HX711::read(): shiftIn() bytes read: 252, 171, 196
+loop(): Count= -218172, Lbs=   5.4172
+€€
+
+//************************
+˜H•?­Í2_HX711.ino, Apr 21, 2018-y
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 255, 64, 196
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 255, 61, 224
+loop(): Total Lbs=  -7.7304
+
+HX711::read(): shiftIn() bytes read: 255, 24, 35
+loop(): Total Lbs=  -6.7643
+
+HX711::read(): shiftIn() bytes read: 255, 0, 10
+loop(): Total Lbs=  -6.1474
+
+HX711::read(): shiftIn() bytes read: 254, 145, 60
+loop(): Total Lbs=  -3.3108
+
+HX711::read(): shiftIn() bytes read: 254, 187, 49
+loop(): Total Lbs=  -4.3849
+
+HX711::read(): shiftIn() bytes read: 254, 21, 250
+loop(): Total Lbs=  -0.1554
+
+HX711::read(): shiftIn() bytes read: 253, 249, 203
+loop(): Total Lbs=   0.5661
+
+HX711::read(): shiftIn() bytes read: 254, 170, 112
+loop(): Total Lbs=  -3.9560
+
+HX711::read(): shiftIn() bytes read: 254, 157, 11
+loop(): Total Lbs=  -3.6131
+
+HX711::read(): shiftIn() bytes read: 254, 145, 62
+loop(): Total Lbs=  -3.3110
+
+HX711::read(): shiftIn() bytes read: 254, 133, 17
+loop(): Total Lbs=  -2.9993
+
+HX711::read(): shiftIn() bytes read: 254, 121, 2
+loop(): Total Lbs=  -2.6906
+
+HX711::read(): shiftIn() bytes read: 254, 111, 16
+loop(): Total Lbs=  -2.4360
+
+HX711::read(): shiftIn() bytes read: 254, 101, 2
+loop(): Total Lbs=  -2.1786
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+˜H•?­Í2_HX711.ino, Apr 22, 2018-a
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 254, 228, 71
+HX711::begin(): Done
+
+HX711::read(): shiftIn() bytes read: 254, 219, 157
+loop(): Total Lbs=  -8.9220
+
+HX711::read(): shiftIn() bytes read: 254, 120, 164
+loop(): Total Lbs=  -6.3883
+
+HX711::read(): shiftIn() bytes read: 254, 94, 43
+loop(): Total Lbs=  -5.7106
+.
+.
+.
+.
+
+HX711::read(): shiftIn() bytes read: 254, 41, 65
+loop(): Total Lbs=  -4.3560
+
+HX711::read(): shiftIn() bytes read: 254, 35, 151
+loop(): Total Lbs=  -4.2110
+
+HX711::read(): shiftIn() bytes read: 254, 154, 207
+loop(): Total Lbs=  -7.2630
+
+HX711::read(): shiftIn() bytes read: 254, 150, 85
+loop(): Total Lbs=  -7.1484
+
+HX711::read(): shiftIn() bytes read: 254, 127, 78
+loop(): Total Lbs=  -6.5589
+
+HX711::read(): shiftIn() bytes read: 254, 152, 73
+loop(): Total Lbs=  -7.1984
+
+HX711::read(): shiftIn() bytes read: 0, 140, 249
+loop(): Total Lbs= -20.0160
+
+HX711::read(): shiftIn() bytes read: 0, 167, 148
+loop(): Total Lbs= -20.6971
+
+HX711::read(): shiftIn() bytes read: 0, 94, 142
+loop(): Total Lbs= -18.8277
+
+HX711::read(): shiftIn() bytes read: 0, 184, 177
+loop(): Total Lbs= -21.1352
+
+HX711::read(): shiftIn() bytes read: 255, 244, 13
+loop(): Total Lbs= -16.1012
+
+HX711::read(): shiftIn() bytes read: 0, 39, 40
+loop(): Total Lbs= -17.4095
+
+HX711::read(): shiftIn() bytes read: 0, 94, 253
+loop(): Total Lbs= -18.8388
+
+HX711::read(): shiftIn() bytes read: 0, 74, 4
+loop(): Total Lbs= -18.3019
+
+HX711::read(): shiftIn() bytes read: 255, 243, 221
+loop(): Total Lbs= -16.0964
+
+HX711::read(): shiftIn() bytes read: 255, 246, 188
+loop(): Total Lbs= -16.1699
+
+HX711::read(): shiftIn() bytes read: 0, 47, 243
+loop(): Total Lbs= -17.6346
+
+HX711::read(): shiftIn() bytes read: 255, 226, 255
+loop(): Total Lbs= -15.6646
+
+HX711::read(): shiftIn() bytes read: 255, 213, 11
+loop(): Total Lbs= -15.3074
+
+HX711::read(): shiftIn() bytes read: 255, 156, 173
+loop(): Total Lbs= -13.8644
+
+HX711::read(): shiftIn() bytes read: 255, 188, 100
+loop(): Total Lbs= -14.6763
+
+HX711::read(): shiftIn() bytes read: 0, 77, 69
+loop(): Total Lbs= -18.3852
+
+HX711::read(): shiftIn() bytes read: 255, 221, 245
+loop(): Total Lbs= -15.5356
+
+HX711::read(): shiftIn() bytes read: 255, 187, 66
+loop(): Total Lbs= -14.6473
+
+HX711::read(): shiftIn() bytes read: 255, 105, 152
+loop(): Total Lbs= -12.5567
+
+HX711::read(): shiftIn() bytes read: 255, 28, 226
+loop(): Total Lbs= -10.5929
+
+HX711::read(): shiftIn() bytes read: 255, 15, 62
+loop(): Total Lbs= -10.2437
+
+HX711::read(): shiftIn() bytes read: 254, 251, 100
+loop(): Total Lbs=  -9.7355
+
+HX711::read(): shiftIn() bytes read: 254, 254, 221
+loop(): Total Lbs=  -9.8244
+
+HX711::read(): shiftIn() bytes read: 255, 15, 200
+loop(): Total Lbs= -10.2575
+
+HX711::read(): shiftIn() bytes read: 255, 76, 192
+loop(): Total Lbs= -11.8183
+
+HX711::read(): shiftIn() bytes read: 255, 6, 96
+loop(): Total Lbs= -10.0167
+
+HX711::read(): shiftIn() bytes read: 255, 28, 190
+loop(): Total Lbs= -10.5893
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 255, 255, 255
+loop(): Total Lbs= -16.4070
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 0, 0, 0
+loop(): Total Lbs= -16.4071
+
+HX711::read(): shiftIn() bytes read: 254, 131, 163
+loop(): Total Lbs=  -6.6698
+
+HX711::read(): shiftIn() bytes read: 254, 129, 167
+loop(): Total Lbs=  -6.6190
+
+HX711::read(): shiftIn() bytes read: 254, 119, 75
+loop(): Total Lbs=  -6.3538
+
+HX711::read(): shiftIn() bytes read: 254, 107, 105
+loop(): Total Lbs=  -6.0496
+
+HX711::read(): shiftIn() bytes read: 254, 99, 232
+loop(): Total Lbs=  -5.8575
+
+HX711::read(): shiftIn() bytes read: 254, 145, 10
+loop(): Total Lbs=  -7.0129
+
+HX711::read(): shiftIn() bytes read: 254, 110, 122
+loop(): Total Lbs=  -6.1281
+
+HX711::read(): shiftIn() bytes read: 254, 104, 226
+loop(): Total Lbs=  -5.9849
+
+HX711::read(): shiftIn() bytes read: 254, 85, 53
+loop(): Total Lbs=  -5.4812
+
+HX711::read(): shiftIn() bytes read: 254, 83, 205
+loop(): Total Lbs=  -5.4452
+
+HX711::read(): shiftIn() bytes read: 254, 159, 190
+loop(): Total Lbs=  -7.3893
+
+HX711::read(): shiftIn() bytes read: 254, 145, 227
+loop(): Total Lbs=  -7.0346
+
+HX711::read(): shiftIn() bytes read: 254, 116, 140
+loop(): Total Lbs=  -6.2835
+
+HX711::read(): shiftIn() bytes read: 254, 88, 84
+loop(): Total Lbs=  -5.5611
+
+HX711::read(): shiftIn() bytes read: 254, 84, 180
+loop(): Total Lbs=  -5.4683
+
+HX711::read(): shiftIn() bytes read: 254, 79, 146
+loop(): Total Lbs=  -5.3369
+
+HX711::read(): shiftIn() bytes read: 254, 79, 87
+loop(): Total Lbs=  -5.3310
+
+HX711::read(): shiftIn() bytes read: 254, 70, 157
+loop(): Total Lbs=  -5.1076
+
+HX711::read(): shiftIn() bytes read: 254, 71, 231
+loop(): Total Lbs=  -5.1406
+
+HX711::read(): shiftIn() bytes read: 254, 68, 124
+loop(): Total Lbs=  -5.0531
+
+HX711::read(): shiftIn() bytes read: 254, 61, 97
+loop(): Total Lbs=  -4.8712
+
+HX711::read(): shiftIn() bytes read: 254, 57, 167
+loop(): Total Lbs=  -4.7758
+
+HX711::read(): shiftIn() bytes read: 254, 57, 165
+loop(): Total Lbs=  -4.7756
+
+HX711::read(): shiftIn() bytes read: 254, 54, 225
+loop(): Total Lbs=  -4.7048
+
+HX711::read(): shiftIn() bytes read: 254, 51, 72
+loop(): Total Lbs=  -4.6127
+
+HX711::read(): shiftIn() bytes read: 254, 49, 71
+loop(): Total Lbs=  -4.5614
+
+HX711::read(): shiftIn() bytes read: 254, 43, 201
+loop(): Total Lbs=  -4.4208
+
+HX711::read(): shiftIn() bytes read: 254, 36, 215
+loop(): Total Lbs=  -4.2430
+
+HX711::read(): shiftIn() bytes read: 254, 28, 18
+loop(): Total Lbs=  -4.0185
+
+HX711::read(): shiftIn() bytes read: 254, 22, 105
+loop(): Total Lbs=  -3.8736
+
+HX711::read(): shiftIn() bytes read: 254, 17, 125
+loop(): Total Lbs=  -3.7476
+
+HX711::read(): shiftIn() bytes read: 254, 12, 174
+loop(): Total Lbs=  -3.6245
+
+HX711::read(): shiftIn() bytes read: 254, 7, 100
+loop(): Total Lbs=  -3.4891
+
+HX711::read(): shiftIn() bytes read: 254, 2, 228
+loop(): Total Lbs=  -3.3739
+
+HX711::read(): shiftIn() bytes read: 254, 0, 54
+loop(): Total Lbs=  -3.3053
+
+HX711::read(): shiftIn() bytes read: 253, 251, 90
+loop(): Total Lbs=  -3.1809
+
+HX711::read(): shiftIn() bytes read: 253, 246, 95
+loop(): Total Lbs=  -3.0534
+
+HX711::read(): shiftIn() bytes read: 253, 243, 185
+loop(): Total Lbs=  -2.9856
+
+HX711::read(): shiftIn() bytes read: 253, 240, 50
+loop(): Total Lbs=  -2.8953
+
+HX711::read(): shiftIn() bytes read: 253, 235, 170
+loop(): Total Lbs=  -2.7793
+
+HX711::read(): shiftIn() bytes read: 253, 231, 33
+loop(): Total Lbs=  -2.6632
+
+HX711::read(): shiftIn() bytes read: 253, 228, 72
+loop(): Total Lbs=  -2.5903
+
+
+//*****************************
+HX711.ino, Apr 21, 2018-w
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 245, 233
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 242, 131
+TakeReadings(): oPedalForce.read() returned -134525
+HX711::read(): shiftIn() bytes read: 253, 239, 213
+TakeReadings(): oPedalForce.get_value(1) returned -135211
+HX711::read(): shiftIn() bytes read: 253, 237, 206
+TakeReadings(): oPedalForce.get_units(1) returned -135730
+
+HX711::read(): shiftIn() bytes read: 253, 235, 136
+loop(): oPedalForce.read() returned -136312
+
+HX711::read(): shiftIn() bytes read: 253, 246, 19
+loop(): oPedalForce.read() returned -133613
+
+HX711::read(): shiftIn() bytes read: 253, 253, 244
+loop(): oPedalForce.read() returned -131596
+
+HX711::read(): shiftIn() bytes read: 253, 20, 136
+loop(): oPedalForce.read() returned -191352
+
+HX711::read(): shiftIn() bytes read: 253, 18, 69
+loop(): oPedalForce.read() returned -191931
+
+HX711::read(): shiftIn() bytes read: 253, 28, 74
+loop(): oPedalForce.read() returned -189366
+
+HX711::read(): shiftIn() bytes read: 253, 62, 129
+loop(): oPedalForce.read() returned -180607
+
+HX711::read(): shiftIn() bytes read: 254, 11, 25
+loop(): oPedalForce.read() returned -128231
+
+HX711::read(): shiftIn() bytes read: 254, 18, 114
+loop(): oPedalForce.read() returned -126350
+
+HX711::read(): shiftIn() bytes read: 254, 15, 108
+loop(): oPedalForce.read() returned -127124
+
+HX711::read(): shiftIn() bytes read: 253, 79, 80
+loop(): oPedalForce.read() returned -176304
+
+HX711::read(): shiftIn() bytes read: 253, 57, 131
+loop(): oPedalForce.read() returned -181885
+
+HX711::read(): shiftIn() bytes read: 253, 72, 129
+loop(): oPedalForce.read() returned -178047
+
+HX711::read(): shiftIn() bytes read: 253, 69, 153
+loop(): oPedalForce.read() returned -178791
+
+HX711::read(): shiftIn() bytes read: 253, 71, 202
+loop(): oPedalForce.read() returned -178230
+
+HX711::read(): shiftIn() bytes read: 254, 15, 76
+loop(): oPedalForce.read() returned -127156
+
+HX711::read(): shiftIn() bytes read: 254, 17, 152
+loop(): oPedalForce.read() returned -126568
+
+HX711::read(): shiftIn() bytes read: 254, 20, 77
+loop(): oPedalForce.read() returned -125875
+
+HX711::read(): shiftIn() bytes read: 253, 23, 14
+loop(): oPedalForce.read() returned -190706
+
+HX711::read(): shiftIn() bytes read: 253, 55, 57
+loop(): oPedalForce.read() returned -182471
+
+HX711::read(): shiftIn() bytes read: 253, 59, 42
+loop(): oPedalForce.read() returned -181462
+
+HX711::read(): shiftIn() bytes read: 253, 67, 93
+loop(): oPedalForce.read() returned -179363
+
+HX711::read(): shiftIn() bytes read: 253, 185, 143
+loop(): oPedalForce.read() returned -149105
+
+HX711::read(): shiftIn() bytes read: 254, 18, 227
+loop(): oPedalForce.read() returned -126237
+
+HX711::read(): shiftIn() bytes read: 254, 18, 41
+loop(): oPedalForce.read() returned -126423
+
+HX711::read(): shiftIn() bytes read: 254, 16, 156
+loop(): oPedalForce.read() returned -126820
+
+HX711::read(): shiftIn() bytes read: 253, 114, 2
+loop(): oPedalForce.read() returned -167422
+
+HX711::read(): shiftIn() bytes read: 253, 52, 19
+loop(): oPedalForce.read() returned -183277
+
+HX711::read(): shiftIn() bytes read: 253, 58, 114
+loop(): oPedalForce.read() returned -181646
+
+HX711::read(): shiftIn() bytes read: 253, 56, 99
+loop(): oPedalForce.read() returned -182173
+
+HX711::read(): shiftIn() bytes read: 253, 59, 175
+loop(): oPedalForce.read() returned -181329
+
+HX711::read(): shiftIn() bytes read: 254, 19, 188
+loop(): oPedalForce.read() returned -126020
+
+HX711::read(): shiftIn() bytes read: 254, 18, 251
+loop(): oPedalForce.read() returned -126213
+
+HX711::read(): shiftIn() bytes read: 254, 14, 120
+loop(): oPedalForce.read() returned -127368
+
+HX711::read(): shiftIn() bytes read: 253, 77, 132
+loop(): oPedalForce.read() returned -176764
+
+HX711::read(): shiftIn() bytes read: 253, 66, 20
+loop(): oPedalForce.read() returned -179692
+
+HX711::read(): shiftIn() bytes read: 253, 68, 76
+loop(): oPedalForce.read() returned -179124
+
+HX711::read(): shiftIn() bytes read: 253, 68, 223
+loop(): oPedalForce.read() returned -178977
+
+HX711::read(): shiftIn() bytes read: 254, 18, 105
+loop(): oPedalForce.read() returned -126359
+
+HX711::read(): shiftIn() bytes read: 254, 16, 255
+loop(): oPedalForce.read() returned -126721
+
+HX711::read(): shiftIn() bytes read: 254, 15, 102
+loop(): oPedalForce.read() returned -127130
+
+HX711::read(): shiftIn() bytes read: 253, 79, 159
+loop(): oPedalForce.read() returned -176225
+
+HX711::read(): shiftIn() bytes read: 253, 56, 120
+loop(): oPedalForce.read() returned -182152
+
+HX711::read(): shiftIn() bytes read: 253, 65, 156
+loop(): oPedalForce.read() returned -179812
+
+HX711::read(): shiftIn() bytes read: 253, 70, 143
+loop(): oPedalForce.read() returned -178545
+
+HX711::read(): shiftIn() bytes read: 253, 67, 6
+loop(): oPedalForce.read() returned -179450
+
+HX711::read(): shiftIn() bytes read: 253, 60, 123
+loop(): oPedalForce.read() returned -181125
+
+HX711::read(): shiftIn() bytes read: 253, 64, 250
+loop(): oPedalForce.read() returned -179974
+
+HX711::read(): shiftIn() bytes read: 254, 15, 223
+loop(): oPedalForce.read() returned -127009
+
+HX711::read(): shiftIn() bytes read: 254, 14, 188
+loop(): oPedalForce.read() returned -127300
+
+HX711::read(): shiftIn() bytes read: 254, 13, 42
+loop(): oPedalForce.read() returned -127702
+
+HX711::read(): shiftIn() bytes read: 254, 11, 130
+loop(): oPedalForce.read() returned -128126
+
+HX711::read(): shiftIn() bytes read: 254, 9, 118
+loop(): oPedalForce.read() returned -128650
+
+HX711::read(): shiftIn() bytes read: 254, 7, 229
+loop(): oPedalForce.read() returned -129051
+
+
+//*******************************************
+HX711.ino, Apr 21, 2018-v
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 236, 213
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 235, 223
+TakeReadings(): oPedalForce.read() returned -136225
+HX711::read(): shiftIn() bytes read: 253, 231, 111
+TakeReadings(): oPedalForce.get_value(1) returned -137361
+HX711::read(): shiftIn() bytes read: 253, 228, 44
+TakeReadings(): oPedalForce.get_units(1) returned -138196
+
+HX711::read(): shiftIn() bytes read: 253, 221, 9
+loop(): oPedalForce.read() returned -140023
+
+HX711::read(): shiftIn() bytes read: 253, 227, 250
+loop(): oPedalForce.read() returned -138246
+
+HX711::read(): shiftIn() bytes read: 253, 236, 244
+loop(): oPedalForce.read() returned -135948
+
+HX711::read(): shiftIn() bytes read: 253, 11, 189
+loop(): oPedalForce.read() returned -193603
+
+HX711::read(): shiftIn() bytes read: 253, 21, 95
+loop(): oPedalForce.read() returned -191137
+
+HX711::read(): shiftIn() bytes read: 253, 24, 103
+loop(): oPedalForce.read() returned -190361
+
+HX711::read(): shiftIn() bytes read: 253, 56, 161
+loop(): oPedalForce.read() returned -182111
+
+HX711::read(): shiftIn() bytes read: 253, 242, 88
+loop(): oPedalForce.read() returned -134568
+
+HX711::read(): shiftIn() bytes read: 253, 241, 233
+loop(): oPedalForce.read() returned -134679
+
+HX711::read(): shiftIn() bytes read: 253, 61, 122
+loop(): oPedalForce.read() returned -180870
+
+HX711::read(): shiftIn() bytes read: 253, 54, 95
+loop(): oPedalForce.read() returned -182689
+
+HX711::read(): shiftIn() bytes read: 253, 39, 255
+loop(): oPedalForce.read() returned -186369
+
+HX711::read(): shiftIn() bytes read: 253, 48, 136
+loop(): oPedalForce.read() returned -184184
+
+HX711::read(): shiftIn() bytes read: 253, 180, 132
+loop(): oPedalForce.read() returned -150396
+
+HX711::read(): shiftIn() bytes read: 253, 59, 92
+loop(): oPedalForce.read() returned -181412
+
+HX711::read(): shiftIn() bytes read: 253, 43, 156
+loop(): oPedalForce.read() returned -185444
+
+HX711::read(): shiftIn() bytes read: 253, 45, 121
+loop(): oPedalForce.read() returned -184967
+
+HX711::read(): shiftIn() bytes read: 253, 44, 131
+loop(): oPedalForce.read() returned -185213
+
+HX711::read(): shiftIn() bytes read: 253, 98, 98
+loop(): oPedalForce.read() returned -171422
+
+HX711::read(): shiftIn() bytes read: 253, 58, 73
+loop(): oPedalForce.read() returned -181687
+
+HX711::read(): shiftIn() bytes read: 253, 56, 58
+loop(): oPedalForce.read() returned -182214
+
+HX711::read(): shiftIn() bytes read: 253, 56, 239
+loop(): oPedalForce.read() returned -182033
+
+HX711::read(): shiftIn() bytes read: 254, 0, 236
+loop(): oPedalForce.read() returned -130836
+
+HX711::read(): shiftIn() bytes read: 253, 255, 134
+loop(): oPedalForce.read() returned -131194
+
+HX711::read(): shiftIn() bytes read: 253, 253, 154
+loop(): oPedalForce.read() returned -131686
+
+HX711::read(): shiftIn() bytes read: 253, 251, 73
+loop(): oPedalForce.read() returned -132279
+
+HX711::read(): shiftIn() bytes read: 253, 248, 135
+loop(): oPedalForce.read() returned -132985
+
+//******************************
+X711.ino, Apr 21, 2018-u
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 131, 106
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 129, 87
+TakeReadings(): oPedalForce.read() returned -163497
+HX711::read(): shiftIn() bytes read: 253, 127, 146
+TakeReadings(): oPedalForce.get_value(1) returned -163950
+HX711::read(): shiftIn() bytes read: 253, 126, 78
+TakeReadings(): oPedalForce.get_units(1) returned -164274
+
+HX711::read(): shiftIn() bytes read: 253, 125, 46
+loop(): oPedalForce.read() returned -164562
+
+HX711::read(): shiftIn() bytes read: 253, 132, 255
+loop(): oPedalForce.read() returned -162561
+
+HX711::read(): shiftIn() bytes read: 253, 132, 227
+loop(): oPedalForce.read() returned -162589
+
+HX711::read(): shiftIn() bytes read: 252, 209, 186
+loop(): oPedalForce.read() returned -208454
+
+HX711::read(): shiftIn() bytes read: 252, 217, 198
+loop(): oPedalForce.read() returned -206394
+
+HX711::read(): shiftIn() bytes read: 253, 138, 91
+loop(): oPedalForce.read() returned -161189
+
+HX711::read(): shiftIn() bytes read: 253, 129, 30
+loop(): oPedalForce.read() returned -163554
+
+HX711::read(): shiftIn() bytes read: 253, 123, 103
+loop(): oPedalForce.read() returned -165017
+
+
+//*************************************
+HX711.ino, Apr 21, 2018-n
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 154, 67
+HX711::read(): Returning ulValue= 4294810179
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 151, 236
+HX711::read(): Returning ulValue= 4294809580
+TakeReadings(): oPedalForce.read() returned 4294809580
+HX711::read(): shiftIn() bytes read: 253, 149, 149
+HX711::read(): Returning ulValue= 4294808981
+TakeReadings(): oPedalForce.get_value(1) returned 4294808981
+HX711::read(): shiftIn() bytes read: 253, 147, 45
+HX711::read(): Returning ulValue= 4294808365
+TakeReadings(): oPedalForce.get_units(1) returned 4294808365
+
+HX711::read(): shiftIn() bytes read: 253, 145, 138
+HX711::read(): Returning ulValue= 4294807946
+loop(): oPedalForce.read() returned 4294807946
+
+HX711::read(): shiftIn() bytes read: 253, 160, 112
+HX711::read(): Returning ulValue= 4294811760
+loop(): oPedalForce.read() returned 4294811760
+
+HX711::read(): shiftIn() bytes read: 253, 160, 30
+HX711::read(): Returning ulValue= 4294811678
+loop(): oPedalForce.read() returned 4294811678
+
+HX711::read(): shiftIn() bytes read: 253, 152, 29
+HX711::read(): Returning ulValue= 4294809629
+loop(): oPedalForce.read() returned 4294809629
+
+HX711::read(): shiftIn() bytes read: 252, 253, 251
+HX711::read(): Returning ulValue= 4294770171
+loop(): oPedalForce.read() returned 4294770171
+
+HX711::read(): shiftIn() bytes read: 253, 12, 237
+HX711::read(): Returning ulValue= 4294773997
+loop(): oPedalForce.read() returned 4294773997
+
+HX711::read(): shiftIn() bytes read: 253, 177, 196
+HX711::read(): Returning ulValue= 4294816196
+loop(): oPedalForce.read() returned 4294816196
+
+HX711::read(): shiftIn() bytes read: 253, 176, 18
+HX711::read(): Returning ulValue= 4294815762
+loop(): oPedalForce.read() returned 4294815762
+
+HX711::read(): shiftIn() bytes read: 253, 169, 83
+HX711::read(): Returning ulValue= 4294814035
+loop(): oPedalForce.read() returned 4294814035
+
+HX711::read(): shiftIn() bytes read: 253, 167, 76
+HX711::read(): Returning ulValue= 4294813516
+loop(): oPedalForce.read() returned 4294813516
+
+//*************************
+X711.ino, Apr 21, 2018-k
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 188, 105
+HX711::read(): Returning ulValue= 4294818921
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 184, 237
+HX711::read(): Returning ulValue= 4294818029
+TakeReadings(): oPedalForce.read() returned 4294818029
+HX711::read(): shiftIn() bytes read: 253, 182, 132
+HX711::read(): Returning ulValue= 4294817412
+TakeReadings(): oPedalForce.get_value(1) returned 4294817412
+HX711::read(): shiftIn() bytes read: 253, 180, 87
+HX711::read(): Returning ulValue= 4294816855
+TakeReadings(): oPedalForce.get_units(1) returned 4294816855
+HX711::read(): shiftIn() bytes read: 253, 178, 139
+HX711::read(): Returning ulValue= 4294816395
+loop(): oPedalForce.get_units() returned 4294816395
+HX711::read(): shiftIn() bytes read: 253, 176, 202
+HX711::read(): Returning ulValue= 4294815946
+loop(): oPedalForce.read() returned 4294815946
+HX711::read(): shiftIn() bytes read: 253, 186, 11
+HX711::read(): Returning ulValue= 4294818315
+loop(): oPedalForce.get_units() returned 4294818315
+HX711::read(): shiftIn() bytes read: 253, 182, 95
+HX711::read(): Returning ulValue= 4294817375
+loop(): oPedalForce.read() returned 4294817375
+HX711::read(): shiftIn() bytes read: 253, 184, 118
+HX711::read(): Returning ulValue= 4294817910
+loop(): oPedalForce.get_units() returned 4294817910
+HX711::read(): shiftIn() bytes read: 253, 181, 81
+HX711::read(): Returning ulValue= 4294817105
+loop(): oPedalForce.read() returned 4294817105
+HX711::read(): shiftIn() bytes read: 253, 184, 17
+HX711::read(): Returning ulValue= 4294817809
+loop(): oPedalForce.get_units() returned 4294817809
+HX711::read(): shiftIn() bytes read: 253, 180, 187
+HX711::read(): Returning ulValue= 4294816955
+loop(): oPedalForce.read() returned 4294816955
+
+//****************
+HX711.ino, Apr 21, 2018-h
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): shiftIn() bytes read: 253, 254, 93,
+HX711::read(): Returning ulValue= 4294835805
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 250, 191,
+HX711::read(): Returning ulValue= 4294834879
+TakeReadings(): oPedalForce.read() returned 4294834879
+HX711::read(): shiftIn() bytes read: 253, 247, 139,
+HX711::read(): Returning ulValue= 4294834059
+TakeReadings(): oPedalForce.get_value(1) returned 4294834059
+HX711::read(): shiftIn() bytes read: 253, 243, 199,
+HX711::read(): Returning ulValue= 4294833095
+TakeReadings(): oPedalForce.get_units(1) returned 4294833095
+oPedalForce.set_scale(2280.f):    Call oPedalForce.tar()
+HX711::read(): shiftIn() bytes read: 253, 241, 126,
+HX711::read(): Returning ulValue= 4294832510
+HX711::read(): shiftIn() bytes read: 253, 239, 70,
+HX711::read(): Returning ulValue= 4294831942
+HX711::read(): shiftIn() bytes read: 253, 237, 42,
+HX711::read(): Returning ulValue= 4294831402
+HX711::read(): shiftIn() bytes read: 253, 236, 202,
+HX711::read(): Returning ulValue= 4294831306
+HX711::read(): shiftIn() bytes read: 253, 236, 61,
+HX711::read(): Returning ulValue= 4294831165
+HX711::read(): shiftIn() bytes read: 253, 234, 215,
+HX711::read(): Returning ulValue= 4294830807
+HX711::read(): shiftIn() bytes read: 253, 234, 15,
+HX711::read(): Returning ulValue= 4294830607
+HX711::read(): shiftIn() bytes read: 253, 232, 121,
+HX711::read(): Returning ulValue= 4294830201
+HX711::read(): shiftIn() bytes read: 253, 231, 92,
+HX711::read(): Returning ulValue= 4294829916
+HX711::read(): shiftIn() bytes read: 253, 230, 35,
+HX711::read(): Returning ulValue= 4294829603
+After setting up the scale:
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): shiftIn() bytes read: 253, 229, 7,
+HX711::read(): Returning ulValue= 4294829319
+TakeReadings(): oPedalForce.read() returned 4294829319
+HX711::read(): shiftIn() bytes read: 253, 227, 196,
+HX711::read(): Returning ulValue= 4294828996
+TakeReadings(): oPedalForce.get_value(1) returned 4294965346
+HX711::read(): shiftIn() bytes read: 253, 226, 66,
+HX711::read(): Returning ulValue= 4294828610
+TakeReadings(): oPedalForce.get_units(1) returned 4294967295
+Readings:
+one reading:  HX711::read(): shiftIn() bytes read: 253, 225, 120,
+HX711::read(): Returning ulValue= 4294828408
+-1.1  | average:  HX711::read(): shiftIn() bytes read: 253, 224, 67,
+HX711::read(): Returning ulValue= 4294828099
+HX711::read(): shiftIn() bytes read: 253, 223, 71,
+HX711::read(): Returning ulValue= 4294827847
+HX711::read(): shiftIn() bytes read: 253, 223, 4,
+HX711::read(): Returning ulValue= 4294827780
+HX711::read(): shiftIn() bytes read: 253, 223, 115,
+HX711::read(): Returning ulValue= 4294827891
+HX711::read(): shiftIn() bytes read: 253, 223, 148,
+HX711::read(): Returning ulValue= 4294827924
+HX711::read(): shiftIn() bytes read: 253, 222, 152,
+HX711::read(): Returning ulValue= 4294827672
+HX711::read(): shiftIn() bytes read: 253, 221, 237,
+HX711::read(): Returning ulValue= 4294827501
+HX711::read(): shiftIn() bytes read: 253, 221, 137,
+HX711::read(): Returning ulValue= 4294827401
+HX711::read(): shiftIn() bytes read: 253, 220, 251,
+HX711::read(): Returning ulValue= 4294827259
+HX711::read(): shiftIn() bytes read: 253, 220, 88,
+HX711::read(): Returning ulValue= 4294827096
+-1.4
+
+//*****************************
+HX711.ino, Apr 21, 2018-f
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): Returning ulValue= 4294842094
+HX711::begin(): Done
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): Returning ulValue= 4294841423
+TakeReadings(): oPedalForce.read() returned 4294841423
+HX711::read(): Returning ulValue= 4294840946
+HX711::read(): Returning ulValue= 4294840601
+HX711::read(): Returning ulValue= 4294840270
+HX711::read(): Returning ulValue= 4294839859
+HX711::read(): Returning ulValue= 4294839486
+HX711::read(): Returning ulValue= 4294839189
+HX711::read(): Returning ulValue= 4294839015
+HX711::read(): Returning ulValue= 4294838787
+HX711::read(): Returning ulValue= 4294838542
+HX711::read(): Returning ulValue= 4294838245
+HX711::read(): Returning ulValue= 4294838071
+HX711::read(): Returning ulValue= 4294837853
+HX711::read(): Returning ulValue= 4294837699
+HX711::read(): Returning ulValue= 4294837591
+HX711::read(): Returning ulValue= 4294837441
+HX711::read(): Returning ulValue= 4294837261
+HX711::read(): Returning ulValue= 4294837053
+HX711::read(): Returning ulValue= 4294836899
+HX711::read(): Returning ulValue= 4294836811
+HX711::read(): Returning ulValue= 4294836605
+TakeReadings(): oPedalForce.read_average(20) returned 4294838412
+HX711::read(): Returning ulValue= 4294836520
+HX711::read(): Returning ulValue= 4294836355
+HX711::read(): Returning ulValue= 4294836171
+HX711::read(): Returning ulValue= 4294836071
+HX711::read(): Returning ulValue= 4294835965
+TakeReadings(): oPedalForce.get_value(5) returned 4294836217
+HX711::read(): Returning ulValue= 4294835906
+HX711::read(): Returning ulValue= 4294835909
+HX711::read(): Returning ulValue= 4294835735
+HX711::read(): Returning ulValue= 4294835662
+HX711::read(): Returning ulValue= 4294835560
+TakeReadings(): oPedalForce.get_units(5) returned 4294835755
+oPedalForce.set_scale(2280.f):    Call oPedalForce.tar()
+HX711::read(): Returning ulValue= 4294835441
+HX711::read(): Returning ulValue= 4294835392
+HX711::read(): Returning ulValue= 4294835310
+HX711::read(): Returning ulValue= 4294835237
+HX711::read(): Returning ulValue= 4294835192
+HX711::read(): Returning ulValue= 4294835083
+HX711::read(): Returning ulValue= 4294834935
+HX711::read(): Returning ulValue= 4294834940
+HX711::read(): Returning ulValue= 4294834916
+HX711::read(): Returning ulValue= 4294834826
+After setting up the scale:
+TakeReadings(): Call oPedalForce.read()
+HX711::read(): Returning ulValue= 4294834699
+TakeReadings(): oPedalForce.read() returned 4294834699
+HX711::read(): Returning ulValue= 4294834637
+HX711::read(): Returning ulValue= 4294834536
+HX711::read(): Returning ulValue= 4294834463
+HX711::read(): Returning ulValue= 4294834367
+HX711::read(): Returning ulValue= 4294834337
+HX711::read(): Returning ulValue= 4294834230
+HX711::read(): Returning ulValue= 4294834147
+HX711::read(): Returning ulValue= 4294834139
+HX711::read(): Returning ulValue= 4294834140
+HX711::read(): Returning ulValue= 4294834034
+HX711::read(): Returning ulValue= 4294833932
+HX711::read(): Returning ulValue= 4294833975
+HX711::read(): Returning ulValue= 4294833888
+HX711::read(): Returning ulValue= 4294833746
+HX711::read(): Returning ulValue= 4294833694
+HX711::read(): Returning ulValue= 4294833662
+HX711::read(): Returning ulValue= 4294833624
+HX711::read(): Returning ulValue= 4294833498
+HX711::read(): Returning ulValue= 4294833377
+HX711::read(): Returning ulValue= 4294833305
+TakeReadings(): oPedalForce.read_average(20) returned 4294833987
+HX711::read(): Returning ulValue= 4294833317
+HX711::read(): Returning ulValue= 4294833325
+HX711::read(): Returning ulValue= 4294833236
+HX711::read(): Returning ulValue= 4294833165
+HX711::read(): Returning ulValue= 4294833169
+TakeReadings(): oPedalForce.get_value(5) returned 4294965411
+HX711::read(): Returning ulValue= 4294833077
+HX711::read(): Returning ulValue= 4294833023
+HX711::read(): Returning ulValue= 4294832917
+HX711::read(): Returning ulValue= 4294832762
+HX711::read(): Returning ulValue= 4294832705
+TakeReadings(): oPedalForce.get_units(5) returned 0
+Readings:
+one reading:  HX711::read(): Returning ulValue= 4294832716
+-1.1  | average:  HX711::read(): Returning ulValue= 4294832691
+HX711::read(): Returning ulValue= 4294832681
+HX711::read(): Returning ulValue= 4294832592
+HX711::read(): Returning ulValue= 4294832432
+HX711::read(): Returning ulValue= 4294832427
+HX711::read(): Returning ulValue= 4294832460
+HX711::read(): Returning ulValue= 4294832418
+HX711::read(): Returning ulValue= 4294832337
+HX711::read(): Returning ulValue= 4294832274
+HX711::read(): Returning ulValue= 4294832258
+-1.2
+one reading:  HX711::read(): Returning ulValue= 4294842501
+3.2 | average:  HX711::read(): Returning ulValue= 4294841679
+HX711::read(): Returning ulValue= 4294841514
+HX711::read(): Returning ulValue= 4294841352
+HX711::read(): Returning ulValue= 4294840879
+HX711::read(): Returning ulValue= 4294840519
+HX711::read(): Returning ulValue= 4294840111
+HX711::read(): Returning ulValue= 4294839713
+HX711::read(): Returning ulValue= 4294839309
+HX711::read(): Returning ulValue= 4294838993
+HX711::read(): Returning ulValue= 4294838792
+2.3
+one reading:  HX711::read(): Returning ulValue= 4294800254
+-15.3 | average:  HX711::read(): Returning ulValue= 4294799014
+HX711::read(): Returning ulValue= 4294798193
+HX711::read(): Returning ulValue= 4294797971
+HX711::read(): Returning ulValue= 4294797638
+HX711::read(): Returning ulValue= 4294797369
+HX711::read(): Returning ulValue= 4294796883
+HX711::read(): Returning ulValue= 4294796384
+HX711::read(): Returning ulValue= 4294796100
+HX711::read(): Returning ulValue= 4294795981
+HX711::read(): Returning ulValue= 4294795806
+-16.7
+one reading:  HX711::read(): Returning ulValue= 4294844916
+4.3 | average:  HX711::read(): Returning ulValue= 4294844092
+HX711::read(): Returning ulValue= 4294843410
+HX711::read(): Returning ulValue= 4294842876
+HX711::read(): Returning ulValue= 4294842416
+HX711::read(): Returning ulValue= 4294841968
+HX711::read(): Returning ulValue= 4294841653
+HX711::read(): Returning ulValue= 4294841308
+HX711::read(): Returning ulValue= 4294840962
+HX711::read(): Returning ulValue= 4294840675
+HX711::read(): Returning ulValue= 4294840476
+3.0
+one reading:  HX711::read(): Returning ulValue= 4294844960
+4.3 | average:  HX711::read(): Returning ulValue= 4294844180
+HX711::read(): Returning ulValue= 4294843433
+HX711::read(): Returning ulValue= 4294842794
+HX711::read(): Returning ulValue= 4294842384
+HX711::read(): Returning ulValue= 4294842024
+HX711::read(): Returning ulValue= 4294841683
+HX711::read(): Returning ulValue= 4294841284
+HX711::read(): Returning ulValue= 4294840965
+HX711::read(): Returning ulValue= 4294840753
+HX711::read(): Returning ulValue= 4294840468
+3.0
+
+
+//***********************
+X711.ino, Apr 21, 2018-e
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): Call pinMode(26, OUTPUT)
+HX711::begin(): Call pinMode(25, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::read(): Returning ulValue= 4294844609
+HX711::begin(): Done
+setup(): Call oPedalForce.read()
+read:     HX711::read(): Returning ulValue= 4294843939
+-123357
+oPedalForce.read_average(20):     HX711::read(): Returning ulValue= 4294843344
+HX711::read(): Returning ulValue= 4294842846
+HX711::read(): Returning ulValue= 4294842437
+HX711::read(): Returning ulValue= 4294842102
+HX711::read(): Returning ulValue= 4294841784
+HX711::read(): Returning ulValue= 4294841432
+HX711::read(): Returning ulValue= 4294841223
+HX711::read(): Returning ulValue= 4294840973
+HX711::read(): Returning ulValue= 4294840785
+HX711::read(): Returning ulValue= 4294840570
+HX711::read(): Returning ulValue= 4294840318
+HX711::read(): Returning ulValue= 4294840042
+HX711::read(): Returning ulValue= 4294839851
+HX711::read(): Returning ulValue= 4294839735
+HX711::read(): Returning ulValue= 4294839673
+HX711::read(): Returning ulValue= 4294839439
+HX711::read(): Returning ulValue= 4294839233
+HX711::read(): Returning ulValue= 4294839068
+HX711::read(): Returning ulValue= 4294838901
+HX711::read(): Returning ulValue= 4294838758
+-126670
+oPedalForce.get_value(5):     HX711::read(): Returning ulValue= 4294838634
+HX711::read(): Returning ulValue= 4294838564
+HX711::read(): Returning ulValue= 4294838434
+HX711::read(): Returning ulValue= 4294838270
+HX711::read(): Returning ulValue= 4294838133
+-128889.00
+oPedalForce.get_units(5):     HX711::read(): Returning ulValue= 4294837973
+HX711::read(): Returning ulValue= 4294837907
+HX711::read(): Returning ulValue= 4294837892
+HX711::read(): Returning ulValue= 4294837843
+HX711::read(): Returning ulValue= 4294837745
+-129424.0
+oPedalForce.set_scale(2280.f):    Call oPedalForce.tar()
+HX711::read(): Returning ulValue= 4294837654
+HX711::read(): Returning ulValue= 4294837491
+HX711::read(): Returning ulValue= 4294837405
+HX711::read(): Returning ulValue= 4294837451
+HX711::read(): Returning ulValue= 4294837334
+HX711::read(): Returning ulValue= 4294837203
+HX711::read(): Returning ulValue= 4294837142
+HX711::read(): Returning ulValue= 4294837144
+HX711::read(): Returning ulValue= 4294836980
+HX711::read(): Returning ulValue= 4294836891
+After setting up the scale:
+setup(): Call oPedalForce.read()
+read:     HX711::read(): Returning ulValue= 4294836769
+-130527
+oPedalForce.read_average(20):     HX711::read(): Returning ulValue= 4294836753
+HX711::read(): Returning ulValue= 4294836637
+HX711::read(): Returning ulValue= 4294836521
+HX711::read(): Returning ulValue= 4294836497
+HX711::read(): Returning ulValue= 4294836490
+HX711::read(): Returning ulValue= 4294836442
+HX711::read(): Returning ulValue= 4294836334
+HX711::read(): Returning ulValue= 4294836227
+HX711::read(): Returning ulValue= 4294836256
+HX711::read(): Returning ulValue= 4294836182
+HX711::read(): Returning ulValue= 4294836060
+HX711::read(): Returning ulValue= 4294835985
+HX711::read(): Returning ulValue= 4294835982
+HX711::read(): Returning ulValue= 4294835931
+HX711::read(): Returning ulValue= 4294835827
+HX711::read(): Returning ulValue= 4294835712
+HX711::read(): Returning ulValue= 4294835556
+HX711::read(): Returning ulValue= 4294835476
+HX711::read(): Returning ulValue= 4294835468
+HX711::read(): Returning ulValue= 4294835505
+-131203
+oPedalForce.get_value(5):     HX711::read(): Returning ulValue= 4294835508
+HX711::read(): Returning ulValue= 4294835416
+HX711::read(): Returning ulValue= 4294835265
+HX711::read(): Returning ulValue= 4294835175
+HX711::read(): Returning ulValue= 4294835200
+-1957.00
+oPedalForce.get_units(5):     HX711::read(): Returning ulValue= 4294835140
+HX711::read(): Returning ulValue= 4294835099
+HX711::read(): Returning ulValue= 4294835037
+HX711::read(): Returning ulValue= 4294834951
+HX711::read(): Returning ulValue= 4294834867
+-1.0
+Readings:
+one reading:  HX711::read(): Returning ulValue= 4294834876
+-1.0  | average:  HX711::read(): Returning ulValue= 4294834772
+HX711::read(): Returning ulValue= 4294834769
+HX711::read(): Returning ulValue= 4294834726
+HX711::read(): Returning ulValue= 4294834699
+HX711::read(): Returning ulValue= 4294834595
+HX711::read(): Returning ulValue= 4294834551
+HX711::read(): Returning ulValue= 4294834458
+HX711::read(): Returning ulValue= 4294834418
+HX711::read(): Returning ulValue= 4294834389
+HX711::read(): Returning ulValue= 4294834386
+-1.2
+one reading:  HX711::read(): Returning ulValue= 4294845516
+3.6 | average:  HX711::read(): Returning ulValue= 4294844742
+HX711::read(): Returning ulValue= 4294844092
+HX711::read(): Returning ulValue= 4294843484
+HX711::read(): Returning ulValue= 4294843003
+HX711::read(): Returning ulValue= 4294842548
+HX711::read(): Returning ulValue= 4294842133
+HX711::read(): Returning ulValue= 4294841830
+HX711::read(): Returning ulValue= 4294841498
+HX711::read(): Returning ulValue= 4294841134
+HX711::read(): Returning ulValue= 4294840865
+2.3
+one reading:  HX711::read(): Returning ulValue= 4294767775
+-30.5 | average:  HX711::read(): Returning ulValue= 4294766351
+HX711::read(): Returning ulValue= 4294766123
+HX711::read(): Returning ulValue= 4294766075
+HX711::read(): Returning ulValue= 4294766483
+HX711::read(): Returning ulValue= 4294766624
+HX711::read(): Returning ulValue= 4294765991
+HX711::read(): Returning ulValue= 4294765180
+HX711::read(): Returning ulValue= 4294764682
+HX711::read(): Returning ulValue= 4294764169
+HX711::read(): Returning ulValue= 4294763791
+-31.5
+one reading:  HX711::read(): Returning ulValue= 4294845165
+3.5 | average:  HX711::read(): Returning ulValue= 4294844387
+HX711::read(): Returning ulValue= 4294844002
+HX711::read(): Returning ulValue= 4294843713
+HX711::read(): Returning ulValue= 4294843193
+HX711::read(): Returning ulValue= 4294842830
+HX711::read(): Returning ulValue= 4294842524
+HX711::read(): Returning ulValue= 4294842138
+HX711::read(): Returning ulValue= 4294841806
+HX711::read(): Returning ulValue= 4294841459
+HX711::read(): Returning ulValue= 4294841110
+2.4
+one reading:  HX711::read(): Returning ulValue= 4294844765
+3.3 | average:  HX711::read(): Returning ulValue= 4294843939
+HX711::read(): Returning ulValue= 4294843743
+HX711::read(): Returning ulValue= 4294843621
+HX711::read(): Returning ulValue= 4294843121
+HX711::read(): Returning ulValue= 4294842696
+HX711::read(): Returning ulValue= 4294842352
+HX711::read(): Returning ulValue= 4294842005
+HX711::read(): Returning ulValue= 4294841644
+HX711::read(): Returning ulValue= 4294841309
+HX711::read(): Returning ulValue= 4294841019
+2.3
+one reading:  HX711::read(): Returning ulValue= 4294844644
+3.2 | average:  HX711::read(): Returning ulValue= 4294843903
+HX711::read(): Returning ulValue= 4294843793
+HX711::read(): Returning ulValue= 4294843619
+HX711::read(): Returning ulValue= 4294843007
+HX711::read(): Returning ulValue= 4294842604
+HX711::read(): Returning ulValue= 4294842277
+HX711::read(): Returning ulValue= 4294841948
+HX711::read(): Returning ulValue= 4294841573
+HX711::read(): Returning ulValue= 4294841267
+HX711::read(): Returning ulValue= 4294841009
+2.3
+//**********************************
+
+HX711.ino, Apr 21, 2018-c
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Call oPedalForce.read()
+read:     -102963
+oPedalForce.read_average(20):     -106927
+oPedalForce.get_value(5):     -109603.00
+oPedalForce.get_units(5):     -110271.0
+oPedalForce.set_scale(2280.f):    Call oPedalForce.tar()
+After setting up the scale:
+setup(): Call oPedalForce.read()
+read:     -111662
+oPedalForce.read_average(20):     -112629
+oPedalForce.get_value(5):     -2645.00
+oPedalForce.get_units(5):     -1.3
+Readings:
+one reading:  -1.4  | average:  -1.6
+one reading:  -25.8 | average:  -28.5
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+flash read err, 1000
+ets_main.c 371
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+HX711.ino, Apr 21, 2018-c
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Call oPedalForce.read()
+read:     -174500
+oPedalForce.read_average(20):     -177098
+oPedalForce.get_value(5):     -178418.00
+oPedalForce.get_units(5):     -178428.0
+oPedalForce.set_scale(2280.f):    Call oPedalForce.tar()
+After setting up the scale:
+setup(): Call oPedalForce.read()
+read:     -179961
+oPedalForce.read_average(20):     -179291
+oPedalForce.get_value(5):     546.00
+oPedalForce.get_units(5):     -0.1
+Readings:
+one reading:  -0.2  | average:  -0.0
+one reading:  8.3 | average:  6.1
+one reading:  8.0 | average:  6.7
+one reading:  34.9  | average:  33.2
+one reading:  34.8  | average:  33.2
+one reading:  13.5  | average:  11.9
+one reading:  11.8  | average:  10.4
+one reading:  34.9  | average:  33.3
+
+HX711.ino, Apr 20, 2018-n
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     -121182
+read average:     -123456
+get value:    -124957.00
+get units:    -125361.0
+After setting up the scale:
+read:     -126088
+read average:     -126652
+get value:    -1433.00
+get units:    -0.7
+Readings:
+one reading:  -0.8  | average:  -0.9
+one reading:  2.5 | average:  1.4
+one reading:  2.3 | average:  1.2
+
+
+BeckE32_HX711.ino, Apr 20, 2018-p
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     8326088
+read average:     8324834
+get value:    8323950.00
+get units:    8323737.0
+After setting up the scale:
+read:     8323248
+read average:     8322911
+get value:    -875.00
+get units:    -0.4
+Readings:
+one reading:  -0.5  | average:  -0.5
+one reading:  1.1 | average:  0.5
+one reading:  1.2 | average:  0.6
+one reading:  1.2 | average:  0.6
+
+//Couple of runs on following morning 4/21/18
+Connect to serial portCOM6 at115200
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+BeckE32_HX711.ino, Apr 20, 2018-p
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     8359037
+read average:     8357590
+get value:    8356713.00
+get units:    8356451.0
+After setting up the scale:
+read:     8355934
+read average:     8355550
+get value:    -993.00
+get units:    -0.5
+Readings:
+one reading:  -0.6  | average:  -0.6
+one reading:  1.3 | average:  0.6
+one reading:  1.4 | average:  0.7
+one reading:  1.3 | average:  0.6
+one reading:  1.3 | average:  0.5
+one reading:  1.3 | average:  0.5
+one reading:  1.3 | average:  0.6
+one reading:  1.3 | average:  -0.9
+one reading:  1.1 | average:  -0.4
+one reading:  -14.2 | average:  -14.5
+one reading:  -20.2 | average:  -23.0
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+flash read err, 1000
+ets_main.c 371
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+BeckE32_HX711.ino, Apr 20, 2018-p
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     8300000
+read average:     8296949
+get value:    8294784.00
+get units:    8294315.0
+After setting up the scale:
+read:     8294098
+read average:     8293700
+get value:    -1678982.00
+get units:    -0.8
+Readings:
+one reading:  -0.6  | average:  -0.6
+one reading:  2.4 | average:  2.3
+one reading:  28.1  | average:  27.4
+
+//End of Couple of runs on following morning 4/21/18
+
+//4/21/18 80MHz CPU, first one rightside up load cell which looks to be wrong
+//Flipped over with button on table
+HX711.ino, Apr 21, 2018-a
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     -74565
+read average:     -81351
+get value:    -86268.00
+get units:    -87605.0
+After setting up the scale:
+read:     -90261
+read average:     -91972
+get value:    -4563.00
+get units:    -2.3
+Readings:
+one reading:  -2.4  | average:  -2.8
+one reading:  7.3 | average:  4.8
+one reading:  0.2 | average:  -1.8
+one reading:  -14.2 | average:  -15.9
+one reading:  -18.6 | average:  -20.7
+one reading:  7.3 | average:  5.9
+one reading:  7.7 | average:  5.9
+one reading:  7.7 | average:  6.0
+one reading:  7.5 | average:  5.9
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+flash read err, 1000
+ets_main.c 371
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 188777542, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:956
+load:0x40078000,len:0
+load:0x40078000,len:13088
+entry 0x40078a5c
+
+HX711.ino, Apr 21, 2018-a
+setup(): Call rtc_clk_cpu_freq_set(RTC_CPU_FREQ_80M)
+setup(): Call oPedalForce.begin()
+HX711::begin(): DOUT= 25, PD_SCK= 26
+HX711::begin(): Call pinMode(PD_SCK, OUTPUT)
+HX711::begin(): Call pinMode(DOUT, INPUT)
+HX711::begin(): Call set_gain(gain)
+HX711::set_gain(): Call digitalWrite(PD_SCK, LOW)
+HX711::set_gain(): Call read()
+HX711::begin(): Done
+setup(): Back from oPedalForce.begin()
+setup(): Call oPedalForce.read()
+read:     -72890
+read average:     -78541
+get value:    -82440.00
+get units:    -83541.0
+After setting up the scale:
+read:     -85930
+read average:     -87686
+get value:    -4563.00
+get units:    -2.3
+Readings:
+one reading:  -2.4  | average:  -2.7
+one reading:  5.5 | average:  3.6
+one reading:  6.1 | average:  4.3
+one reading:  4.1 | average:  3.7
+one reading:  -30.6 | average:  -32.6
+one reading:  -26.9 | average:  -28.6
+one reading:  6.4 | average:  4.7
+one reading:  6.4 | average:  4.7
+one reading:  -27.0 | average:  -29.0
+one reading:  6.2 | average:  4.5
+one reading:  5.7 | average:  4.0
+one reading:  5.4 | average:  3.7
+one reading:  5.2 | average:  3.5
+one reading:  4.9 | average:  3.2
