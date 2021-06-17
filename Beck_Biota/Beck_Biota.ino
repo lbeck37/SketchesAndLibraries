@@ -1,21 +1,36 @@
 const char szSketchName[]  = "Beck_Biota.ino";
-const char szFileDate[]    = "10/21/20d";	//Was "2/4/20n"
+const char szFileDate[]    = "3/29/21b";	//Was 10/21/20d from 2/4/20n
 
+/*
 #ifndef ESP8266
   #define ESP8266
 #endif
 
+#ifndef ESP32
+  #define ESP32
+#endif
+*/
+
+/*
 #define DO_ALEXA              false
 #define DO_OTA                false
 #define DO_ACCESS_POINT       false
 #define DO_WEB_SERVER         false
 #define DO_NTP                false
 //#define DO_ASYNC_WEB_SERVER   false
+#define USE_IMU		  		  false
+*/
+
+#include <BeckBiotaDefines.h>
 
 #include <BeckBiotaLib.h>
 #include <BeckMiniLib.h>
-#include <BeckOTALib.h>
+//#include <BeckOTALib.h>
 #include <BeckSwitchLib.h>
+
+#if DO_OTA
+  #include <BeckOTALib.h>
+#endif
 
 #if DO_WEB_SERVER
   #include <BeckWebPages.h>
@@ -127,9 +142,12 @@ void setup(){
 */
 
     SetupI2C();
+#if USE_IMU
     if(eProjectType == ePitchMeter){
       bMPU9150_On= SetupMPU9150(szSketchName, szFileDate, ulMPU9150HandlerPeriodMsec);
     } //if(eProjectType==ePitchMeter)
+#endif
+
 #if DO_NTP
 		if (_bWiFiConnected){
 			SetupNTP();
@@ -227,6 +245,7 @@ void HandleSystem(){
       } //if(millis()>=ulNextThermHandlerMsec)
      break;
     case ePitchMeter:
+#if USE_IMU
       if (bMPU9150_On){
         HandleMPU9150();
       } //if(bMPU9150_On)
@@ -234,6 +253,7 @@ void HandleSystem(){
         ulNextMPU9150DisplayMsec= millis() + ulMPU9150DisplayPeriodMsec;
         UpdateDisplay();
       } //if(millis()>=ulNextMPU9150DisplayMsec)
+#endif
       break;
     case eFrontLights:
       //HandleFrontLights();
